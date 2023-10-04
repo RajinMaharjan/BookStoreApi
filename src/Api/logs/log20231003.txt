@@ -1,0 +1,547 @@
+2023-10-03 10:35:07.613 +05:45 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-10-03 10:35:07.779 +05:45 [DBG] Hosting starting
+2023-10-03 10:35:08.181 +05:45 [INF] Now listening on: https://localhost:7148
+2023-10-03 10:35:08.198 +05:45 [INF] Now listening on: http://localhost:5176
+2023-10-03 10:35:08.200 +05:45 [DBG] Loaded hosting startup assembly Api
+2023-10-03 10:35:08.201 +05:45 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-10-03 10:35:08.203 +05:45 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-10-03 10:35:08.205 +05:45 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-03 10:35:08.209 +05:45 [INF] Hosting environment: Development
+2023-10-03 10:35:08.211 +05:45 [INF] Content root path: D:\Dotnet\Projects\book-store\src\Api
+2023-10-03 10:35:08.214 +05:45 [DBG] Hosting started
+2023-10-03 10:35:08.413 +05:45 [DBG] Connection id "0HMU3PGS0OAJT" accepted.
+2023-10-03 10:35:08.416 +05:45 [DBG] Connection id "0HMU3PGS0OAJU" accepted.
+2023-10-03 10:35:08.419 +05:45 [DBG] Connection id "0HMU3PGS0OAJT" started.
+2023-10-03 10:35:08.420 +05:45 [DBG] Connection id "0HMU3PGS0OAJU" started.
+2023-10-03 10:35:11.498 +05:45 [DBG] Connection id "0HMU3PGS0OAJV" accepted.
+2023-10-03 10:35:12.066 +05:45 [DBG] Connection id "0HMU3PGS0OAJV" started.
+2023-10-03 10:35:12.232 +05:45 [DBG] Connection 0HMU3PGS0OAJV established using the following protocol: "Tls13"
+2023-10-03 10:35:12.392 +05:45 [INF] Request starting HTTP/2 GET https://localhost:7148/swagger - -
+2023-10-03 10:35:12.459 +05:45 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-10-03 10:35:12.538 +05:45 [DBG] No candidates found for the request path '/swagger'
+2023-10-03 10:35:12.547 +05:45 [DBG] Request did not match any endpoints
+2023-10-03 10:35:12.609 +05:45 [INF] Request finished HTTP/2 GET https://localhost:7148/swagger - - - 301 0 - 224.3835ms
+2023-10-03 10:35:12.655 +05:45 [INF] Request starting HTTP/2 GET https://localhost:7148/swagger/index.html - -
+2023-10-03 10:35:12.661 +05:45 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-10-03 10:35:12.667 +05:45 [DBG] Request did not match any endpoints
+2023-10-03 10:35:12.880 +05:45 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-10-03 10:35:13.204 +05:45 [INF] Request starting HTTP/2 GET https://localhost:7148/swagger/swagger-ui.css - -
+2023-10-03 10:35:13.219 +05:45 [DBG] Response markup was updated to include browser refresh script injection.
+2023-10-03 10:35:13.219 +05:45 [DBG] No candidates found for the request path '/swagger/swagger-ui.css'
+2023-10-03 10:35:13.223 +05:45 [INF] Request finished HTTP/2 GET https://localhost:7148/swagger/index.html - - - 200 - text/html;charset=utf-8 567.5002ms
+2023-10-03 10:35:13.223 +05:45 [DBG] Request did not match any endpoints
+2023-10-03 10:35:13.242 +05:45 [INF] Request starting HTTP/2 GET https://localhost:7148/swagger/swagger-ui-bundle.js - -
+2023-10-03 10:35:13.243 +05:45 [INF] Request starting HTTP/2 GET https://localhost:7148/swagger/swagger-ui-standalone-preset.js - -
+2023-10-03 10:35:13.255 +05:45 [DBG] No candidates found for the request path '/swagger/swagger-ui-bundle.js'
+2023-10-03 10:35:13.257 +05:45 [DBG] No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js'
+2023-10-03 10:35:13.260 +05:45 [DBG] Request did not match any endpoints
+2023-10-03 10:35:13.269 +05:45 [DBG] Request did not match any endpoints
+2023-10-03 10:35:13.244 +05:45 [INF] Request starting HTTP/2 GET https://localhost:7148/_framework/aspnetcore-browser-refresh.js - -
+2023-10-03 10:35:13.300 +05:45 [INF] Request finished HTTP/2 GET https://localhost:7148/_framework/aspnetcore-browser-refresh.js - - - 200 12338 application/javascript;+charset=utf-8 55.8762ms
+2023-10-03 10:35:13.331 +05:45 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-10-03 10:35:13.308 +05:45 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-10-03 10:35:13.344 +05:45 [INF] Request finished HTTP/2 GET https://localhost:7148/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 101.3912ms
+2023-10-03 10:35:13.349 +05:45 [INF] Request finished HTTP/2 GET https://localhost:7148/swagger/swagger-ui.css - - - 200 144929 text/css 145.0948ms
+2023-10-03 10:35:13.359 +05:45 [INF] Request starting HTTP/2 GET https://localhost:7148/_vs/browserLink - -
+2023-10-03 10:35:13.426 +05:45 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-10-03 10:35:13.458 +05:45 [INF] Request finished HTTP/2 GET https://localhost:7148/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 216.0368ms
+2023-10-03 10:35:13.485 +05:45 [INF] Request finished HTTP/2 GET https://localhost:7148/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 126.1862ms
+2023-10-03 10:35:13.881 +05:45 [INF] Request starting HTTP/2 GET https://localhost:7148/swagger/v1/swagger.json - -
+2023-10-03 10:35:13.960 +05:45 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-10-03 10:35:13.962 +05:45 [DBG] Request did not match any endpoints
+2023-10-03 10:35:14.271 +05:45 [INF] Request finished HTTP/2 GET https://localhost:7148/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 389.6804ms
+2023-10-03 10:35:18.450 +05:45 [DBG] Authentication of the HTTPS connection timed out.
+2023-10-03 10:35:18.450 +05:45 [DBG] Authentication of the HTTPS connection timed out.
+2023-10-03 10:35:18.454 +05:45 [DBG] Connection id "0HMU3PGS0OAJT" stopped.
+2023-10-03 10:35:18.454 +05:45 [DBG] Connection id "0HMU3PGS0OAJU" stopped.
+2023-10-03 10:35:18.456 +05:45 [DBG] Connection id "0HMU3PGS0OAJT" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-10-03 10:35:18.458 +05:45 [DBG] Connection id "0HMU3PGS0OAJU" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-10-03 10:36:14.934 +05:45 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-10-03 10:36:15.084 +05:45 [DBG] Hosting starting
+2023-10-03 10:36:15.392 +05:45 [INF] Now listening on: https://localhost:7148
+2023-10-03 10:36:15.398 +05:45 [INF] Now listening on: http://localhost:5176
+2023-10-03 10:36:15.399 +05:45 [DBG] Loaded hosting startup assembly Api
+2023-10-03 10:36:15.400 +05:45 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-10-03 10:36:15.401 +05:45 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-10-03 10:36:15.402 +05:45 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-03 10:36:15.405 +05:45 [INF] Hosting environment: Development
+2023-10-03 10:36:15.406 +05:45 [INF] Content root path: D:\Dotnet\Projects\book-store\src\Api
+2023-10-03 10:36:15.407 +05:45 [DBG] Hosting started
+2023-10-03 10:36:15.610 +05:45 [DBG] Connection id "0HMU3PHG1JB6S" accepted.
+2023-10-03 10:36:15.613 +05:45 [DBG] Connection id "0HMU3PHG1JB6S" started.
+2023-10-03 10:36:15.620 +05:45 [DBG] Connection id "0HMU3PHG1JB6T" accepted.
+2023-10-03 10:36:15.622 +05:45 [DBG] Connection id "0HMU3PHG1JB6T" started.
+2023-10-03 10:36:15.635 +05:45 [DBG] Connection id "0HMU3PHG1JB6T" received FIN.
+2023-10-03 10:36:15.635 +05:45 [DBG] Connection id "0HMU3PHG1JB6S" received FIN.
+2023-10-03 10:36:15.651 +05:45 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-10-03 10:36:15.651 +05:45 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-10-03 10:36:15.714 +05:45 [DBG] Connection id "0HMU3PHG1JB6S" stopped.
+2023-10-03 10:36:15.714 +05:45 [DBG] Connection id "0HMU3PHG1JB6T" stopped.
+2023-10-03 10:36:15.722 +05:45 [DBG] Connection id "0HMU3PHG1JB6T" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-10-03 10:36:15.722 +05:45 [DBG] Connection id "0HMU3PHG1JB6S" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-10-03 10:36:16.233 +05:45 [DBG] Connection id "0HMU3PHG1JB6U" accepted.
+2023-10-03 10:36:16.254 +05:45 [DBG] Connection id "0HMU3PHG1JB6U" started.
+2023-10-03 10:36:16.330 +05:45 [DBG] Connection 0HMU3PHG1JB6U established using the following protocol: "Tls13"
+2023-10-03 10:36:16.402 +05:45 [INF] Request starting HTTP/2 GET https://localhost:7148/swagger/index.html - -
+2023-10-03 10:36:16.430 +05:45 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-10-03 10:36:16.465 +05:45 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-10-03 10:36:16.467 +05:45 [DBG] Request did not match any endpoints
+2023-10-03 10:36:16.573 +05:45 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-10-03 10:36:16.703 +05:45 [DBG] Response markup was updated to include browser refresh script injection.
+2023-10-03 10:36:16.707 +05:45 [INF] Request finished HTTP/2 GET https://localhost:7148/swagger/index.html - - - 200 - text/html;charset=utf-8 309.7001ms
+2023-10-03 10:36:16.721 +05:45 [INF] Request starting HTTP/2 GET https://localhost:7148/_framework/aspnetcore-browser-refresh.js - -
+2023-10-03 10:36:16.734 +05:45 [INF] Request finished HTTP/2 GET https://localhost:7148/_framework/aspnetcore-browser-refresh.js - - - 200 12338 application/javascript;+charset=utf-8 13.4022ms
+2023-10-03 10:36:16.743 +05:45 [INF] Request starting HTTP/2 GET https://localhost:7148/_vs/browserLink - -
+2023-10-03 10:36:16.773 +05:45 [INF] Request finished HTTP/2 GET https://localhost:7148/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 30.1584ms
+2023-10-03 10:36:17.092 +05:45 [INF] Request starting HTTP/2 GET https://localhost:7148/swagger/v1/swagger.json - -
+2023-10-03 10:36:17.095 +05:45 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-10-03 10:36:17.097 +05:45 [DBG] Request did not match any endpoints
+2023-10-03 10:36:17.271 +05:45 [INF] Request finished HTTP/2 GET https://localhost:7148/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 178.9166ms
+2023-10-03 10:36:22.489 +05:45 [INF] Request starting HTTP/2 POST https://localhost:7148/api/User/register application/json 171
+2023-10-03 10:36:22.505 +05:45 [DBG] 1 candidate(s) found for the request path '/api/User/register'
+2023-10-03 10:36:22.512 +05:45 [DBG] Endpoint 'Bookstore.Api.Controllers.UserController.CreateUser (Api)' with route pattern 'api/User/register' is valid for the request path '/api/User/register'
+2023-10-03 10:36:22.515 +05:45 [DBG] Request matched endpoint 'Bookstore.Api.Controllers.UserController.CreateUser (Api)'
+2023-10-03 10:36:22.518 +05:45 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-10-03 10:36:22.523 +05:45 [INF] Executing endpoint 'Bookstore.Api.Controllers.UserController.CreateUser (Api)'
+2023-10-03 10:36:22.568 +05:45 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Bookstore.Application.Common.Models.ResponseModel.Response]] CreateUser(Bookstore.Application.Common.Models.RequestModel.UserRegisterRequestModel) on controller Bookstore.Api.Controllers.UserController (Api).
+2023-10-03 10:36:22.574 +05:45 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-10-03 10:36:22.577 +05:45 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-10-03 10:36:22.579 +05:45 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-10-03 10:36:22.582 +05:45 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-10-03 10:36:22.584 +05:45 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-10-03 10:36:22.587 +05:45 [DBG] Executing controller factory for controller Bookstore.Api.Controllers.UserController (Api)
+2023-10-03 10:36:22.850 +05:45 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-10-03 10:36:22.873 +05:45 [DBG] Executed controller factory for controller Bookstore.Api.Controllers.UserController (Api)
+2023-10-03 10:36:22.882 +05:45 [DBG] Attempting to bind parameter 'userRegisterRequestModel' of type 'Bookstore.Application.Common.Models.RequestModel.UserRegisterRequestModel' ...
+2023-10-03 10:36:22.887 +05:45 [DBG] Attempting to bind parameter 'userRegisterRequestModel' of type 'Bookstore.Application.Common.Models.RequestModel.UserRegisterRequestModel' using the name '' in request data ...
+2023-10-03 10:36:22.889 +05:45 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2023-10-03 10:36:22.906 +05:45 [DBG] Connection id "0HMU3PHG1JB6U", Request id "0HMU3PHG1JB6U:00000009": started reading request body.
+2023-10-03 10:36:22.911 +05:45 [DBG] Connection id "0HMU3PHG1JB6U", Request id "0HMU3PHG1JB6U:00000009": done reading request body.
+2023-10-03 10:36:22.921 +05:45 [DBG] JSON input formatter succeeded, deserializing to type 'Bookstore.Application.Common.Models.RequestModel.UserRegisterRequestModel'
+2023-10-03 10:36:22.924 +05:45 [DBG] Done attempting to bind parameter 'userRegisterRequestModel' of type 'Bookstore.Application.Common.Models.RequestModel.UserRegisterRequestModel'.
+2023-10-03 10:36:22.926 +05:45 [DBG] Done attempting to bind parameter 'userRegisterRequestModel' of type 'Bookstore.Application.Common.Models.RequestModel.UserRegisterRequestModel'.
+2023-10-03 10:36:22.927 +05:45 [DBG] Attempting to validate the bound parameter 'userRegisterRequestModel' of type 'Bookstore.Application.Common.Models.RequestModel.UserRegisterRequestModel' ...
+2023-10-03 10:36:22.940 +05:45 [DBG] Done attempting to validate the bound parameter 'userRegisterRequestModel' of type 'Bookstore.Application.Common.Models.RequestModel.UserRegisterRequestModel'.
+2023-10-03 10:37:21.329 +05:45 [WRN] The 'bool' property 'Available' on entity type 'Book' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-03 10:37:21.478 +05:45 [DBG] Entity Framework Core 7.0.11 initialized 'BookStoreDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.11' with options: None
+2023-10-03 10:37:21.553 +05:45 [DBG] Context 'BookStoreDbContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-03 10:37:26.500 +05:45 [DBG] SaveChanges starting for 'BookStoreDbContext'.
+2023-10-03 10:37:26.506 +05:45 [DBG] DetectChanges starting for 'BookStoreDbContext'.
+2023-10-03 10:37:26.533 +05:45 [DBG] DetectChanges completed for 'BookStoreDbContext'.
+2023-10-03 10:37:26.635 +05:45 [DBG] Creating DbConnection.
+2023-10-03 10:37:26.688 +05:45 [DBG] Created DbConnection. (50ms).
+2023-10-03 10:37:26.693 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'DESKTOP-4HTQTBB'.
+2023-10-03 10:37:27.080 +05:45 [DBG] Opened connection to database 'BookStoreDb' on server 'DESKTOP-4HTQTBB'.
+2023-10-03 10:37:27.089 +05:45 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-10-03 10:37:27.099 +05:45 [DBG] Created DbCommand for 'ExecuteReader' (6ms).
+2023-10-03 10:37:27.117 +05:45 [DBG] Initialized DbCommand for 'ExecuteReader' (28ms).
+2023-10-03 10:37:27.131 +05:45 [DBG] Executing DbCommand [Parameters=[@p0='?' (Size = 50) (DbType = AnsiString), @p1='?' (Size = 50) (DbType = AnsiString), @p2='?' (Size = 50) (DbType = AnsiString), @p3='?' (Size = 50) (DbType = AnsiString), @p4='?' (Size = 8000) (DbType = AnsiString), @p5='?' (Size = 10) (DbType = AnsiString), @p6='?' (Size = 500) (DbType = AnsiString), @p7='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([id], [email], [first_name], [last_name], [password_hash], [phone_number], [photo_url], [role])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7);
+2023-10-03 10:37:27.220 +05:45 [ERR] Failed executing DbCommand (93ms) [Parameters=[@p0='?' (Size = 50) (DbType = AnsiString), @p1='?' (Size = 50) (DbType = AnsiString), @p2='?' (Size = 50) (DbType = AnsiString), @p3='?' (Size = 50) (DbType = AnsiString), @p4='?' (Size = 8000) (DbType = AnsiString), @p5='?' (Size = 10) (DbType = AnsiString), @p6='?' (Size = 500) (DbType = AnsiString), @p7='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([id], [email], [first_name], [last_name], [password_hash], [phone_number], [photo_url], [role])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7);
+2023-10-03 10:37:27.235 +05:45 [DBG] Closing connection to database 'BookStoreDb' on server 'DESKTOP-4HTQTBB'.
+2023-10-03 10:37:27.245 +05:45 [DBG] Closed connection to database 'BookStoreDb' on server 'DESKTOP-4HTQTBB' (6ms).
+2023-10-03 10:37:27.260 +05:45 [ERR] An exception occurred in the database while saving changes for context type 'Bookstore.Infrastructure.Persistence.BookStoreDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): String or binary data would be truncated in table 'BookStoreDb.dbo.Users', column 'password_hash'. Truncated value: '$2a$11$YQwX/gUD078tNNOh18gF2OQvKgx7MBmwZBQLxaGSZxc'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__209_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:498faa41-f1f2-4a3a-b45e-a1d30a60dc2d
+Error Number:2628,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): String or binary data would be truncated in table 'BookStoreDb.dbo.Users', column 'password_hash'. Truncated value: '$2a$11$YQwX/gUD078tNNOh18gF2OQvKgx7MBmwZBQLxaGSZxc'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__209_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:498faa41-f1f2-4a3a-b45e-a1d30a60dc2d
+Error Number:2628,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2023-10-03 10:46:13.832 +05:45 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-10-03 10:46:14.425 +05:45 [WRN] The 'bool' property 'Available' on entity type 'Book' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-03 10:46:14.544 +05:45 [DBG] Entity Framework Core 7.0.11 initialized 'BookStoreDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.11' with options: None
+2023-10-03 10:46:14.579 +05:45 [WRN] The 'bool' property 'Available' on entity type 'Book' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-03 10:46:14.823 +05:45 [DBG] 'BookStoreDbContext' disposed.
+2023-10-03 10:46:26.099 +05:45 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-10-03 10:46:26.638 +05:45 [WRN] The 'bool' property 'Available' on entity type 'Book' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-03 10:46:26.747 +05:45 [DBG] Entity Framework Core 7.0.11 initialized 'BookStoreDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.11' with options: None
+2023-10-03 10:46:26.760 +05:45 [DBG] Creating DbConnection.
+2023-10-03 10:46:26.800 +05:45 [DBG] Created DbConnection. (36ms).
+2023-10-03 10:46:26.802 +05:45 [DBG] Migrating using database 'BookStoreDb' on server 'DESKTOP-4HTQTBB'.
+2023-10-03 10:46:26.808 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'DESKTOP-4HTQTBB'.
+2023-10-03 10:46:26.961 +05:45 [DBG] Opened connection to database 'BookStoreDb' on server 'DESKTOP-4HTQTBB'.
+2023-10-03 10:46:26.966 +05:45 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-10-03 10:46:26.972 +05:45 [DBG] Created DbCommand for 'ExecuteNonQuery' (5ms).
+2023-10-03 10:46:26.974 +05:45 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (10ms).
+2023-10-03 10:46:26.982 +05:45 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-10-03 10:46:27.006 +05:45 [INF] Executed DbCommand (27ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-10-03 10:46:27.011 +05:45 [DBG] Closing connection to database 'BookStoreDb' on server 'DESKTOP-4HTQTBB'.
+2023-10-03 10:46:27.019 +05:45 [DBG] Closed connection to database 'BookStoreDb' on server 'DESKTOP-4HTQTBB' (4ms).
+2023-10-03 10:46:27.022 +05:45 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-10-03 10:46:27.022 +05:45 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2023-10-03 10:46:27.023 +05:45 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2023-10-03 10:46:27.023 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'DESKTOP-4HTQTBB'.
+2023-10-03 10:46:27.024 +05:45 [DBG] Opened connection to database 'BookStoreDb' on server 'DESKTOP-4HTQTBB'.
+2023-10-03 10:46:27.024 +05:45 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-10-03 10:46:27.039 +05:45 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-10-03 10:46:27.039 +05:45 [DBG] Closing connection to database 'BookStoreDb' on server 'DESKTOP-4HTQTBB'.
+2023-10-03 10:46:27.040 +05:45 [DBG] Closed connection to database 'BookStoreDb' on server 'DESKTOP-4HTQTBB' (0ms).
+2023-10-03 10:46:27.040 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'DESKTOP-4HTQTBB'.
+2023-10-03 10:46:27.040 +05:45 [DBG] Opened connection to database 'BookStoreDb' on server 'DESKTOP-4HTQTBB'.
+2023-10-03 10:46:27.040 +05:45 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-10-03 10:46:27.041 +05:45 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-10-03 10:46:27.041 +05:45 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-10-03 10:46:27.041 +05:45 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-10-03 10:46:27.042 +05:45 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-10-03 10:46:27.042 +05:45 [DBG] Closing connection to database 'BookStoreDb' on server 'DESKTOP-4HTQTBB'.
+2023-10-03 10:46:27.042 +05:45 [DBG] Closed connection to database 'BookStoreDb' on server 'DESKTOP-4HTQTBB' (0ms).
+2023-10-03 10:46:27.043 +05:45 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-10-03 10:46:27.043 +05:45 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2023-10-03 10:46:27.043 +05:45 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2023-10-03 10:46:27.043 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'DESKTOP-4HTQTBB'.
+2023-10-03 10:46:27.043 +05:45 [DBG] Opened connection to database 'BookStoreDb' on server 'DESKTOP-4HTQTBB'.
+2023-10-03 10:46:27.043 +05:45 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-10-03 10:46:27.044 +05:45 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-10-03 10:46:27.044 +05:45 [DBG] Closing connection to database 'BookStoreDb' on server 'DESKTOP-4HTQTBB'.
+2023-10-03 10:46:27.044 +05:45 [DBG] Closed connection to database 'BookStoreDb' on server 'DESKTOP-4HTQTBB' (0ms).
+2023-10-03 10:46:27.059 +05:45 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-10-03 10:46:27.060 +05:45 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-10-03 10:46:27.060 +05:45 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2023-10-03 10:46:27.060 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'DESKTOP-4HTQTBB'.
+2023-10-03 10:46:27.060 +05:45 [DBG] Opened connection to database 'BookStoreDb' on server 'DESKTOP-4HTQTBB'.
+2023-10-03 10:46:27.060 +05:45 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-10-03 10:46:27.064 +05:45 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-10-03 10:46:27.067 +05:45 [DBG] Closing data reader to 'BookStoreDb' on server 'DESKTOP-4HTQTBB'.
+2023-10-03 10:46:27.068 +05:45 [DBG] A data reader for 'BookStoreDb' on server 'DESKTOP-4HTQTBB' is being disposed after spending 2ms reading results.
+2023-10-03 10:46:27.068 +05:45 [DBG] Closing connection to database 'BookStoreDb' on server 'DESKTOP-4HTQTBB'.
+2023-10-03 10:46:27.068 +05:45 [DBG] Closed connection to database 'BookStoreDb' on server 'DESKTOP-4HTQTBB' (0ms).
+2023-10-03 10:46:27.079 +05:45 [INF] Applying migration '20231003050114_Initial'.
+2023-10-03 10:46:27.141 +05:45 [DBG] Executing 3 update commands as a batch.
+2023-10-03 10:46:27.149 +05:45 [DBG] Executing 12 update commands as a batch.
+2023-10-03 10:46:27.154 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'DESKTOP-4HTQTBB'.
+2023-10-03 10:46:27.154 +05:45 [DBG] Opened connection to database 'BookStoreDb' on server 'DESKTOP-4HTQTBB'.
+2023-10-03 10:46:27.156 +05:45 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-10-03 10:46:27.163 +05:45 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2023-10-03 10:46:27.163 +05:45 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-10-03 10:46:27.164 +05:45 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-10-03 10:46:27.165 +05:45 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (1ms).
+2023-10-03 10:46:27.165 +05:45 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Users] (
+    [id] VARCHAR(50) NOT NULL,
+    [first_name] VARCHAR(50) NOT NULL,
+    [last_name] VARCHAR(50) NOT NULL,
+    [email] VARCHAR(50) NOT NULL,
+    [password_hash] VARCHAR(200) NOT NULL,
+    [phone_number] VARCHAR(10) NOT NULL,
+    [photo_url] VARCHAR(500) NULL,
+    [role] INT NOT NULL,
+    CONSTRAINT [PK_Users] PRIMARY KEY ([id])
+);
+2023-10-03 10:46:27.171 +05:45 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Users] (
+    [id] VARCHAR(50) NOT NULL,
+    [first_name] VARCHAR(50) NOT NULL,
+    [last_name] VARCHAR(50) NOT NULL,
+    [email] VARCHAR(50) NOT NULL,
+    [password_hash] VARCHAR(200) NOT NULL,
+    [phone_number] VARCHAR(10) NOT NULL,
+    [photo_url] VARCHAR(500) NULL,
+    [role] INT NOT NULL,
+    CONSTRAINT [PK_Users] PRIMARY KEY ([id])
+);
+2023-10-03 10:46:27.171 +05:45 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-10-03 10:46:27.171 +05:45 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-10-03 10:46:27.172 +05:45 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-10-03 10:46:27.172 +05:45 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Books] (
+    [id] VARCHAR(50) NOT NULL,
+    [title] VARCHAR(50) NOT NULL,
+    [category] VARCHAR(50) NOT NULL,
+    [author] VARCHAR(50) NOT NULL,
+    [year_published] datetime2 NOT NULL DEFAULT '2023-10-03T10:46:14.5666373+05:45',
+    [price] DECIMAL(18,2) NOT NULL,
+    [image_url] VARCHAR(50) NOT NULL,
+    [descriptiion] VARCHAR(50) NOT NULL,
+    [available] bit NOT NULL DEFAULT CAST(1 AS bit),
+    [user_id] VARCHAR(50) NOT NULL,
+    CONSTRAINT [PK_Books] PRIMARY KEY ([id]),
+    CONSTRAINT [FK_Books_Users_user_id] FOREIGN KEY ([user_id]) REFERENCES [Users] ([id])
+);
+2023-10-03 10:46:27.178 +05:45 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Books] (
+    [id] VARCHAR(50) NOT NULL,
+    [title] VARCHAR(50) NOT NULL,
+    [category] VARCHAR(50) NOT NULL,
+    [author] VARCHAR(50) NOT NULL,
+    [year_published] datetime2 NOT NULL DEFAULT '2023-10-03T10:46:14.5666373+05:45',
+    [price] DECIMAL(18,2) NOT NULL,
+    [image_url] VARCHAR(50) NOT NULL,
+    [descriptiion] VARCHAR(50) NOT NULL,
+    [available] bit NOT NULL DEFAULT CAST(1 AS bit),
+    [user_id] VARCHAR(50) NOT NULL,
+    CONSTRAINT [PK_Books] PRIMARY KEY ([id]),
+    CONSTRAINT [FK_Books_Users_user_id] FOREIGN KEY ([user_id]) REFERENCES [Users] ([id])
+);
+2023-10-03 10:46:27.178 +05:45 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-10-03 10:46:27.178 +05:45 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-10-03 10:46:27.178 +05:45 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-10-03 10:46:27.178 +05:45 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'id', N'email', N'first_name', N'last_name', N'password_hash', N'phone_number', N'photo_url', N'role') AND [object_id] = OBJECT_ID(N'[Users]'))
+    SET IDENTITY_INSERT [Users] ON;
+INSERT INTO [Users] ([id], [email], [first_name], [last_name], [password_hash], [phone_number], [photo_url], [role])
+VALUES ('021bd58d-0270-418e-b8cf-654696f11b36', 'gagan@gmail.com', 'Gagan', 'Maharjan', 'G@g12345', '1134567890', NULL, 1),
+('626c7270-febc-4c38-9ccb-d44d7c8ef98f', 'rajin@gmail.com', 'Rajin', 'Maharjan', 'R@r12345', '1234567800', NULL, 0),
+('80b3153b-ed07-4e70-8694-f297dad8b854', 'milann@gmail.com', 'Milan', 'Maharjan', 'M@m12345', '1234567890', NULL, 1);
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'id', N'email', N'first_name', N'last_name', N'password_hash', N'phone_number', N'photo_url', N'role') AND [object_id] = OBJECT_ID(N'[Users]'))
+    SET IDENTITY_INSERT [Users] OFF;
+2023-10-03 10:46:27.196 +05:45 [INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'id', N'email', N'first_name', N'last_name', N'password_hash', N'phone_number', N'photo_url', N'role') AND [object_id] = OBJECT_ID(N'[Users]'))
+    SET IDENTITY_INSERT [Users] ON;
+INSERT INTO [Users] ([id], [email], [first_name], [last_name], [password_hash], [phone_number], [photo_url], [role])
+VALUES ('021bd58d-0270-418e-b8cf-654696f11b36', 'gagan@gmail.com', 'Gagan', 'Maharjan', 'G@g12345', '1134567890', NULL, 1),
+('626c7270-febc-4c38-9ccb-d44d7c8ef98f', 'rajin@gmail.com', 'Rajin', 'Maharjan', 'R@r12345', '1234567800', NULL, 0),
+('80b3153b-ed07-4e70-8694-f297dad8b854', 'milann@gmail.com', 'Milan', 'Maharjan', 'M@m12345', '1234567890', NULL, 1);
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'id', N'email', N'first_name', N'last_name', N'password_hash', N'phone_number', N'photo_url', N'role') AND [object_id] = OBJECT_ID(N'[Users]'))
+    SET IDENTITY_INSERT [Users] OFF;
+2023-10-03 10:46:27.197 +05:45 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-10-03 10:46:27.197 +05:45 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-10-03 10:46:27.197 +05:45 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-10-03 10:46:27.197 +05:45 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'id', N'author', N'category', N'descriptiion', N'image_url', N'price', N'title', N'user_id') AND [object_id] = OBJECT_ID(N'[Books]'))
+    SET IDENTITY_INSERT [Books] ON;
+INSERT INTO [Books] ([id], [author], [category], [descriptiion], [image_url], [price], [title], [user_id])
+VALUES ('1aa96689-8c8d-4946-8914-f299503cb32e', 'I', 'I', 'I', 'I', 1799.99, 'I', '626c7270-febc-4c38-9ccb-d44d7c8ef98f'),
+('229b0fdc-24de-41f9-9176-dd56f359abd0', 'G', 'G', 'G', 'G', 1699.99, 'G', '626c7270-febc-4c38-9ccb-d44d7c8ef98f'),
+('26f7f428-2b9f-4c90-9f3d-812e73b086ad', 'C', 'C', 'C', 'C', 1299.99, 'C', '626c7270-febc-4c38-9ccb-d44d7c8ef98f'),
+('55cd5d1f-a9c5-4fb4-80eb-028b7a336517', 'E', 'E', 'E', 'E', 1499.99, 'E', '626c7270-febc-4c38-9ccb-d44d7c8ef98f'),
+('65d9a9cd-0692-42a6-b436-cee0040eabbb', 'F', 'F', 'F', 'F', 1599.99, 'F', '626c7270-febc-4c38-9ccb-d44d7c8ef98f'),
+('759fcdea-2762-439c-ac11-8304429f2c40', 'K', 'K', 'K', 'K', 1999.99, 'A', '626c7270-febc-4c38-9ccb-d44d7c8ef98f'),
+('762cef45-40b2-4ff7-9914-5f0462afa6ec', 'J', 'J', 'J', 'J', 1899.99, 'J', '626c7270-febc-4c38-9ccb-d44d7c8ef98f'),
+('8b1e26b2-4ce5-48d1-b4e0-9f5dceda9987', 'B', 'B', 'B', 'B', 1199.99, 'B', '626c7270-febc-4c38-9ccb-d44d7c8ef98f'),
+('aa72953e-9847-485c-b958-1862b690e7ab', 'L', 'L', 'L', 'L', 2099.99, 'L', '626c7270-febc-4c38-9ccb-d44d7c8ef98f'),
+('cbf9a973-7826-48a2-93d3-f1ba0fefe4d7', 'A', 'A', 'A', 'A', 1099.99, 'A', '626c7270-febc-4c38-9ccb-d44d7c8ef98f'),
+('d571b4f2-f4a3-47b3-ac53-91dc7e16b90e', 'H', 'H', 'H', 'H', 1699.99, 'H', '626c7270-febc-4c38-9ccb-d44d7c8ef98f'),
+('fc8765f3-99ba-4bab-b9dc-331d5e66a3b0', 'D', 'D', 'D', 'D', 1399.99, 'D', '626c7270-febc-4c38-9ccb-d44d7c8ef98f');
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'id', N'author', N'category', N'descriptiion', N'image_url', N'price', N'title', N'user_id') AND [object_id] = OBJECT_ID(N'[Books]'))
+    SET IDENTITY_INSERT [Books] OFF;
+2023-10-03 10:46:27.887 +05:45 [INF] Executed DbCommand (689ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'id', N'author', N'category', N'descriptiion', N'image_url', N'price', N'title', N'user_id') AND [object_id] = OBJECT_ID(N'[Books]'))
+    SET IDENTITY_INSERT [Books] ON;
+INSERT INTO [Books] ([id], [author], [category], [descriptiion], [image_url], [price], [title], [user_id])
+VALUES ('1aa96689-8c8d-4946-8914-f299503cb32e', 'I', 'I', 'I', 'I', 1799.99, 'I', '626c7270-febc-4c38-9ccb-d44d7c8ef98f'),
+('229b0fdc-24de-41f9-9176-dd56f359abd0', 'G', 'G', 'G', 'G', 1699.99, 'G', '626c7270-febc-4c38-9ccb-d44d7c8ef98f'),
+('26f7f428-2b9f-4c90-9f3d-812e73b086ad', 'C', 'C', 'C', 'C', 1299.99, 'C', '626c7270-febc-4c38-9ccb-d44d7c8ef98f'),
+('55cd5d1f-a9c5-4fb4-80eb-028b7a336517', 'E', 'E', 'E', 'E', 1499.99, 'E', '626c7270-febc-4c38-9ccb-d44d7c8ef98f'),
+('65d9a9cd-0692-42a6-b436-cee0040eabbb', 'F', 'F', 'F', 'F', 1599.99, 'F', '626c7270-febc-4c38-9ccb-d44d7c8ef98f'),
+('759fcdea-2762-439c-ac11-8304429f2c40', 'K', 'K', 'K', 'K', 1999.99, 'A', '626c7270-febc-4c38-9ccb-d44d7c8ef98f'),
+('762cef45-40b2-4ff7-9914-5f0462afa6ec', 'J', 'J', 'J', 'J', 1899.99, 'J', '626c7270-febc-4c38-9ccb-d44d7c8ef98f'),
+('8b1e26b2-4ce5-48d1-b4e0-9f5dceda9987', 'B', 'B', 'B', 'B', 1199.99, 'B', '626c7270-febc-4c38-9ccb-d44d7c8ef98f'),
+('aa72953e-9847-485c-b958-1862b690e7ab', 'L', 'L', 'L', 'L', 2099.99, 'L', '626c7270-febc-4c38-9ccb-d44d7c8ef98f'),
+('cbf9a973-7826-48a2-93d3-f1ba0fefe4d7', 'A', 'A', 'A', 'A', 1099.99, 'A', '626c7270-febc-4c38-9ccb-d44d7c8ef98f'),
+('d571b4f2-f4a3-47b3-ac53-91dc7e16b90e', 'H', 'H', 'H', 'H', 1699.99, 'H', '626c7270-febc-4c38-9ccb-d44d7c8ef98f'),
+('fc8765f3-99ba-4bab-b9dc-331d5e66a3b0', 'D', 'D', 'D', 'D', 1399.99, 'D', '626c7270-febc-4c38-9ccb-d44d7c8ef98f');
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'id', N'author', N'category', N'descriptiion', N'image_url', N'price', N'title', N'user_id') AND [object_id] = OBJECT_ID(N'[Books]'))
+    SET IDENTITY_INSERT [Books] OFF;
+2023-10-03 10:46:27.887 +05:45 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-10-03 10:46:28.431 +05:45 [DBG] Created DbCommand for 'ExecuteNonQuery' (544ms).
+2023-10-03 10:46:28.432 +05:45 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (544ms).
+2023-10-03 10:46:28.432 +05:45 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Books_user_id] ON [Books] ([user_id]);
+2023-10-03 10:46:28.465 +05:45 [INF] Executed DbCommand (33ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Books_user_id] ON [Books] ([user_id]);
+2023-10-03 10:46:28.465 +05:45 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-10-03 10:46:28.465 +05:45 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-10-03 10:46:28.465 +05:45 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-10-03 10:46:28.465 +05:45 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20231003050114_Initial', N'7.0.11');
+2023-10-03 10:46:28.466 +05:45 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20231003050114_Initial', N'7.0.11');
+2023-10-03 10:46:28.467 +05:45 [DBG] Committing transaction.
+2023-10-03 10:46:28.471 +05:45 [DBG] Committed transaction.
+2023-10-03 10:46:28.472 +05:45 [DBG] Disposing transaction.
+2023-10-03 10:46:28.473 +05:45 [DBG] Closing connection to database 'BookStoreDb' on server 'DESKTOP-4HTQTBB'.
+2023-10-03 10:46:28.473 +05:45 [DBG] Closed connection to database 'BookStoreDb' on server 'DESKTOP-4HTQTBB' (0ms).
+2023-10-03 10:46:28.474 +05:45 [DBG] 'BookStoreDbContext' disposed.
+2023-10-03 10:46:28.475 +05:45 [DBG] Disposing connection to database 'BookStoreDb' on server 'DESKTOP-4HTQTBB'.
+2023-10-03 10:46:28.476 +05:45 [DBG] Disposed connection to database '' on server '' (0ms).
+2023-10-03 10:46:53.656 +05:45 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-10-03 10:46:53.744 +05:45 [DBG] Hosting starting
+2023-10-03 10:46:53.982 +05:45 [INF] Now listening on: https://localhost:7148
+2023-10-03 10:46:53.991 +05:45 [INF] Now listening on: http://localhost:5176
+2023-10-03 10:46:53.994 +05:45 [DBG] Loaded hosting startup assembly Api
+2023-10-03 10:46:53.996 +05:45 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-10-03 10:46:53.998 +05:45 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-10-03 10:46:54.000 +05:45 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-03 10:46:54.004 +05:45 [INF] Hosting environment: Development
+2023-10-03 10:46:54.006 +05:45 [INF] Content root path: D:\Dotnet\Projects\book-store\src\Api
+2023-10-03 10:46:54.009 +05:45 [DBG] Hosting started
+2023-10-03 10:46:54.432 +05:45 [DBG] Connection id "0HMU3PNEDSI61" accepted.
+2023-10-03 10:46:54.436 +05:45 [DBG] Connection id "0HMU3PNEDSI61" started.
+2023-10-03 10:46:54.444 +05:45 [DBG] Connection id "0HMU3PNEDSI61" received FIN.
+2023-10-03 10:46:54.444 +05:45 [DBG] Connection id "0HMU3PNEDSI62" received FIN.
+2023-10-03 10:46:54.448 +05:45 [DBG] Connection id "0HMU3PNEDSI62" accepted.
+2023-10-03 10:46:54.449 +05:45 [DBG] Connection id "0HMU3PNEDSI62" started.
+2023-10-03 10:46:54.453 +05:45 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-10-03 10:46:54.453 +05:45 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-10-03 10:46:54.500 +05:45 [DBG] Connection id "0HMU3PNEDSI62" stopped.
+2023-10-03 10:46:54.500 +05:45 [DBG] Connection id "0HMU3PNEDSI61" stopped.
+2023-10-03 10:46:54.506 +05:45 [DBG] Connection id "0HMU3PNEDSI61" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-10-03 10:46:54.506 +05:45 [DBG] Connection id "0HMU3PNEDSI62" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-10-03 10:46:55.027 +05:45 [DBG] Connection id "0HMU3PNEDSI63" accepted.
+2023-10-03 10:46:55.075 +05:45 [DBG] Connection id "0HMU3PNEDSI63" started.
+2023-10-03 10:46:55.168 +05:45 [DBG] Connection 0HMU3PNEDSI63 established using the following protocol: "Tls13"
+2023-10-03 10:46:55.233 +05:45 [INF] Request starting HTTP/2 GET https://localhost:7148/swagger/index.html - -
+2023-10-03 10:46:55.259 +05:45 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-10-03 10:46:55.287 +05:45 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-10-03 10:46:55.289 +05:45 [DBG] Request did not match any endpoints
+2023-10-03 10:46:55.433 +05:45 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-10-03 10:46:55.553 +05:45 [DBG] Response markup was updated to include browser refresh script injection.
+2023-10-03 10:46:55.556 +05:45 [INF] Request finished HTTP/2 GET https://localhost:7148/swagger/index.html - - - 200 - text/html;charset=utf-8 326.5311ms
+2023-10-03 10:46:55.568 +05:45 [INF] Request starting HTTP/2 GET https://localhost:7148/_framework/aspnetcore-browser-refresh.js - -
+2023-10-03 10:46:55.578 +05:45 [INF] Request finished HTTP/2 GET https://localhost:7148/_framework/aspnetcore-browser-refresh.js - - - 200 12338 application/javascript;+charset=utf-8 9.9679ms
+2023-10-03 10:46:55.597 +05:45 [INF] Request starting HTTP/2 GET https://localhost:7148/_vs/browserLink - -
+2023-10-03 10:46:55.645 +05:45 [INF] Request finished HTTP/2 GET https://localhost:7148/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 47.9751ms
+2023-10-03 10:46:55.764 +05:45 [INF] Request starting HTTP/2 GET https://localhost:7148/swagger/v1/swagger.json - -
+2023-10-03 10:46:55.766 +05:45 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-10-03 10:46:55.768 +05:45 [DBG] Request did not match any endpoints
+2023-10-03 10:46:55.921 +05:45 [INF] Request finished HTTP/2 GET https://localhost:7148/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 156.8446ms
+2023-10-03 10:48:20.833 +05:45 [INF] Request starting HTTP/2 POST https://localhost:7148/api/User/register application/json 171
+2023-10-03 10:48:20.845 +05:45 [DBG] 1 candidate(s) found for the request path '/api/User/register'
+2023-10-03 10:48:20.850 +05:45 [DBG] Endpoint 'Bookstore.Api.Controllers.UserController.CreateUser (Api)' with route pattern 'api/User/register' is valid for the request path '/api/User/register'
+2023-10-03 10:48:20.856 +05:45 [DBG] Request matched endpoint 'Bookstore.Api.Controllers.UserController.CreateUser (Api)'
+2023-10-03 10:48:20.860 +05:45 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-10-03 10:48:20.865 +05:45 [INF] Executing endpoint 'Bookstore.Api.Controllers.UserController.CreateUser (Api)'
+2023-10-03 10:48:20.896 +05:45 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Bookstore.Application.Common.Models.ResponseModel.Response]] CreateUser(Bookstore.Application.Common.Models.RequestModel.UserRegisterRequestModel) on controller Bookstore.Api.Controllers.UserController (Api).
+2023-10-03 10:48:20.902 +05:45 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-10-03 10:48:20.904 +05:45 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-10-03 10:48:20.907 +05:45 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-10-03 10:48:20.910 +05:45 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-10-03 10:48:20.912 +05:45 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-10-03 10:48:20.917 +05:45 [DBG] Executing controller factory for controller Bookstore.Api.Controllers.UserController (Api)
+2023-10-03 10:48:21.079 +05:45 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-10-03 10:48:21.112 +05:45 [DBG] Executed controller factory for controller Bookstore.Api.Controllers.UserController (Api)
+2023-10-03 10:48:21.117 +05:45 [DBG] Attempting to bind parameter 'userRegisterRequestModel' of type 'Bookstore.Application.Common.Models.RequestModel.UserRegisterRequestModel' ...
+2023-10-03 10:48:21.121 +05:45 [DBG] Attempting to bind parameter 'userRegisterRequestModel' of type 'Bookstore.Application.Common.Models.RequestModel.UserRegisterRequestModel' using the name '' in request data ...
+2023-10-03 10:48:21.124 +05:45 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2023-10-03 10:48:21.137 +05:45 [DBG] Connection id "0HMU3PNEDSI63", Request id "0HMU3PNEDSI63:00000009": started reading request body.
+2023-10-03 10:48:21.140 +05:45 [DBG] Connection id "0HMU3PNEDSI63", Request id "0HMU3PNEDSI63:00000009": done reading request body.
+2023-10-03 10:48:21.149 +05:45 [DBG] JSON input formatter succeeded, deserializing to type 'Bookstore.Application.Common.Models.RequestModel.UserRegisterRequestModel'
+2023-10-03 10:48:21.151 +05:45 [DBG] Done attempting to bind parameter 'userRegisterRequestModel' of type 'Bookstore.Application.Common.Models.RequestModel.UserRegisterRequestModel'.
+2023-10-03 10:48:21.152 +05:45 [DBG] Done attempting to bind parameter 'userRegisterRequestModel' of type 'Bookstore.Application.Common.Models.RequestModel.UserRegisterRequestModel'.
+2023-10-03 10:48:21.154 +05:45 [DBG] Attempting to validate the bound parameter 'userRegisterRequestModel' of type 'Bookstore.Application.Common.Models.RequestModel.UserRegisterRequestModel' ...
+2023-10-03 10:48:21.168 +05:45 [DBG] Done attempting to validate the bound parameter 'userRegisterRequestModel' of type 'Bookstore.Application.Common.Models.RequestModel.UserRegisterRequestModel'.
+2023-10-03 10:48:25.072 +05:45 [WRN] The 'bool' property 'Available' on entity type 'Book' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-03 10:48:25.254 +05:45 [DBG] Entity Framework Core 7.0.11 initialized 'BookStoreDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.11' with options: None
+2023-10-03 10:48:25.343 +05:45 [DBG] Context 'BookStoreDbContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-03 10:48:25.352 +05:45 [DBG] SaveChanges starting for 'BookStoreDbContext'.
+2023-10-03 10:48:25.359 +05:45 [DBG] DetectChanges starting for 'BookStoreDbContext'.
+2023-10-03 10:48:25.379 +05:45 [DBG] DetectChanges completed for 'BookStoreDbContext'.
+2023-10-03 10:48:25.487 +05:45 [DBG] Creating DbConnection.
+2023-10-03 10:48:25.518 +05:45 [DBG] Created DbConnection. (27ms).
+2023-10-03 10:48:25.523 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'DESKTOP-4HTQTBB'.
+2023-10-03 10:48:25.798 +05:45 [DBG] Opened connection to database 'BookStoreDb' on server 'DESKTOP-4HTQTBB'.
+2023-10-03 10:48:25.811 +05:45 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-10-03 10:48:25.820 +05:45 [DBG] Created DbCommand for 'ExecuteReader' (5ms).
+2023-10-03 10:48:25.831 +05:45 [DBG] Initialized DbCommand for 'ExecuteReader' (20ms).
+2023-10-03 10:48:25.843 +05:45 [DBG] Executing DbCommand [Parameters=[@p0='?' (Size = 50) (DbType = AnsiString), @p1='?' (Size = 50) (DbType = AnsiString), @p2='?' (Size = 50) (DbType = AnsiString), @p3='?' (Size = 50) (DbType = AnsiString), @p4='?' (Size = 200) (DbType = AnsiString), @p5='?' (Size = 10) (DbType = AnsiString), @p6='?' (Size = 500) (DbType = AnsiString), @p7='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([id], [email], [first_name], [last_name], [password_hash], [phone_number], [photo_url], [role])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7);
+2023-10-03 10:48:25.908 +05:45 [INF] Executed DbCommand (68ms) [Parameters=[@p0='?' (Size = 50) (DbType = AnsiString), @p1='?' (Size = 50) (DbType = AnsiString), @p2='?' (Size = 50) (DbType = AnsiString), @p3='?' (Size = 50) (DbType = AnsiString), @p4='?' (Size = 200) (DbType = AnsiString), @p5='?' (Size = 10) (DbType = AnsiString), @p6='?' (Size = 500) (DbType = AnsiString), @p7='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([id], [email], [first_name], [last_name], [password_hash], [phone_number], [photo_url], [role])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7);
+2023-10-03 10:48:25.923 +05:45 [DBG] Closing data reader to 'BookStoreDb' on server 'DESKTOP-4HTQTBB'.
+2023-10-03 10:48:25.938 +05:45 [DBG] A data reader for 'BookStoreDb' on server 'DESKTOP-4HTQTBB' is being disposed after spending 15ms reading results.
+2023-10-03 10:48:25.947 +05:45 [DBG] Closing connection to database 'BookStoreDb' on server 'DESKTOP-4HTQTBB'.
+2023-10-03 10:48:25.957 +05:45 [DBG] Closed connection to database 'BookStoreDb' on server 'DESKTOP-4HTQTBB' (9ms).
+2023-10-03 10:48:25.973 +05:45 [DBG] An entity of type 'User' tracked by 'BookStoreDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-03 10:48:25.979 +05:45 [DBG] SaveChanges completed for 'BookStoreDbContext' with 1 entities written to the database.
+2023-10-03 10:48:25.988 +05:45 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2023-10-03 10:48:25.994 +05:45 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2023-10-03 10:48:25.998 +05:45 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2023-10-03 10:48:26.000 +05:45 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-10-03 10:48:26.001 +05:45 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-10-03 10:48:26.005 +05:45 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-10-03 10:48:26.007 +05:45 [INF] Executing ObjectResult, writing value of type 'Bookstore.Application.Common.Models.ResponseModel.Response'.
+2023-10-03 10:48:26.023 +05:45 [INF] Executed action Bookstore.Api.Controllers.UserController.CreateUser (Api) in 5098.0818ms
+2023-10-03 10:48:26.026 +05:45 [INF] Executed endpoint 'Bookstore.Api.Controllers.UserController.CreateUser (Api)'
+2023-10-03 10:48:26.030 +05:45 [DBG] 'BookStoreDbContext' disposed.
+2023-10-03 10:48:26.036 +05:45 [DBG] Disposing connection to database 'BookStoreDb' on server 'DESKTOP-4HTQTBB'.
+2023-10-03 10:48:26.039 +05:45 [DBG] Disposed connection to database '' on server '' (2ms).
+2023-10-03 10:48:26.042 +05:45 [INF] Request finished HTTP/2 POST https://localhost:7148/api/User/register application/json 171 - 200 - application/json;+charset=utf-8 5208.4637ms

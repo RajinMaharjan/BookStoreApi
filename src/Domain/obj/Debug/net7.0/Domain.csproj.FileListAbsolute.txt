@@ -1,0 +1,14 @@
+D:\Dotnet\Projects\book-store\src\Domain\bin\Debug\net7.0\Domain.deps.json
+D:\Dotnet\Projects\book-store\src\Domain\bin\Debug\net7.0\Domain.runtimeconfig.json
+D:\Dotnet\Projects\book-store\src\Domain\bin\Debug\net7.0\Domain.dll
+D:\Dotnet\Projects\book-store\src\Domain\bin\Debug\net7.0\Domain.pdb
+D:\Dotnet\Projects\book-store\src\Domain\obj\Debug\net7.0\Domain.csproj.AssemblyReference.cache
+D:\Dotnet\Projects\book-store\src\Domain\obj\Debug\net7.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dotnet\Projects\book-store\src\Domain\obj\Debug\net7.0\Domain.AssemblyInfoInputs.cache
+D:\Dotnet\Projects\book-store\src\Domain\obj\Debug\net7.0\Domain.AssemblyInfo.cs
+D:\Dotnet\Projects\book-store\src\Domain\obj\Debug\net7.0\Domain.csproj.CoreCompileInputs.cache
+D:\Dotnet\Projects\book-store\src\Domain\obj\Debug\net7.0\Domain.dll
+D:\Dotnet\Projects\book-store\src\Domain\obj\Debug\net7.0\refint\Domain.dll
+D:\Dotnet\Projects\book-store\src\Domain\obj\Debug\net7.0\Domain.pdb
+D:\Dotnet\Projects\book-store\src\Domain\obj\Debug\net7.0\Domain.genruntimeconfig.cache
+D:\Dotnet\Projects\book-store\src\Domain\obj\Debug\net7.0\ref\Domain.dll
