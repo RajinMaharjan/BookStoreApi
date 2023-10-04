@@ -12,3 +12,17 @@ D:\Dotnet\Projects\book-store\src\Domain\obj\Debug\net7.0\refint\Domain.dll
 D:\Dotnet\Projects\book-store\src\Domain\obj\Debug\net7.0\Domain.pdb
 D:\Dotnet\Projects\book-store\src\Domain\obj\Debug\net7.0\Domain.genruntimeconfig.cache
 D:\Dotnet\Projects\book-store\src\Domain\obj\Debug\net7.0\ref\Domain.dll
+E:\COTIVITI\Project\book-store\src\Domain\bin\Debug\net7.0\Domain.deps.json
+E:\COTIVITI\Project\book-store\src\Domain\bin\Debug\net7.0\Domain.runtimeconfig.json
+E:\COTIVITI\Project\book-store\src\Domain\bin\Debug\net7.0\Domain.dll
+E:\COTIVITI\Project\book-store\src\Domain\bin\Debug\net7.0\Domain.pdb
+E:\COTIVITI\Project\book-store\src\Domain\obj\Debug\net7.0\Domain.csproj.AssemblyReference.cache
+E:\COTIVITI\Project\book-store\src\Domain\obj\Debug\net7.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\COTIVITI\Project\book-store\src\Domain\obj\Debug\net7.0\Domain.AssemblyInfoInputs.cache
+E:\COTIVITI\Project\book-store\src\Domain\obj\Debug\net7.0\Domain.AssemblyInfo.cs
+E:\COTIVITI\Project\book-store\src\Domain\obj\Debug\net7.0\Domain.csproj.CoreCompileInputs.cache
+E:\COTIVITI\Project\book-store\src\Domain\obj\Debug\net7.0\Domain.dll
+E:\COTIVITI\Project\book-store\src\Domain\obj\Debug\net7.0\refint\Domain.dll
+E:\COTIVITI\Project\book-store\src\Domain\obj\Debug\net7.0\Domain.pdb
+E:\COTIVITI\Project\book-store\src\Domain\obj\Debug\net7.0\Domain.genruntimeconfig.cache
+E:\COTIVITI\Project\book-store\src\Domain\obj\Debug\net7.0\ref\Domain.dll

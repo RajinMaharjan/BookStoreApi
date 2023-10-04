@@ -16,6 +16,8 @@ namespace Bookstore.Application.Common.Interfaces
         Task<User> UpdateUserAsync(Guid id,UserUpdateRequestModel userUpdateRequestModel);
         Task<User> LoginUserAsync(UserLoginRequestModel userLoginRequestModel);
         Task<User> DeleteUserAsync(Guid id);
+        string GenerateToken(User user);
+        Task<User> ChangeRoleToAdmin(Guid id);
         
     }
 }
