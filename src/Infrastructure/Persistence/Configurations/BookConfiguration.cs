@@ -22,7 +22,8 @@ namespace Bookstore.Infrastructure.Persistence.Configurations
             builder.Property(x => x.YearPublished).HasColumnName("year_published").HasDefaultValue(DateTime.Now);
             builder.Property(x => x.Price).HasColumnName("price").HasColumnType("DECIMAL(18,2)").HasMaxLength(20).IsRequired();
             builder.Property(x => x.Description).HasColumnName("descriptiion").HasColumnType("VARCHAR(500)").HasMaxLength(50).IsRequired();
-            builder.Property(x => x.ImageUrl).HasColumnName("image_url").HasColumnType("VARCHAR(200)").HasMaxLength(50).IsRequired(true);
+            builder.Property(x => x.ImagePath).HasColumnName("image_path").HasColumnType("VARCHAR(500)").HasMaxLength(500).IsRequired(false);
+            builder.Property(x => x.ImageUrl).HasColumnName("image_url").HasColumnType("VARCHAR(500)").HasMaxLength(500).IsRequired(false);
             builder.Property(x => x.Available).HasColumnName("available").HasDefaultValue(true);
         }
     }

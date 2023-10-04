@@ -15,7 +15,8 @@ namespace Bookstore.Domain.Entities
         public string Email { get; set; }
         public string PasswordHash { get; set; }
         public string PhoneNumber {  get; set; }
-        public string PhotoUrl {  get; set; }
+        public string ImageUrl { get; set; }
+        public string ImagePath { get; set; }
         public Role Role { get; set; } 
         public ICollection<Book> Books { get; set; }
 

@@ -14,7 +14,7 @@ namespace Bookstore.Application.Common.Models.RequestModel
         public string Author { get; set; }
         public DateTime YearPublished { get; set; }
         public double Price { get; set; }
-        public string ImageUrl { get; set; }
+        public string ImageUrl { get; set; } 
         public string Description { get; set; }
         public Guid UserId { get; set; } = Guid.Empty;
     }

@@ -1,11 +1,19 @@
 {
   "Version": 1,
-  "Hash": "llrbuzIYQAIzOVzCT1dMYbgtako286gVg/Pj7offB04=",
+  "Hash": "1cpHBT7KxT0Zp5R5T3fYiXL19tqwrANddULeV5P13Z8=",
   "Source": "Api",
   "BasePath": "_content/Api",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Api\\wwwroot",
+      "Source": "Api",
+      "ContentRoot": "E:\\COTIVITI\\Project\\book-store\\src\\Api\\wwwroot\\",
+      "BasePath": "_content/Api",
+      "Pattern": "**"
+    }
+  ],
   "Assets": []
 }
