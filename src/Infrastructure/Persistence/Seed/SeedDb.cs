@@ -1,4 +1,5 @@
-﻿using Bookstore.Domain.Entities;
+﻿using Bookstore.Application.Common.Models.RequestModel;
+using Bookstore.Domain.Entities;
 using Bookstore.Domain.Enum;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -14,6 +15,13 @@ namespace Bookstore.Infrastructure.Persistence.Seed
         private static Guid Guid = Guid.NewGuid();
         public static void SeedUser(ModelBuilder modelBuilder)
         {
+            var password1 = "R@r12345";
+            var password2 = "M@m12345";
+            var password3 = "G@g12345";
+
+            var passwordHash1 = BCrypt.Net.BCrypt.HashPassword(password1);
+            var passwordHash2 = BCrypt.Net.BCrypt.HashPassword(password2);
+            var passwordHash3 = BCrypt.Net.BCrypt.HashPassword(password3);
             //for seeding
             var userList = new List<User>()
              {
@@ -23,7 +31,7 @@ namespace Bookstore.Infrastructure.Persistence.Seed
                 FirstName = "Rajin",
                 LastName = "Maharjan",
                 Email = "rajin@gmail.com",
-                PasswordHash = "R@r12345",
+                PasswordHash = passwordHash1,
                 Role = Role.Admin,
                 PhoneNumber = "1234567800",
             },
@@ -33,7 +41,7 @@ namespace Bookstore.Infrastructure.Persistence.Seed
                 FirstName = "Gagan",
                 LastName = "Maharjan",
                 Email = "gagan@gmail.com",
-                PasswordHash = "G@g12345",
+                PasswordHash = passwordHash2,
                 Role = Role.User,
                 PhoneNumber = "1134567890",
             },
@@ -42,8 +50,8 @@ namespace Bookstore.Infrastructure.Persistence.Seed
                 Id = Guid.NewGuid(),
                 FirstName = "Milan",
                 LastName = "Maharjan",
-                Email = "milann@gmail.com",
-                PasswordHash = "M@m12345",
+                Email = "milan@gmail.com",
+                PasswordHash = passwordHash3,
                 Role = Role.User,
                 PhoneNumber = "1234567890",
             }

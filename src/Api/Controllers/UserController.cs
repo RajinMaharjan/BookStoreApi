@@ -47,5 +47,34 @@ namespace Bookstore.Api.Controllers
             };
         }
 
+        [HttpPost("login")]
+        public async Task<IActionResult> LoginUser(UserLoginRequestModel userLoginRequestModel)
+        {
+            var user = await _userService.LoginUserAsync(userLoginRequestModel);
+
+            var token = _userService.GenerateToken(user);
+
+            return Ok(token);
+        }
+
+        [HttpPut("update")]
+        public async Task<IActionResult> UpdateUser(Guid id,UserUpdateRequestModel userUpdateRequestModel)
+        {
+            var user = await _userService.UpdateUserAsync(id, userUpdateRequestModel);
+
+            return Ok(new Response
+            {
+                StatusCode = 200,
+                Message = "Updated Successfully"
+            });
+        }
+
+        [HttpPost("changeUserToAdmin")]
+        public async Task<IActionResult> ChangeRoleToAdmin(Guid id)
+        {
+            var user = await _userService.ChangeRoleToAdmin(id);
+            return Ok(user);
+        }
+
     }
 }

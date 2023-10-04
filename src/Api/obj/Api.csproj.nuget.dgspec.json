@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Dotnet\\Projects\\book-store\\src\\Api\\Api.csproj": {}
+    "E:\\COTIVITI\\Project\\book-store\\src\\Api\\Api.csproj": {}
   },
   "projects": {
-    "D:\\Dotnet\\Projects\\book-store\\src\\Api\\Api.csproj": {
+    "E:\\COTIVITI\\Project\\book-store\\src\\Api\\Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Dotnet\\Projects\\book-store\\src\\Api\\Api.csproj",
+        "projectUniqueName": "E:\\COTIVITI\\Project\\book-store\\src\\Api\\Api.csproj",
         "projectName": "Api",
-        "projectPath": "D:\\Dotnet\\Projects\\book-store\\src\\Api\\Api.csproj",
-        "packagesPath": "C:\\Users\\rajin.maharjan\\.nuget\\packages\\",
-        "outputPath": "D:\\Dotnet\\Projects\\book-store\\src\\Api\\obj\\",
+        "projectPath": "E:\\COTIVITI\\Project\\book-store\\src\\Api\\Api.csproj",
+        "packagesPath": "C:\\Users\\mjnra\\.nuget\\packages\\",
+        "outputPath": "E:\\COTIVITI\\Project\\book-store\\src\\Api\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\rajin.maharjan\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\mjnra\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -32,11 +28,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Dotnet\\Projects\\book-store\\src\\Application\\Application.csproj": {
-                "projectPath": "D:\\Dotnet\\Projects\\book-store\\src\\Application\\Application.csproj"
+              "E:\\COTIVITI\\Project\\book-store\\src\\Application\\Application.csproj": {
+                "projectPath": "E:\\COTIVITI\\Project\\book-store\\src\\Application\\Application.csproj"
               },
-              "D:\\Dotnet\\Projects\\book-store\\src\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "D:\\Dotnet\\Projects\\book-store\\src\\Infrastructure\\Infrastructure.csproj"
+              "E:\\COTIVITI\\Project\\book-store\\src\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "E:\\COTIVITI\\Project\\book-store\\src\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -135,21 +131,17 @@
         }
       }
     },
-    "D:\\Dotnet\\Projects\\book-store\\src\\Application\\Application.csproj": {
+    "E:\\COTIVITI\\Project\\book-store\\src\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Dotnet\\Projects\\book-store\\src\\Application\\Application.csproj",
+        "projectUniqueName": "E:\\COTIVITI\\Project\\book-store\\src\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "D:\\Dotnet\\Projects\\book-store\\src\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\rajin.maharjan\\.nuget\\packages\\",
-        "outputPath": "D:\\Dotnet\\Projects\\book-store\\src\\Application\\obj\\",
+        "projectPath": "E:\\COTIVITI\\Project\\book-store\\src\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\mjnra\\.nuget\\packages\\",
+        "outputPath": "E:\\COTIVITI\\Project\\book-store\\src\\Application\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\rajin.maharjan\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\mjnra\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -163,8 +155,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Dotnet\\Projects\\book-store\\src\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\Dotnet\\Projects\\book-store\\src\\Domain\\Domain.csproj"
+              "E:\\COTIVITI\\Project\\book-store\\src\\Domain\\Domain.csproj": {
+                "projectPath": "E:\\COTIVITI\\Project\\book-store\\src\\Domain\\Domain.csproj"
               }
             }
           }
@@ -252,21 +244,17 @@
         }
       }
     },
-    "D:\\Dotnet\\Projects\\book-store\\src\\Domain\\Domain.csproj": {
+    "E:\\COTIVITI\\Project\\book-store\\src\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Dotnet\\Projects\\book-store\\src\\Domain\\Domain.csproj",
+        "projectUniqueName": "E:\\COTIVITI\\Project\\book-store\\src\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\Dotnet\\Projects\\book-store\\src\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\rajin.maharjan\\.nuget\\packages\\",
-        "outputPath": "D:\\Dotnet\\Projects\\book-store\\src\\Domain\\obj\\",
+        "projectPath": "E:\\COTIVITI\\Project\\book-store\\src\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\mjnra\\.nuget\\packages\\",
+        "outputPath": "E:\\COTIVITI\\Project\\book-store\\src\\Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\rajin.maharjan\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\mjnra\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -365,21 +353,17 @@
         }
       }
     },
-    "D:\\Dotnet\\Projects\\book-store\\src\\Infrastructure\\Infrastructure.csproj": {
+    "E:\\COTIVITI\\Project\\book-store\\src\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Dotnet\\Projects\\book-store\\src\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "E:\\COTIVITI\\Project\\book-store\\src\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "D:\\Dotnet\\Projects\\book-store\\src\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\rajin.maharjan\\.nuget\\packages\\",
-        "outputPath": "D:\\Dotnet\\Projects\\book-store\\src\\Infrastructure\\obj\\",
+        "projectPath": "E:\\COTIVITI\\Project\\book-store\\src\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\mjnra\\.nuget\\packages\\",
+        "outputPath": "E:\\COTIVITI\\Project\\book-store\\src\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\rajin.maharjan\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\mjnra\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -393,11 +377,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Dotnet\\Projects\\book-store\\src\\Application\\Application.csproj": {
-                "projectPath": "D:\\Dotnet\\Projects\\book-store\\src\\Application\\Application.csproj"
+              "E:\\COTIVITI\\Project\\book-store\\src\\Application\\Application.csproj": {
+                "projectPath": "E:\\COTIVITI\\Project\\book-store\\src\\Application\\Application.csproj"
               },
-              "D:\\Dotnet\\Projects\\book-store\\src\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\Dotnet\\Projects\\book-store\\src\\Domain\\Domain.csproj"
+              "E:\\COTIVITI\\Project\\book-store\\src\\Domain\\Domain.csproj": {
+                "projectPath": "E:\\COTIVITI\\Project\\book-store\\src\\Domain\\Domain.csproj"
               }
             }
           }
@@ -432,7 +416,17 @@
               "target": "Package",
               "version": "[11.7.1, )"
             },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
             "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.11, )"
             },
@@ -443,6 +437,14 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql.Design": {
+              "target": "Package",
+              "version": "[1.1.2, )"
             },
             "Serilog": {
               "target": "Package",
@@ -463,6 +465,22 @@
             "Serilog.Sinks.File": {
               "target": "Package",
               "version": "[5.0.0, )"
+            },
+            "Swashbuckle.AspNetCore.Filters": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.0.2, )"
             }
           },
           "imports": [
