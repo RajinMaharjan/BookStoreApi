@@ -200,3 +200,4 @@ E:\COTIVITI\Project\book-store\src\Api\bin\Debug\net7.0\Microsoft.AspNetCore.Aut
 E:\COTIVITI\Project\book-store\src\Api\bin\Debug\net7.0\Scrutor.dll
 E:\COTIVITI\Project\book-store\src\Api\bin\Debug\net7.0\Swashbuckle.AspNetCore.Filters.dll
 E:\COTIVITI\Project\book-store\src\Api\bin\Debug\net7.0\Swashbuckle.AspNetCore.Filters.Abstractions.dll
+E:\COTIVITI\Project\book-store\src\Api\bin\Debug\net7.0\Api.staticwebassets.runtime.json

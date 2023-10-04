@@ -137,13 +137,15 @@ namespace Bookstore.Infrastructure.Services
                 user.LastName = string.IsNullOrEmpty(userUpdateRequestModel.LastName) ? user.LastName : userUpdateRequestModel.LastName;
                 user.Email = string.IsNullOrEmpty(userUpdateRequestModel.Email) ? user.Email : userUpdateRequestModel.Email;
                 user.PhoneNumber = string.IsNullOrEmpty(userUpdateRequestModel.PhoneNumber) ? user.PhoneNumber : userUpdateRequestModel.PhoneNumber;
-                user.PhotoUrl = string.IsNullOrEmpty(userUpdateRequestModel.PhotoUrl) ? user.PhotoUrl : userUpdateRequestModel.PhotoUrl;
+                user.ImagePath = string.IsNullOrEmpty(userUpdateRequestModel.ImagePath) ? user.ImagePath : userUpdateRequestModel.ImagePath;
+                user.ImageUrl = string.IsNullOrEmpty(userUpdateRequestModel.ImageUrl) ? user.ImageUrl : userUpdateRequestModel.ImageUrl;
                 user.PasswordHash = string.IsNullOrEmpty(BCrypt.Net.BCrypt.HashPassword(userUpdateRequestModel.Password)) ? user.PasswordHash : BCrypt.Net.BCrypt.HashPassword(userUpdateRequestModel.Password);
 
                 await _dbContext.SaveChangesAsync();
 
-                return user;
+                return user;    
             }
+
             catch(Exception ex)
             {
                 throw new Exception(ex.Message);
