@@ -9,14 +9,8 @@ namespace Bookstore.Application.Common.Models.ResponseModel
 {
     public class BookListResponseModel
     {
-        public Response Response { get; set; }
-        public string Title { get; set; }
-        public string Category { get; set; }
-        public string Author { get; set; }
-        public DateTime YearPublished { get; set; }
-        public double Price { get; set; }
-        public string ImageUrl { get; set; }
-        public string Description { get; set; }
+        public Response Response { get; set; } = new Response();
+        public List<Book> Books { get; set;} = new List<Book>();
 
     }
 }

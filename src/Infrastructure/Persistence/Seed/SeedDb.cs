@@ -16,8 +16,8 @@ namespace Bookstore.Infrastructure.Persistence.Seed
         public static void SeedUser(ModelBuilder modelBuilder)
         {
             var password1 = "R@r12345";
-            var password2 = "M@m12345";
-            var password3 = "G@g12345";
+            var password2 = "G@g12345";
+            var password3 = "M@m12345";
 
             var passwordHash1 = BCrypt.Net.BCrypt.HashPassword(password1);
             var passwordHash2 = BCrypt.Net.BCrypt.HashPassword(password2);

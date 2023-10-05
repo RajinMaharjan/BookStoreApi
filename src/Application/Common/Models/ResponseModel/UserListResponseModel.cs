@@ -9,7 +9,7 @@ namespace Bookstore.Application.Common.Models.ResponseModel
 {
     public class UserListResponseModel
     {
-        public Response Response { get; set; }
-        public List<User> Users { get; set; }   
+        public Response Response { get; set; } = new Response();
+        public List<User> Users { get; set; } = new List<User>();
     }
 }

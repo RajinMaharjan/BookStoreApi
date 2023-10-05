@@ -12,15 +12,15 @@ namespace Bookstore.Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class UserController : ControllerBase
+    public class UsersController : ControllerBase
     {
         private readonly IUserService _userService;
 
-        public UserController(IUserService userService)
+        public UsersController(IUserService userService)
         {
             _userService = userService;
         }
-        [HttpGet]
+        [HttpGet("getAllUsers")]
         public async Task<ActionResult<UserListResponseModel>> GetAllUsers()
         {
             var users = await _userService.GetAllUsersAsync();
@@ -35,16 +35,31 @@ namespace Bookstore.Api.Controllers
             });
 
         }
+        [HttpGet("getUserById/{id}")]
+        public async Task<IActionResult> GetuserById([FromRoute]Guid id)
+        {
+            var user = await _userService.GetUserByIdAsync(id);
+            return Ok(new UserResponseModel
+            {
+                Response = new Response
+                {
+                    StatusCode = 200,
+                    Message = $"User fetched with id {id}"
+                },
+                User = user
+            });
+        }
 
         [HttpPost("register")]
-        public async Task<ActionResult<Response>> CreateUser([FromBody]UserRegisterRequestModel userRegisterRequestModel)
+        public async Task<IActionResult> CreateUser([FromBody]UserRegisterRequestModel userRegisterRequestModel)
         {
             await _userService.CreateUserAsync(userRegisterRequestModel);
 
-            return new Response {
-                StatusCode = 200,
-                Message = "Registration Successful" 
-            };
+            return Ok(new Response
+            {
+                StatusCode = 201,
+                Message = "Registration Successful"
+            });
         }
 
         [HttpPost("login")]
@@ -57,10 +72,10 @@ namespace Bookstore.Api.Controllers
             return Ok(token);
         }
 
-        [HttpPut("update")]
-        public async Task<IActionResult> UpdateUser(Guid id,UserUpdateRequestModel userUpdateRequestModel)
+        [HttpPut("update/{id}")]
+        public async Task<IActionResult> UpdateUser([FromRoute] Guid id,[FromForm]UserUpdateRequestModel userUpdateRequestModel)
         {
-            var user = await _userService.UpdateUserAsync(id, userUpdateRequestModel);
+            await _userService.UpdateUserAsync(id, userUpdateRequestModel);
 
             return Ok(new Response
             {
@@ -74,6 +89,17 @@ namespace Bookstore.Api.Controllers
         {
             var user = await _userService.ChangeRoleToAdmin(id);
             return Ok(user);
+        }
+
+        [HttpDelete("deleteUser/{id}")]
+        public async Task<IActionResult> DeleteUser([FromRoute]Guid id)
+        {
+            await _userService.DeleteUserAsync(id);
+            return Ok(new Response
+            {
+                StatusCode = 200,
+                Message = $"User deleted with id {id}"
+            });
         }
 
     }

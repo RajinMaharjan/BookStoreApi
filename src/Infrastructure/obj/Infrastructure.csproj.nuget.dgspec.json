@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "E:\\COTIVITI\\Project\\book-store\\src\\Infrastructure\\Infrastructure.csproj": {}
+    "D:\\Dotnet\\Projects\\BookStoreApi\\src\\Infrastructure\\Infrastructure.csproj": {}
   },
   "projects": {
-    "E:\\COTIVITI\\Project\\book-store\\src\\Application\\Application.csproj": {
+    "D:\\Dotnet\\Projects\\BookStoreApi\\src\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\COTIVITI\\Project\\book-store\\src\\Application\\Application.csproj",
+        "projectUniqueName": "D:\\Dotnet\\Projects\\BookStoreApi\\src\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "E:\\COTIVITI\\Project\\book-store\\src\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\mjnra\\.nuget\\packages\\",
-        "outputPath": "E:\\COTIVITI\\Project\\book-store\\src\\Application\\obj\\",
+        "projectPath": "D:\\Dotnet\\Projects\\BookStoreApi\\src\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\rajin.maharjan\\.nuget\\packages\\",
+        "outputPath": "D:\\Dotnet\\Projects\\BookStoreApi\\src\\Application\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\mjnra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\rajin.maharjan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +32,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "E:\\COTIVITI\\Project\\book-store\\src\\Domain\\Domain.csproj": {
-                "projectPath": "E:\\COTIVITI\\Project\\book-store\\src\\Domain\\Domain.csproj"
+              "D:\\Dotnet\\Projects\\BookStoreApi\\src\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\Dotnet\\Projects\\BookStoreApi\\src\\Domain\\Domain.csproj"
               }
             }
           }
@@ -117,17 +121,21 @@
         }
       }
     },
-    "E:\\COTIVITI\\Project\\book-store\\src\\Domain\\Domain.csproj": {
+    "D:\\Dotnet\\Projects\\BookStoreApi\\src\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\COTIVITI\\Project\\book-store\\src\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\Dotnet\\Projects\\BookStoreApi\\src\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "E:\\COTIVITI\\Project\\book-store\\src\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\mjnra\\.nuget\\packages\\",
-        "outputPath": "E:\\COTIVITI\\Project\\book-store\\src\\Domain\\obj\\",
+        "projectPath": "D:\\Dotnet\\Projects\\BookStoreApi\\src\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\rajin.maharjan\\.nuget\\packages\\",
+        "outputPath": "D:\\Dotnet\\Projects\\BookStoreApi\\src\\Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\mjnra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\rajin.maharjan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -226,17 +234,21 @@
         }
       }
     },
-    "E:\\COTIVITI\\Project\\book-store\\src\\Infrastructure\\Infrastructure.csproj": {
+    "D:\\Dotnet\\Projects\\BookStoreApi\\src\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\COTIVITI\\Project\\book-store\\src\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "D:\\Dotnet\\Projects\\BookStoreApi\\src\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "E:\\COTIVITI\\Project\\book-store\\src\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\mjnra\\.nuget\\packages\\",
-        "outputPath": "E:\\COTIVITI\\Project\\book-store\\src\\Infrastructure\\obj\\",
+        "projectPath": "D:\\Dotnet\\Projects\\BookStoreApi\\src\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\rajin.maharjan\\.nuget\\packages\\",
+        "outputPath": "D:\\Dotnet\\Projects\\BookStoreApi\\src\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\mjnra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\rajin.maharjan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -250,11 +262,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "E:\\COTIVITI\\Project\\book-store\\src\\Application\\Application.csproj": {
-                "projectPath": "E:\\COTIVITI\\Project\\book-store\\src\\Application\\Application.csproj"
+              "D:\\Dotnet\\Projects\\BookStoreApi\\src\\Application\\Application.csproj": {
+                "projectPath": "D:\\Dotnet\\Projects\\BookStoreApi\\src\\Application\\Application.csproj"
               },
-              "E:\\COTIVITI\\Project\\book-store\\src\\Domain\\Domain.csproj": {
-                "projectPath": "E:\\COTIVITI\\Project\\book-store\\src\\Domain\\Domain.csproj"
+              "D:\\Dotnet\\Projects\\BookStoreApi\\src\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\Dotnet\\Projects\\BookStoreApi\\src\\Domain\\Domain.csproj"
               }
             }
           }
@@ -297,6 +309,10 @@
               "target": "Package",
               "version": "[7.0.11, )"
             },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -310,14 +326,6 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"
-            },
-            "Pomelo.EntityFrameworkCore.MySql": {
-              "target": "Package",
-              "version": "[7.0.0, )"
-            },
-            "Pomelo.EntityFrameworkCore.MySql.Design": {
-              "target": "Package",
-              "version": "[1.1.2, )"
             },
             "Serilog": {
               "target": "Package",

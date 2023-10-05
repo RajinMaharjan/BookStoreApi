@@ -23,6 +23,7 @@ namespace Bookstore.Infrastructure.Persistence.Configurations
             builder.Property(x => x.PhoneNumber).HasColumnName("phone_number").HasColumnType("VARCHAR(10)").IsFixedLength().IsRequired();
             builder.Property(x => x.PasswordHash).HasColumnName("password_hash").HasColumnType("VARCHAR(200)").HasMaxLength(200).IsRequired();
             builder.Property(x => x.Role).HasColumnName("role").HasColumnType("INT").IsRequired().HasDefaultValue(role);
+            builder.Property(x => x.IsDeleted).HasColumnName("is_deleted").HasDefaultValue(false);
             builder.Property(x => x.ImagePath).HasColumnName("image_path").HasColumnType("VARCHAR(500)").HasMaxLength(500).IsRequired(false);
             builder.Property(x => x.ImageUrl).HasColumnName("image_url").HasColumnType("VARCHAR(500)").HasMaxLength(500).IsRequired(false);
             builder.HasMany(x => x.Books).WithOne(x => x.User).HasForeignKey(x => x.UserId).OnDelete(DeleteBehavior.NoAction);
