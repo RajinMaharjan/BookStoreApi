@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "1cpHBT7KxT0Zp5R5T3fYiXL19tqwrANddULeV5P13Z8=",
+  "Hash": "a8q4A4k1IEqKqYtMya1kVOADIgafjGi0quVXK6swVm8=",
   "Source": "Api",
   "BasePath": "_content/Api",
   "Mode": "Default",
@@ -10,10 +10,45 @@
     {
       "Name": "Api\\wwwroot",
       "Source": "Api",
-      "ContentRoot": "E:\\COTIVITI\\Project\\book-store\\src\\Api\\wwwroot\\",
+      "ContentRoot": "D:\\Dotnet\\Projects\\BookStoreApi\\src\\Api\\wwwroot\\",
       "BasePath": "_content/Api",
       "Pattern": "**"
     }
   ],
-  "Assets": []
+  "Assets": [
+    {
+      "Identity": "D:\\Dotnet\\Projects\\BookStoreApi\\src\\Api\\wwwroot\\Images\\Books\\user1_638321210265154731.png",
+      "SourceId": "Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Dotnet\\Projects\\BookStoreApi\\src\\Api\\wwwroot\\",
+      "BasePath": "_content/Api",
+      "RelativePath": "Images/Books/user1_638321210265154731.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Books\\user1_638321210265154731.png"
+    },
+    {
+      "Identity": "D:\\Dotnet\\Projects\\BookStoreApi\\src\\Api\\wwwroot\\Images\\Users\\user1_638321027068301442.png",
+      "SourceId": "Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Dotnet\\Projects\\BookStoreApi\\src\\Api\\wwwroot\\",
+      "BasePath": "_content/Api",
+      "RelativePath": "Images/Users/user1_638321027068301442.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Users\\user1_638321027068301442.png"
+    }
+  ]
 }

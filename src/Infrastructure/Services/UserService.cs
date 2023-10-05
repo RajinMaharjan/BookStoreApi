@@ -4,6 +4,7 @@ using Bookstore.Domain.Entities;
 using Bookstore.Domain.Enum;
 using Bookstore.Infrastructure.Persistence;
 using Microsoft.AspNetCore.DataProtection;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -22,11 +23,15 @@ namespace Bookstore.Infrastructure.Services
     {
         private readonly BookStoreDbContext _dbContext;
         private readonly IConfiguration _configuration;
+        private readonly IWebHostEnvironment _env;
+        private readonly string _imageProductDirectory;
 
-        public UserService(BookStoreDbContext dbContext, IConfiguration configuration)
+        public UserService(BookStoreDbContext dbContext, IConfiguration configuration, IWebHostEnvironment env)
         {
             _dbContext = dbContext ?? throw new ArgumentNullException(nameof(dbContext));
             _configuration = configuration ?? throw new ArgumentNullException(nameof(configuration));
+            _env = env ?? throw new ArgumentNullException(nameof(env));
+            _imageProductDirectory = env.WebRootPath + @"\Images\Users";
         }
         public async Task<User> CreateUserAsync(UserRegisterRequestModel userRegisterRequestModel)
         {
@@ -57,8 +62,17 @@ namespace Bookstore.Infrastructure.Services
         }
 
         public async Task<User> DeleteUserAsync(Guid id)
-        {  
-            return await GetUserByIdAsync(id); 
+        {
+            try
+            {
+                var user = await GetUserByIdAsync(id);
+                user.IsDeleted = true;
+                return user;
+
+            }catch(Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
             
         }
 
@@ -70,7 +84,8 @@ namespace Bookstore.Infrastructure.Services
             {
                 var userList = await _dbContext
                     .Users
-                    .Where(x => x.Role == Role.User)
+                    .Where(x => x.Role == Role.User && x.IsDeleted == false)
+                    .OrderBy(x => x.FirstName)
                     .ToListAsync();
 
                 if(userList.Count == 0)
@@ -133,12 +148,34 @@ namespace Bookstore.Infrastructure.Services
                 {
                     throw new Exception("User Not Found");
                 }
+
+                
+
                 user.FirstName = string.IsNullOrEmpty(userUpdateRequestModel.FirstName) ? user.FirstName : userUpdateRequestModel.FirstName;
                 user.LastName = string.IsNullOrEmpty(userUpdateRequestModel.LastName) ? user.LastName : userUpdateRequestModel.LastName;
                 user.Email = string.IsNullOrEmpty(userUpdateRequestModel.Email) ? user.Email : userUpdateRequestModel.Email;
                 user.PhoneNumber = string.IsNullOrEmpty(userUpdateRequestModel.PhoneNumber) ? user.PhoneNumber : userUpdateRequestModel.PhoneNumber;
-                user.ImagePath = string.IsNullOrEmpty(userUpdateRequestModel.ImagePath) ? user.ImagePath : userUpdateRequestModel.ImagePath;
-                user.ImageUrl = string.IsNullOrEmpty(userUpdateRequestModel.ImageUrl) ? user.ImageUrl : userUpdateRequestModel.ImageUrl;
+                if(userUpdateRequestModel.Image != null)
+                {
+                    if (!Directory.Exists(_imageProductDirectory))
+                    {
+                        Directory.CreateDirectory(_imageProductDirectory);
+                    }
+                    FileInfo _fileInfo = new FileInfo(userUpdateRequestModel.Image!.FileName);
+                    string filename = _fileInfo.Name.Replace(_fileInfo.Extension, "") + "_" + DateTime.Now.Ticks.ToString() + _fileInfo.Extension;
+                    var _filePath = $"{_imageProductDirectory}\\{filename}";
+
+                    using (var _fileStream = new FileStream(_filePath, FileMode.Create))
+                    {
+                        await userUpdateRequestModel.Image.CopyToAsync(_fileStream);
+                    }
+                    string _urlPath = _filePath.Replace('\\', '/').Split("wwwroot").Last();
+                    string _imagePath = _filePath.Split("wwwroot").Last();
+                    user.ImagePath =  _imagePath;
+                    user.ImageUrl = _urlPath;
+                }
+                user.ImagePath = user.ImagePath;
+                user.ImageUrl = user.ImageUrl;
                 user.PasswordHash = string.IsNullOrEmpty(BCrypt.Net.BCrypt.HashPassword(userUpdateRequestModel.Password)) ? user.PasswordHash : BCrypt.Net.BCrypt.HashPassword(userUpdateRequestModel.Password);
 
                 await _dbContext.SaveChangesAsync();
