@@ -3,7 +3,6 @@ using System;
 using Bookstore.Infrastructure.Persistence;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
-using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
@@ -12,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Infrastructure.Persistence.Migrations
 {
     [DbContext(typeof(BookStoreDbContext))]
-    [Migration("20231005071220_ForeignKeyFalse")]
-    partial class ForeignKeyFalse
+    [Migration("20231006031315_Initial")]
+    partial class Initial
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -21,9 +20,7 @@ namespace Infrastructure.Persistence.Migrations
 #pragma warning disable 612, 618
             modelBuilder
                 .HasAnnotation("ProductVersion", "7.0.11")
-                .HasAnnotation("Relational:MaxIdentifierLength", 128);
-
-            SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
+                .HasAnnotation("Relational:MaxIdentifierLength", 64);
 
             modelBuilder.Entity("Bookstore.Domain.Entities.Book", b =>
                 {
@@ -31,7 +28,7 @@ namespace Infrastructure.Persistence.Migrations
                         .ValueGeneratedOnAdd()
                         .HasMaxLength(50)
                         .HasColumnType("VARCHAR(50)")
-                        .HasDefaultValue("479b4528-3b77-4b75-96e1-bea4d41dd7a5")
+                        .HasDefaultValue("1caa618d-cc22-4703-b560-b4ff969d132a")
                         .HasColumnName("id");
 
                     b.Property<string>("Author")
@@ -42,7 +39,7 @@ namespace Infrastructure.Persistence.Migrations
 
                     b.Property<bool>("Available")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("bit")
+                        .HasColumnType("tinyint(1)")
                         .HasDefaultValue(true)
                         .HasColumnName("available");
 
@@ -84,10 +81,10 @@ namespace Infrastructure.Persistence.Migrations
                         .HasColumnType("VARCHAR(50)")
                         .HasColumnName("user_id");
 
-                    b.Property<DateTime>("YearPublished")
+                    b.Property<DateTime?>("YearPublished")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2023, 10, 5, 12, 57, 19, 922, DateTimeKind.Local).AddTicks(8092))
+                        .HasColumnType("datetime(6)")
+                        .HasDefaultValue(new DateTime(2023, 10, 6, 8, 58, 15, 144, DateTimeKind.Local).AddTicks(2024))
                         .HasColumnName("year_published");
 
                     b.HasKey("Id");
@@ -99,7 +96,7 @@ namespace Infrastructure.Persistence.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "fdb905a7-2330-4e78-ad67-be4299dd6ab0",
+                            Id = "dce568c1-c379-4c86-a004-fa3b3de8fb1f",
                             Author = "A",
                             Available = false,
                             Category = "A",
@@ -107,12 +104,11 @@ namespace Infrastructure.Persistence.Migrations
                             ImageUrl = "A",
                             Price = 1099.99m,
                             Title = "A",
-                            UserId = "d5171da9-8577-48ba-bca8-f3c65f238899",
-                            YearPublished = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            UserId = "87ac6167-355b-4ac8-ba4e-6f0e9a7e5f5f"
                         },
                         new
                         {
-                            Id = "ce87b71a-bc47-4620-be4f-055298c10a23",
+                            Id = "34f5bfb9-d8c6-4ed1-a64d-17eaf37ea5df",
                             Author = "B",
                             Available = false,
                             Category = "B",
@@ -120,12 +116,11 @@ namespace Infrastructure.Persistence.Migrations
                             ImageUrl = "B",
                             Price = 1199.99m,
                             Title = "B",
-                            UserId = "d5171da9-8577-48ba-bca8-f3c65f238899",
-                            YearPublished = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            UserId = "87ac6167-355b-4ac8-ba4e-6f0e9a7e5f5f"
                         },
                         new
                         {
-                            Id = "25506d4f-601f-4cc9-b5eb-3940c4197d30",
+                            Id = "7af21cea-7ce5-4f39-96d2-51f76e7478ee",
                             Author = "C",
                             Available = false,
                             Category = "C",
@@ -133,12 +128,11 @@ namespace Infrastructure.Persistence.Migrations
                             ImageUrl = "C",
                             Price = 1299.99m,
                             Title = "C",
-                            UserId = "d5171da9-8577-48ba-bca8-f3c65f238899",
-                            YearPublished = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            UserId = "87ac6167-355b-4ac8-ba4e-6f0e9a7e5f5f"
                         },
                         new
                         {
-                            Id = "16016198-1e13-4d5f-9f59-991e05f6432b",
+                            Id = "b821d092-350b-4ec9-adb7-168c86856e29",
                             Author = "D",
                             Available = false,
                             Category = "D",
@@ -146,12 +140,11 @@ namespace Infrastructure.Persistence.Migrations
                             ImageUrl = "D",
                             Price = 1399.99m,
                             Title = "D",
-                            UserId = "d5171da9-8577-48ba-bca8-f3c65f238899",
-                            YearPublished = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            UserId = "87ac6167-355b-4ac8-ba4e-6f0e9a7e5f5f"
                         },
                         new
                         {
-                            Id = "4990a3f0-9875-4449-8f72-6d7e2cd3da3e",
+                            Id = "ae6527d3-6f37-4152-848b-0c0fbb49f11e",
                             Author = "E",
                             Available = false,
                             Category = "E",
@@ -159,12 +152,11 @@ namespace Infrastructure.Persistence.Migrations
                             ImageUrl = "E",
                             Price = 1499.99m,
                             Title = "E",
-                            UserId = "d5171da9-8577-48ba-bca8-f3c65f238899",
-                            YearPublished = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            UserId = "87ac6167-355b-4ac8-ba4e-6f0e9a7e5f5f"
                         },
                         new
                         {
-                            Id = "2dcefad1-11f7-4ee6-bba5-38ed0cd7abb1",
+                            Id = "a4203c62-1dc8-451a-96b7-9f937cec1a25",
                             Author = "F",
                             Available = false,
                             Category = "F",
@@ -172,12 +164,11 @@ namespace Infrastructure.Persistence.Migrations
                             ImageUrl = "F",
                             Price = 1599.99m,
                             Title = "F",
-                            UserId = "d5171da9-8577-48ba-bca8-f3c65f238899",
-                            YearPublished = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            UserId = "87ac6167-355b-4ac8-ba4e-6f0e9a7e5f5f"
                         },
                         new
                         {
-                            Id = "ca7daa86-a303-4cb7-829b-f2b527d30cf3",
+                            Id = "898c6781-6c37-4e11-817c-28ea838ee323",
                             Author = "G",
                             Available = false,
                             Category = "G",
@@ -185,12 +176,11 @@ namespace Infrastructure.Persistence.Migrations
                             ImageUrl = "G",
                             Price = 1699.99m,
                             Title = "G",
-                            UserId = "d5171da9-8577-48ba-bca8-f3c65f238899",
-                            YearPublished = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            UserId = "87ac6167-355b-4ac8-ba4e-6f0e9a7e5f5f"
                         },
                         new
                         {
-                            Id = "c37f6594-246f-45ca-a3ac-b01ac032456a",
+                            Id = "d5293663-8d03-41f8-a244-5a08a67bfc6f",
                             Author = "H",
                             Available = false,
                             Category = "H",
@@ -198,12 +188,11 @@ namespace Infrastructure.Persistence.Migrations
                             ImageUrl = "H",
                             Price = 1699.99m,
                             Title = "H",
-                            UserId = "d5171da9-8577-48ba-bca8-f3c65f238899",
-                            YearPublished = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            UserId = "87ac6167-355b-4ac8-ba4e-6f0e9a7e5f5f"
                         },
                         new
                         {
-                            Id = "0a649d3d-d754-45ba-ab3c-145516ae3935",
+                            Id = "2803e963-2bf7-44d4-a9a0-e5635781ed08",
                             Author = "I",
                             Available = false,
                             Category = "I",
@@ -211,12 +200,11 @@ namespace Infrastructure.Persistence.Migrations
                             ImageUrl = "I",
                             Price = 1799.99m,
                             Title = "I",
-                            UserId = "d5171da9-8577-48ba-bca8-f3c65f238899",
-                            YearPublished = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            UserId = "87ac6167-355b-4ac8-ba4e-6f0e9a7e5f5f"
                         },
                         new
                         {
-                            Id = "23a38047-59be-4fed-b6db-d21ae279382f",
+                            Id = "7921cb2d-a323-46f8-a926-23d98887e652",
                             Author = "J",
                             Available = false,
                             Category = "J",
@@ -224,12 +212,11 @@ namespace Infrastructure.Persistence.Migrations
                             ImageUrl = "J",
                             Price = 1899.99m,
                             Title = "J",
-                            UserId = "d5171da9-8577-48ba-bca8-f3c65f238899",
-                            YearPublished = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            UserId = "87ac6167-355b-4ac8-ba4e-6f0e9a7e5f5f"
                         },
                         new
                         {
-                            Id = "6c022e44-6876-409f-bf76-e1eed092701e",
+                            Id = "c1971480-5af6-4519-b921-6114abce9d83",
                             Author = "K",
                             Available = false,
                             Category = "K",
@@ -237,12 +224,11 @@ namespace Infrastructure.Persistence.Migrations
                             ImageUrl = "K",
                             Price = 1999.99m,
                             Title = "A",
-                            UserId = "d5171da9-8577-48ba-bca8-f3c65f238899",
-                            YearPublished = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            UserId = "87ac6167-355b-4ac8-ba4e-6f0e9a7e5f5f"
                         },
                         new
                         {
-                            Id = "9705d3ef-fae6-4270-9de1-f43b0f395da1",
+                            Id = "f77d35fc-4cf5-4eda-bc83-2868afe966e4",
                             Author = "L",
                             Available = false,
                             Category = "L",
@@ -250,8 +236,7 @@ namespace Infrastructure.Persistence.Migrations
                             ImageUrl = "L",
                             Price = 2099.99m,
                             Title = "L",
-                            UserId = "d5171da9-8577-48ba-bca8-f3c65f238899",
-                            YearPublished = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            UserId = "87ac6167-355b-4ac8-ba4e-6f0e9a7e5f5f"
                         });
                 });
 
@@ -261,7 +246,7 @@ namespace Infrastructure.Persistence.Migrations
                         .ValueGeneratedOnAdd()
                         .HasMaxLength(50)
                         .HasColumnType("VARCHAR(50)")
-                        .HasDefaultValue("355fb25e-595a-44fc-8a2e-4c028767be97")
+                        .HasDefaultValue("fa618f5f-591a-48a3-881d-54735eb8da2f")
                         .HasColumnName("id");
 
                     b.Property<string>("Email")
@@ -288,7 +273,7 @@ namespace Infrastructure.Persistence.Migrations
 
                     b.Property<bool>("IsDeleted")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("bit")
+                        .HasColumnType("tinyint(1)")
                         .HasDefaultValue(false)
                         .HasColumnName("is_deleted");
 
@@ -323,34 +308,34 @@ namespace Infrastructure.Persistence.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "d5171da9-8577-48ba-bca8-f3c65f238899",
+                            Id = "87ac6167-355b-4ac8-ba4e-6f0e9a7e5f5f",
                             Email = "rajin@gmail.com",
                             FirstName = "Rajin",
                             IsDeleted = false,
                             LastName = "Maharjan",
-                            PasswordHash = "$2a$11$aZ7zNWrQi3Iu18c0/sa7Du4VfxL1zcNCESiOC5aqSW.Iis/9tFnKe",
+                            PasswordHash = "$2a$11$h/WiWa6.ZC4doFiBft0eb.WSTTGEjUSdKUOj55zvSJ8dlohqDIbZe",
                             PhoneNumber = "1234567800",
                             Role = 0
                         },
                         new
                         {
-                            Id = "9cbbeb26-4da9-4cbd-acf4-3f08adf3f481",
+                            Id = "f13db9e8-1bb3-4db1-81a6-ec7d82af270d",
                             Email = "gagan@gmail.com",
                             FirstName = "Gagan",
                             IsDeleted = false,
                             LastName = "Maharjan",
-                            PasswordHash = "$2a$11$27WBo/Tbb8.8qcNcmZYAH./TnuhzlgF0lkNy8KEZdEdXAKzb89PpG",
+                            PasswordHash = "$2a$11$TvYGU/OlaTvib9AvmgXAXeD.KM95SiZ0hieNXtjyaFmF1trTtlhvq",
                             PhoneNumber = "1134567890",
                             Role = 1
                         },
                         new
                         {
-                            Id = "2ef5743e-9051-40cf-82e0-2ede041e707b",
+                            Id = "5c487efd-b1e8-4788-a40b-9905302826c5",
                             Email = "milan@gmail.com",
                             FirstName = "Milan",
                             IsDeleted = false,
                             LastName = "Maharjan",
-                            PasswordHash = "$2a$11$XumbAZ4b0lDVxRsOrvvxB.7LjYOL/2sqFsKKeK1tghnENcviLH9nq",
+                            PasswordHash = "$2a$11$Kdsuyx06lTRANKzFLoN3deiYGNrEPFGPnmeTRl.PU0exFEVN.c6PS",
                             PhoneNumber = "1234567890",
                             Role = 1
                         });

@@ -1,6 +1,7 @@
 using Bookstore.Infrastructure.Configurations;
+using Bookstore.Infrastructure.Persistence.Configurations;
+using Infrastructure.Configurations;
 using Serilog;
-
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -19,7 +20,10 @@ builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
 builder.Services.AddInfrastructureServices(builder.Configuration);
 builder.Services.AddJWTConfigurationServices(builder.Configuration);
-builder.Services.AddControllers();
+builder.Services
+    .AddControllers()
+    .AddNewtonsoftJson()
+    .AddXmlDataContractSerializerFormatters(); ;
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 
@@ -31,6 +35,9 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.UseMiddleware<ExceptionHandlingMiddleware>();
+
 app.UseStaticFiles();
 
 app.UseHttpsRedirection();

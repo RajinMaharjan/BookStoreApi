@@ -1,4 +1,5 @@
-﻿using Bookstore.Application.Common.Interfaces;
+﻿using Bookstore.Application.Common.Exceptions;
+using Bookstore.Application.Common.Interfaces;
 using Bookstore.Application.Common.Models.RequestModel;
 using Bookstore.Domain.Entities;
 using Bookstore.Domain.Enum;
@@ -73,12 +74,12 @@ namespace Bookstore.Infrastructure.Services
                         return book;
                     }                    
                 }
-                throw new Exception("Failed to add book");
+                throw new PersistenceException("Failed to add book");
 
             }
-            catch (Exception ex)
+            catch (PersistenceException ex)
             {
-                throw new Exception(ex.InnerException!.Message);
+                throw new PersistenceException(ex.Message);
             }
         }
 
@@ -87,12 +88,16 @@ namespace Bookstore.Infrastructure.Services
             try
             {
                 var book = await GetBookByIdAsync(id);
+                if(book == null)
+                {
+                    throw new PersistenceException("No book found");
+                }
                 File.Delete(_env.WebRootPath + book.ImagePath);
                 _dbContext.Books.Remove(book);
                 await _dbContext.SaveChangesAsync();
                 return true;
-            }catch(Exception ex) { 
-                throw new Exception(ex.Message); 
+            }catch(PersistenceException ex) { 
+                throw new PersistenceException(ex.Message); 
             }
         }
 
@@ -133,14 +138,14 @@ namespace Bookstore.Infrastructure.Services
                 var book = await _dbContext.Books.FirstOrDefaultAsync(x => x.Id == id); 
                 if (book == null)
                 {
-                    throw new Exception("Book does not exist.");
+                    throw new EntityNotFoundException("Book does not exist.");
                 }
                 return book;
 
             }
-            catch (Exception ex)
+            catch (EntityNotFoundException ex)
             {
-                throw new Exception(ex.Message);
+                throw new EntityNotFoundException(ex.Message);
             }
         }
 
@@ -152,10 +157,14 @@ namespace Bookstore.Infrastructure.Services
                     .Where(x => x.Category == category && x.Available == true)
                     .ToListAsync();                
 
+                if(booksByCategory == null)
+                {
+                    throw new EntityNotFoundException("No books found");
+                }
                 return booksByCategory;
-            }catch(Exception ex)
+            }catch(EntityNotFoundException ex)
             {
-                throw new Exception(ex.Message);
+                throw new EntityNotFoundException(ex.Message);
             }
         }
 
@@ -166,16 +175,16 @@ namespace Bookstore.Infrastructure.Services
                 var book = await _dbContext.Books.FirstOrDefaultAsync(x => x.Id == bId);
                 if (book == null)
                 {
-                    throw new Exception("No book found");
+                    throw new EntityNotFoundException("No book found");
                 }
 
                 book.UserId = uId;
                 book.Available = false;
                 await _dbContext.SaveChangesAsync();
                 return book;
-            }catch(Exception ex)
+            }catch(EntityNotFoundException ex)
             {
-                throw new Exception(ex.Message);
+                throw new EntityNotFoundException(ex.Message);
             }
         }
 
@@ -187,7 +196,7 @@ namespace Bookstore.Infrastructure.Services
 
                 if (book == null)
                 {
-                    throw new Exception("User Not Found");
+                    throw new EntityNotFoundException("Book Not Found");
                 }
                 book.Title = string.IsNullOrEmpty(updateBookRequestModel.Title) ? book.Title : updateBookRequestModel.Title;
                 book.Category = string.IsNullOrEmpty(updateBookRequestModel.Category) ? book.Category : updateBookRequestModel.Category;
@@ -225,9 +234,9 @@ namespace Bookstore.Infrastructure.Services
                 return book;
             }
 
-            catch (Exception ex)
+            catch (EntityNotFoundException ex)
             {
-                throw new Exception(ex.Message);
+                throw new EntityNotFoundException(ex.Message);
             }
         }
     }

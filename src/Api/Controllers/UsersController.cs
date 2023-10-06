@@ -4,6 +4,7 @@ using Bookstore.Application.Common.Models.ResponseModel;
 using Bookstore.Domain.Entities;
 using Bookstore.Domain.Enum;
 using Bookstore.Infrastructure.Persistence;
+using FluentValidation;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -15,10 +16,21 @@ namespace Bookstore.Api.Controllers
     public class UsersController : ControllerBase
     {
         private readonly IUserService _userService;
+        private readonly IValidator<UserRegisterRequestModel> _registerValidator;
+        private readonly IValidator<UserLoginRequestModel> _loginValidator;
+        private readonly IValidator<UserUpdateRequestModel> _updateValidator;
 
-        public UsersController(IUserService userService)
+        public UsersController(
+            IUserService userService,
+            IValidator<UserRegisterRequestModel> registerValidator,
+            IValidator<UserLoginRequestModel> loginValidator,
+            IValidator<UserUpdateRequestModel> updateValidator
+            )
         {
             _userService = userService;
+            _registerValidator = registerValidator ?? throw new ArgumentNullException(nameof(registerValidator));
+            _loginValidator = loginValidator ?? throw new ArgumentNullException(nameof(loginValidator));
+            _updateValidator = updateValidator ?? throw new ArgumentNullException(nameof(updateValidator));
         }
         [HttpGet("getAllUsers")]
         public async Task<ActionResult<UserListResponseModel>> GetAllUsers()
@@ -53,6 +65,7 @@ namespace Bookstore.Api.Controllers
         [HttpPost("register")]
         public async Task<IActionResult> CreateUser([FromBody]UserRegisterRequestModel userRegisterRequestModel)
         {
+            await _registerValidator.ValidateAsync(userRegisterRequestModel, options => options.ThrowOnFailures()).ConfigureAwait(false);
             await _userService.CreateUserAsync(userRegisterRequestModel);
 
             return Ok(new Response
@@ -63,8 +76,9 @@ namespace Bookstore.Api.Controllers
         }
 
         [HttpPost("login")]
-        public async Task<IActionResult> LoginUser(UserLoginRequestModel userLoginRequestModel)
+        public async Task<IActionResult> LoginUser([FromBody]UserLoginRequestModel userLoginRequestModel)
         {
+            await _loginValidator.ValidateAsync(userLoginRequestModel, options => options.ThrowOnFailures()).ConfigureAwait(false);
             var user = await _userService.LoginUserAsync(userLoginRequestModel);
 
             var token = _userService.GenerateToken(user);
@@ -75,6 +89,7 @@ namespace Bookstore.Api.Controllers
         [HttpPut("update/{id}")]
         public async Task<IActionResult> UpdateUser([FromRoute] Guid id,[FromForm]UserUpdateRequestModel userUpdateRequestModel)
         {
+            await _updateValidator.ValidateAsync(userUpdateRequestModel, options => options.ThrowOnFailures()).ConfigureAwait(false);
             await _userService.UpdateUserAsync(id, userUpdateRequestModel);
 
             return Ok(new Response
