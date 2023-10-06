@@ -1,4 +1,5 @@
-﻿using Bookstore.Application.Common.Interfaces;
+﻿using Bookstore.Application.Common.Exceptions;
+using Bookstore.Application.Common.Interfaces;
 using Bookstore.Application.Common.Models.RequestModel;
 using Bookstore.Domain.Entities;
 using Bookstore.Domain.Enum;
@@ -52,12 +53,12 @@ namespace Bookstore.Infrastructure.Services
                 {
                     return user;
                 }
-                throw new Exception("Failed to create user");
+                throw new PersistenceException("Failed to create user");
                 
             }
-            catch (Exception ex)
+            catch (PersistenceException ex)
             {
-                throw new Exception(ex.Message);
+                throw new PersistenceException(ex.Message);
             }
         }
 
@@ -69,9 +70,9 @@ namespace Bookstore.Infrastructure.Services
                 user.IsDeleted = true;
                 return user;
 
-            }catch(Exception ex)
+            }catch(PersistenceException ex)
             {
-                throw new Exception(ex.Message);
+                throw new PersistenceException(ex.Message);
             }
             
         }
@@ -90,13 +91,13 @@ namespace Bookstore.Infrastructure.Services
 
                 if(userList.Count == 0)
                 {
-                    throw new Exception("User does not exist.");
+                    throw new EntityNotFoundException("User does not exist.");
                 }
                 return userList;
             }
-            catch(Exception ex)
+            catch(EntityNotFoundException ex)
             {
-                throw new Exception(ex.Message);
+                throw new EntityNotFoundException(ex.Message);
             }
         }
 
@@ -107,13 +108,13 @@ namespace Bookstore.Infrastructure.Services
                 var user = await _dbContext.Users.FirstOrDefaultAsync(x => x.Id == id);
                 if(user == null)
                 {
-                    throw new Exception("User does not exist.");
+                    throw new EntityNotFoundException("User does not exist.");
                 }
                 return user;
 
-            }catch(Exception ex)
+            }catch(EntityNotFoundException ex)
             {
-                throw new Exception(ex.Message);
+                throw new EntityNotFoundException(ex.Message);
             }
            
         }
@@ -125,16 +126,16 @@ namespace Bookstore.Infrastructure.Services
                 var user = await _dbContext.Users.SingleOrDefaultAsync(x => x.Email == userLoginRequestModel.Email);
                 if (user == null)
                 {
-                    throw new Exception("Incorrect Email Address");
+                    throw new PersistenceException("Incorrect Email Address");
                 }
                 if (!BCrypt.Net.BCrypt.Verify(userLoginRequestModel.Password, user.PasswordHash))
                 {
-                    throw new Exception("Incorrect Password");
+                    throw new PersistenceException("Incorrect Password");
                 }
                 return user;
-            }catch(Exception ex)
+            }catch(PersistenceException ex)
             {
-                throw new Exception(ex.Message);
+                throw new PersistenceException(ex.Message);
             }
         }
 
@@ -146,15 +147,14 @@ namespace Bookstore.Infrastructure.Services
 
                 if (user == null)
                 {
-                    throw new Exception("User Not Found");
+                    throw new EntityNotFoundException("User Not Found");
                 }
 
                 
 
                 user.FirstName = string.IsNullOrEmpty(userUpdateRequestModel.FirstName) ? user.FirstName : userUpdateRequestModel.FirstName;
                 user.LastName = string.IsNullOrEmpty(userUpdateRequestModel.LastName) ? user.LastName : userUpdateRequestModel.LastName;
-                user.Email = string.IsNullOrEmpty(userUpdateRequestModel.Email) ? user.Email : userUpdateRequestModel.Email;
-                user.PhoneNumber = string.IsNullOrEmpty(userUpdateRequestModel.PhoneNumber) ? user.PhoneNumber : userUpdateRequestModel.PhoneNumber;
+               
                 if(userUpdateRequestModel.Image != null)
                 {
                     if (!Directory.Exists(_imageProductDirectory))
@@ -176,16 +176,16 @@ namespace Bookstore.Infrastructure.Services
                 }
                 user.ImagePath = user.ImagePath;
                 user.ImageUrl = user.ImageUrl;
-                user.PasswordHash = string.IsNullOrEmpty(BCrypt.Net.BCrypt.HashPassword(userUpdateRequestModel.Password)) ? user.PasswordHash : BCrypt.Net.BCrypt.HashPassword(userUpdateRequestModel.Password);
+                
 
                 await _dbContext.SaveChangesAsync();
 
                 return user;    
             }
 
-            catch(Exception ex)
+            catch(EntityNotFoundException ex)
             {
-                throw new Exception(ex.Message);
+                throw new EntityNotFoundException(ex.Message);
             }
         }
 
@@ -217,7 +217,7 @@ namespace Bookstore.Infrastructure.Services
         public async Task<User> ChangeRoleToAdmin(Guid id)
         {
             var user = await _dbContext.Users.FirstOrDefaultAsync(x => x.Id == id);
-            user.Role = Role.Admin;
+            user!.Role = Role.Admin;
             await _dbContext.SaveChangesAsync();
             return user;
             

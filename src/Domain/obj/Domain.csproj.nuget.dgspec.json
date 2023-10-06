@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Dotnet\\Projects\\BookStoreApi\\src\\Domain\\Domain.csproj": {}
+    "E:\\COTIVITI\\Project\\BookStoreApi\\src\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "D:\\Dotnet\\Projects\\BookStoreApi\\src\\Domain\\Domain.csproj": {
+    "E:\\COTIVITI\\Project\\BookStoreApi\\src\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Dotnet\\Projects\\BookStoreApi\\src\\Domain\\Domain.csproj",
+        "projectUniqueName": "E:\\COTIVITI\\Project\\BookStoreApi\\src\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\Dotnet\\Projects\\BookStoreApi\\src\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\rajin.maharjan\\.nuget\\packages\\",
-        "outputPath": "D:\\Dotnet\\Projects\\BookStoreApi\\src\\Domain\\obj\\",
+        "projectPath": "E:\\COTIVITI\\Project\\BookStoreApi\\src\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\mjnra\\.nuget\\packages\\",
+        "outputPath": "E:\\COTIVITI\\Project\\BookStoreApi\\src\\Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\rajin.maharjan\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\mjnra\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,6 +51,10 @@
             "FluentValidation": {
               "target": "Package",
               "version": "[11.7.1, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
             },
             "FluentValidation.DependencyInjectionExtensions": {
               "target": "Package",

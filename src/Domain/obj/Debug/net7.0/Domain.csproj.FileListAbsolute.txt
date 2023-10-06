@@ -40,3 +40,17 @@ D:\Dotnet\Projects\BookStoreApi\src\Domain\obj\Debug\net7.0\refint\Domain.dll
 D:\Dotnet\Projects\BookStoreApi\src\Domain\obj\Debug\net7.0\Domain.pdb
 D:\Dotnet\Projects\BookStoreApi\src\Domain\obj\Debug\net7.0\Domain.genruntimeconfig.cache
 D:\Dotnet\Projects\BookStoreApi\src\Domain\obj\Debug\net7.0\ref\Domain.dll
+E:\COTIVITI\Project\BookStoreApi\src\Domain\bin\Debug\net7.0\Domain.deps.json
+E:\COTIVITI\Project\BookStoreApi\src\Domain\bin\Debug\net7.0\Domain.runtimeconfig.json
+E:\COTIVITI\Project\BookStoreApi\src\Domain\bin\Debug\net7.0\Domain.dll
+E:\COTIVITI\Project\BookStoreApi\src\Domain\bin\Debug\net7.0\Domain.pdb
+E:\COTIVITI\Project\BookStoreApi\src\Domain\obj\Debug\net7.0\Domain.csproj.AssemblyReference.cache
+E:\COTIVITI\Project\BookStoreApi\src\Domain\obj\Debug\net7.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\COTIVITI\Project\BookStoreApi\src\Domain\obj\Debug\net7.0\Domain.AssemblyInfoInputs.cache
+E:\COTIVITI\Project\BookStoreApi\src\Domain\obj\Debug\net7.0\Domain.AssemblyInfo.cs
+E:\COTIVITI\Project\BookStoreApi\src\Domain\obj\Debug\net7.0\Domain.csproj.CoreCompileInputs.cache
+E:\COTIVITI\Project\BookStoreApi\src\Domain\obj\Debug\net7.0\Domain.dll
+E:\COTIVITI\Project\BookStoreApi\src\Domain\obj\Debug\net7.0\refint\Domain.dll
+E:\COTIVITI\Project\BookStoreApi\src\Domain\obj\Debug\net7.0\Domain.pdb
+E:\COTIVITI\Project\BookStoreApi\src\Domain\obj\Debug\net7.0\Domain.genruntimeconfig.cache
+E:\COTIVITI\Project\BookStoreApi\src\Domain\obj\Debug\net7.0\ref\Domain.dll

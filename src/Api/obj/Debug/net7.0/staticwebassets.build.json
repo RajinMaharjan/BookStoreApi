@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "a8q4A4k1IEqKqYtMya1kVOADIgafjGi0quVXK6swVm8=",
+  "Hash": "cyT/AhQnFER9RFiftXRI7DaXLP6HkjnFMCckSqm8ipQ=",
   "Source": "Api",
   "BasePath": "_content/Api",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Api\\wwwroot",
       "Source": "Api",
-      "ContentRoot": "D:\\Dotnet\\Projects\\BookStoreApi\\src\\Api\\wwwroot\\",
+      "ContentRoot": "E:\\COTIVITI\\Project\\BookStoreApi\\src\\Api\\wwwroot\\",
       "BasePath": "_content/Api",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\Dotnet\\Projects\\BookStoreApi\\src\\Api\\wwwroot\\Images\\Books\\user1_638321210265154731.png",
+      "Identity": "E:\\COTIVITI\\Project\\BookStoreApi\\src\\Api\\wwwroot\\Images\\Books\\user1_638321210265154731.png",
       "SourceId": "Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Dotnet\\Projects\\BookStoreApi\\src\\Api\\wwwroot\\",
+      "ContentRoot": "E:\\COTIVITI\\Project\\BookStoreApi\\src\\Api\\wwwroot\\",
       "BasePath": "_content/Api",
       "RelativePath": "Images/Books/user1_638321210265154731.png",
       "AssetKind": "All",
@@ -34,10 +34,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Books\\user1_638321210265154731.png"
     },
     {
-      "Identity": "D:\\Dotnet\\Projects\\BookStoreApi\\src\\Api\\wwwroot\\Images\\Users\\user1_638321027068301442.png",
+      "Identity": "E:\\COTIVITI\\Project\\BookStoreApi\\src\\Api\\wwwroot\\Images\\Users\\user1_638321027068301442.png",
       "SourceId": "Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Dotnet\\Projects\\BookStoreApi\\src\\Api\\wwwroot\\",
+      "ContentRoot": "E:\\COTIVITI\\Project\\BookStoreApi\\src\\Api\\wwwroot\\",
       "BasePath": "_content/Api",
       "RelativePath": "Images/Users/user1_638321027068301442.png",
       "AssetKind": "All",
