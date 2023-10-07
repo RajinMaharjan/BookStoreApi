@@ -1,0 +1,693 @@
+2023-10-07 16:40:29.391 +05:45 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-10-07 16:40:30.610 +05:45 [WRN] Property 'Id' on entity type 'Book' is part of a primary or alternate key, but has a constant default value set. Constant default values are not useful for primary or alternate keys since these properties must always have non-null unique values.
+2023-10-07 16:40:30.614 +05:45 [WRN] Property 'Id' on entity type 'User' is part of a primary or alternate key, but has a constant default value set. Constant default values are not useful for primary or alternate keys since these properties must always have non-null unique values.
+2023-10-07 16:40:30.615 +05:45 [WRN] The 'bool' property 'Available' on entity type 'Book' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-07 16:40:30.704 +05:45 [DBG] Entity Framework Core 7.0.11 initialized 'BookStoreDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.11' with options: None
+2023-10-07 16:40:31.205 +05:45 [WRN] Property 'Id' on entity type 'Book' is part of a primary or alternate key, but has a constant default value set. Constant default values are not useful for primary or alternate keys since these properties must always have non-null unique values.
+2023-10-07 16:40:31.211 +05:45 [WRN] Property 'Id' on entity type 'User' is part of a primary or alternate key, but has a constant default value set. Constant default values are not useful for primary or alternate keys since these properties must always have non-null unique values.
+2023-10-07 16:40:31.212 +05:45 [WRN] The 'bool' property 'Available' on entity type 'Book' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-07 16:40:31.351 +05:45 [DBG] 'BookStoreDbContext' disposed.
+2023-10-07 16:41:51.299 +05:45 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-10-07 16:41:52.368 +05:45 [WRN] Property 'Id' on entity type 'Book' is part of a primary or alternate key, but has a constant default value set. Constant default values are not useful for primary or alternate keys since these properties must always have non-null unique values.
+2023-10-07 16:41:52.372 +05:45 [WRN] Property 'Id' on entity type 'User' is part of a primary or alternate key, but has a constant default value set. Constant default values are not useful for primary or alternate keys since these properties must always have non-null unique values.
+2023-10-07 16:41:52.373 +05:45 [WRN] The 'bool' property 'Available' on entity type 'Book' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-07 16:41:52.456 +05:45 [DBG] Entity Framework Core 7.0.11 initialized 'BookStoreDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.11' with options: None
+2023-10-07 16:41:52.990 +05:45 [WRN] Property 'Id' on entity type 'Book' is part of a primary or alternate key, but has a constant default value set. Constant default values are not useful for primary or alternate keys since these properties must always have non-null unique values.
+2023-10-07 16:41:52.996 +05:45 [WRN] Property 'Id' on entity type 'User' is part of a primary or alternate key, but has a constant default value set. Constant default values are not useful for primary or alternate keys since these properties must always have non-null unique values.
+2023-10-07 16:41:52.997 +05:45 [WRN] The 'bool' property 'Available' on entity type 'Book' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-07 16:41:53.152 +05:45 [DBG] 'BookStoreDbContext' disposed.
+2023-10-07 16:42:06.063 +05:45 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-10-07 16:42:07.223 +05:45 [WRN] Property 'Id' on entity type 'Book' is part of a primary or alternate key, but has a constant default value set. Constant default values are not useful for primary or alternate keys since these properties must always have non-null unique values.
+2023-10-07 16:42:07.227 +05:45 [WRN] Property 'Id' on entity type 'User' is part of a primary or alternate key, but has a constant default value set. Constant default values are not useful for primary or alternate keys since these properties must always have non-null unique values.
+2023-10-07 16:42:07.229 +05:45 [WRN] The 'bool' property 'Available' on entity type 'Book' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-07 16:42:07.315 +05:45 [DBG] Entity Framework Core 7.0.11 initialized 'BookStoreDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.11' with options: None
+2023-10-07 16:42:07.324 +05:45 [DBG] Creating DbConnection.
+2023-10-07 16:42:07.864 +05:45 [DBG] Created DbConnection. (538ms).
+2023-10-07 16:42:07.866 +05:45 [DBG] Migrating using database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:42:07.873 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:42:08.615 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:42:09.121 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:42:09.126 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:42:09.637 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:42:09.639 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:42:10.154 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:42:10.161 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:42:10.672 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:42:10.675 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:42:11.179 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:42:11.185 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:42:11.698 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:42:11.705 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:42:12.217 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:42:12.220 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:42:12.721 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:42:12.727 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:42:13.241 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:42:13.249 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:42:13.761 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:42:13.764 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:42:14.277 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:42:14.284 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:42:14.796 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:42:14.799 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:42:15.302 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:42:15.309 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:42:15.820 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:42:15.823 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:42:16.335 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:42:16.343 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:42:16.850 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:42:16.857 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:42:17.370 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:42:17.372 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:42:17.874 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:42:17.881 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:42:18.395 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:42:18.403 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:42:18.911 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:42:18.918 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:42:19.428 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:42:19.435 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:42:19.942 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:42:19.950 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:42:20.456 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:42:20.459 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:42:20.960 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:42:20.963 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:42:21.477 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:42:21.483 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:42:21.995 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:42:21.997 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:42:22.510 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:42:22.513 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:42:23.025 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:42:23.028 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:42:23.528 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:42:23.536 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:42:24.049 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:42:24.056 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:42:24.566 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:42:24.569 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:42:25.082 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:42:25.085 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:42:25.596 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:42:25.603 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:42:26.111 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:42:26.114 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:42:26.629 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:42:26.632 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:42:27.145 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:42:27.151 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:42:27.659 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:42:27.661 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:42:28.161 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:42:28.164 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:42:28.678 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:42:28.685 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:42:29.193 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:42:29.196 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:42:29.709 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:42:29.713 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:42:30.222 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:42:30.229 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:42:30.736 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:42:30.743 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:42:31.249 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:42:31.252 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:18.447 +05:45 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-10-07 16:44:19.626 +05:45 [WRN] Property 'Id' on entity type 'Book' is part of a primary or alternate key, but has a constant default value set. Constant default values are not useful for primary or alternate keys since these properties must always have non-null unique values.
+2023-10-07 16:44:19.631 +05:45 [WRN] Property 'Id' on entity type 'User' is part of a primary or alternate key, but has a constant default value set. Constant default values are not useful for primary or alternate keys since these properties must always have non-null unique values.
+2023-10-07 16:44:19.632 +05:45 [WRN] The 'bool' property 'Available' on entity type 'Book' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-07 16:44:19.717 +05:45 [DBG] Entity Framework Core 7.0.11 initialized 'BookStoreDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.11' with options: None
+2023-10-07 16:44:19.727 +05:45 [DBG] Creating DbConnection.
+2023-10-07 16:44:19.754 +05:45 [DBG] Created DbConnection. (24ms).
+2023-10-07 16:44:19.755 +05:45 [DBG] Migrating using database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:19.759 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:19.863 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:20.381 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:20.386 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:20.898 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:20.902 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:21.415 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:21.422 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:21.933 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:21.939 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:22.449 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:22.455 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:22.967 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:22.971 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:23.474 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:23.480 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:23.992 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:23.996 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:24.510 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:24.517 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:25.028 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:25.035 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:25.548 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:25.550 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:26.052 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:26.054 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:26.568 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:26.571 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:27.073 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:27.080 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:27.591 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:27.594 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:28.107 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:28.110 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:28.623 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:28.630 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:29.137 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:29.140 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:29.651 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:29.653 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:30.157 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:30.165 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:30.676 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:30.683 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:31.190 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:31.194 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:31.707 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:31.710 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:32.225 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:32.231 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:32.741 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:32.745 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:33.260 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:33.263 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:33.779 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:33.786 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:34.295 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:34.302 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:34.813 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:34.817 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:35.328 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:35.331 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:35.847 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:35.849 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:36.365 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:36.372 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:36.881 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:36.888 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:37.395 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:37.398 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:37.912 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:37.914 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:38.428 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:38.430 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:38.942 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:38.945 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:39.458 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:39.460 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:39.972 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:39.975 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:40.484 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:40.487 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:40.996 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:40.999 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:41.507 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:41.510 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:42.020 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:42.022 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:42.534 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:42.536 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:43.050 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:43.052 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:43.565 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:43.567 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:44.083 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:44.086 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:44.598 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:44.604 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:45.114 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:45.120 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:45.628 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:45.631 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:46.144 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:46.147 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:46.659 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:46.664 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:47.173 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:47.175 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:47.688 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:47.691 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:48.201 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:48.207 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:48.716 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:48.718 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:49.226 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:49.228 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:49.742 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:49.749 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:50.259 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:50.262 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:50.769 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:50.772 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:51.282 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:51.284 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:51.796 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:51.798 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:52.313 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:52.316 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:52.824 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:52.826 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:53.335 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:53.337 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:53.848 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:53.850 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:54.365 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:54.367 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:54.882 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:54.885 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:55.388 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:55.390 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:55.905 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:55.907 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:56.412 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:44:56.415 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost'.
+2023-10-07 16:46:31.347 +05:45 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-10-07 16:46:32.375 +05:45 [WRN] Property 'Id' on entity type 'Book' is part of a primary or alternate key, but has a constant default value set. Constant default values are not useful for primary or alternate keys since these properties must always have non-null unique values.
+2023-10-07 16:46:32.379 +05:45 [WRN] Property 'Id' on entity type 'User' is part of a primary or alternate key, but has a constant default value set. Constant default values are not useful for primary or alternate keys since these properties must always have non-null unique values.
+2023-10-07 16:46:32.380 +05:45 [WRN] The 'bool' property 'Available' on entity type 'Book' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-07 16:46:32.466 +05:45 [DBG] Entity Framework Core 7.0.11 initialized 'BookStoreDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.11' with options: None
+2023-10-07 16:46:32.477 +05:45 [DBG] Creating DbConnection.
+2023-10-07 16:46:32.510 +05:45 [DBG] Created DbConnection. (30ms).
+2023-10-07 16:46:32.512 +05:45 [DBG] Migrating using database 'BookStoreDb' on server 'localhost/MSSQLSERVER01'.
+2023-10-07 16:46:32.516 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost/MSSQLSERVER01'.
+2023-10-07 16:46:47.346 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost/MSSQLSERVER01'.
+2023-10-07 16:46:47.349 +05:45 [DBG] 'BookStoreDbContext' disposed.
+2023-10-07 16:46:47.351 +05:45 [DBG] Disposing connection to database 'BookStoreDb' on server 'localhost/MSSQLSERVER01'.
+2023-10-07 16:46:47.355 +05:45 [DBG] Disposed connection to database '' on server '' (0ms).
+2023-10-07 16:49:17.479 +05:45 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-10-07 16:49:18.558 +05:45 [WRN] Property 'Id' on entity type 'Book' is part of a primary or alternate key, but has a constant default value set. Constant default values are not useful for primary or alternate keys since these properties must always have non-null unique values.
+2023-10-07 16:49:18.563 +05:45 [WRN] Property 'Id' on entity type 'User' is part of a primary or alternate key, but has a constant default value set. Constant default values are not useful for primary or alternate keys since these properties must always have non-null unique values.
+2023-10-07 16:49:18.564 +05:45 [WRN] The 'bool' property 'Available' on entity type 'Book' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-07 16:49:18.658 +05:45 [DBG] Entity Framework Core 7.0.11 initialized 'BookStoreDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.11' with options: None
+2023-10-07 16:49:18.668 +05:45 [DBG] Creating DbConnection.
+2023-10-07 16:49:18.698 +05:45 [DBG] Created DbConnection. (27ms).
+2023-10-07 16:49:18.700 +05:45 [DBG] Migrating using database 'BookStoreDb' on server 'localhost/MSSQLSERVER01'.
+2023-10-07 16:49:18.704 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost/MSSQLSERVER01'.
+2023-10-07 16:49:33.615 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost/MSSQLSERVER01'.
+2023-10-07 16:49:33.619 +05:45 [DBG] 'BookStoreDbContext' disposed.
+2023-10-07 16:49:33.621 +05:45 [DBG] Disposing connection to database 'BookStoreDb' on server 'localhost/MSSQLSERVER01'.
+2023-10-07 16:49:33.625 +05:45 [DBG] Disposed connection to database '' on server '' (0ms).
+2023-10-07 16:52:30.990 +05:45 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-10-07 16:52:32.149 +05:45 [WRN] Property 'Id' on entity type 'Book' is part of a primary or alternate key, but has a constant default value set. Constant default values are not useful for primary or alternate keys since these properties must always have non-null unique values.
+2023-10-07 16:52:32.153 +05:45 [WRN] Property 'Id' on entity type 'User' is part of a primary or alternate key, but has a constant default value set. Constant default values are not useful for primary or alternate keys since these properties must always have non-null unique values.
+2023-10-07 16:52:32.154 +05:45 [WRN] The 'bool' property 'Available' on entity type 'Book' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-07 16:52:32.262 +05:45 [DBG] Entity Framework Core 7.0.11 initialized 'BookStoreDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.11' with options: None
+2023-10-07 16:52:32.271 +05:45 [DBG] Creating DbConnection.
+2023-10-07 16:52:32.300 +05:45 [DBG] Created DbConnection. (26ms).
+2023-10-07 16:52:32.302 +05:45 [DBG] Migrating using database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:52:32.306 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:52:32.409 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:52:32.926 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:52:32.934 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:52:33.443 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:52:33.448 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:52:33.956 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:52:33.963 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:52:34.475 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:52:34.477 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:52:34.991 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:52:34.994 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:52:35.511 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:52:35.513 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:52:36.025 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:52:36.028 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:52:36.540 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:52:36.543 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:52:37.058 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:52:37.065 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:52:37.571 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:52:37.574 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:52:38.087 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:52:38.092 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:52:38.604 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:52:38.611 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:52:39.121 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:52:39.125 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:52:39.640 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:52:39.647 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:52:40.159 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:52:40.165 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:52:40.674 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:52:40.677 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:52:41.190 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:52:41.197 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:52:41.704 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:52:41.707 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:52:42.219 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:52:42.222 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:52:42.736 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:52:42.743 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:52:43.249 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:52:43.252 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:52:43.753 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:52:43.756 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:52:44.270 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:52:44.275 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:52:44.786 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:52:44.791 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:52:45.297 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:52:45.304 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:52:45.811 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:52:45.813 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:52:46.328 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:52:46.335 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:52:46.846 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:52:46.849 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:52:47.360 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:52:47.363 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:52:47.879 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:52:47.887 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:52:48.392 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:52:48.395 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:52:48.908 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:52:48.911 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:52:49.423 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:52:49.426 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:52:49.928 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:52:49.931 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:52:50.445 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:52:50.448 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:52:50.962 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:52:50.964 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:52:51.477 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:52:51.480 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:52:51.980 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:52:51.983 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:52:52.493 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:52:52.497 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:52:53.009 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:52:53.011 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:52:53.523 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:52:53.526 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:52:54.037 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:52:54.044 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:52:54.554 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:52:54.557 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:52:55.068 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:52:55.070 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:52:55.582 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:52:55.584 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:52:56.098 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:52:56.101 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:52:56.614 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:52:56.617 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:52:57.129 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:52:57.132 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:54:39.319 +05:45 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-10-07 16:54:40.481 +05:45 [WRN] Property 'Id' on entity type 'Book' is part of a primary or alternate key, but has a constant default value set. Constant default values are not useful for primary or alternate keys since these properties must always have non-null unique values.
+2023-10-07 16:54:40.486 +05:45 [WRN] Property 'Id' on entity type 'User' is part of a primary or alternate key, but has a constant default value set. Constant default values are not useful for primary or alternate keys since these properties must always have non-null unique values.
+2023-10-07 16:54:40.487 +05:45 [WRN] The 'bool' property 'Available' on entity type 'Book' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-07 16:54:40.577 +05:45 [DBG] Entity Framework Core 7.0.11 initialized 'BookStoreDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.11' with options: None
+2023-10-07 16:54:41.132 +05:45 [WRN] Property 'Id' on entity type 'Book' is part of a primary or alternate key, but has a constant default value set. Constant default values are not useful for primary or alternate keys since these properties must always have non-null unique values.
+2023-10-07 16:54:41.138 +05:45 [WRN] Property 'Id' on entity type 'User' is part of a primary or alternate key, but has a constant default value set. Constant default values are not useful for primary or alternate keys since these properties must always have non-null unique values.
+2023-10-07 16:54:41.139 +05:45 [WRN] The 'bool' property 'Available' on entity type 'Book' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-07 16:54:41.310 +05:45 [DBG] 'BookStoreDbContext' disposed.
+2023-10-07 16:54:51.772 +05:45 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-10-07 16:54:52.932 +05:45 [WRN] Property 'Id' on entity type 'Book' is part of a primary or alternate key, but has a constant default value set. Constant default values are not useful for primary or alternate keys since these properties must always have non-null unique values.
+2023-10-07 16:54:52.936 +05:45 [WRN] Property 'Id' on entity type 'User' is part of a primary or alternate key, but has a constant default value set. Constant default values are not useful for primary or alternate keys since these properties must always have non-null unique values.
+2023-10-07 16:54:52.937 +05:45 [WRN] The 'bool' property 'Available' on entity type 'Book' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-07 16:54:53.028 +05:45 [DBG] Entity Framework Core 7.0.11 initialized 'BookStoreDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.11' with options: None
+2023-10-07 16:54:53.038 +05:45 [DBG] Creating DbConnection.
+2023-10-07 16:54:53.069 +05:45 [DBG] Created DbConnection. (28ms).
+2023-10-07 16:54:53.071 +05:45 [DBG] Migrating using database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:54:53.074 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:54:53.193 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:54:53.194 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:54:53.194 +05:45 [DBG] An error occurred using the connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:54:53.763 +05:45 [WRN] Property 'Id' on entity type 'Book' is part of a primary or alternate key, but has a constant default value set. Constant default values are not useful for primary or alternate keys since these properties must always have non-null unique values.
+2023-10-07 16:54:53.770 +05:45 [WRN] Property 'Id' on entity type 'User' is part of a primary or alternate key, but has a constant default value set. Constant default values are not useful for primary or alternate keys since these properties must always have non-null unique values.
+2023-10-07 16:54:53.771 +05:45 [WRN] The 'bool' property 'Available' on entity type 'Book' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-07 16:54:53.783 +05:45 [DBG] Creating DbConnection.
+2023-10-07 16:54:53.783 +05:45 [DBG] Created DbConnection. (0ms).
+2023-10-07 16:54:53.783 +05:45 [DBG] Opening connection to database 'master' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:54:53.793 +05:45 [DBG] Opened connection to database 'master' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:54:53.797 +05:45 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-10-07 16:54:53.808 +05:45 [DBG] Created DbCommand for 'ExecuteNonQuery' (6ms).
+2023-10-07 16:54:53.810 +05:45 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (14ms).
+2023-10-07 16:54:53.815 +05:45 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [BookStoreDb];
+2023-10-07 16:54:54.026 +05:45 [INF] Executed DbCommand (212ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [BookStoreDb];
+2023-10-07 16:54:54.028 +05:45 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-10-07 16:54:54.029 +05:45 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-10-07 16:54:54.029 +05:45 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-10-07 16:54:54.029 +05:45 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [BookStoreDb] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+2023-10-07 16:54:54.088 +05:45 [INF] Executed DbCommand (59ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [BookStoreDb] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+2023-10-07 16:54:54.089 +05:45 [DBG] Closing connection to database 'master' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:54:54.095 +05:45 [DBG] Closed connection to database 'master' on server 'localhost\MSSQLSERVER01' (3ms).
+2023-10-07 16:54:54.097 +05:45 [DBG] Disposing connection to database 'master' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:54:54.098 +05:45 [DBG] Disposed connection to database '' on server '' (0ms).
+2023-10-07 16:54:54.098 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:54:54.102 +05:45 [DBG] Opened connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:54:54.102 +05:45 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-10-07 16:54:54.102 +05:45 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-10-07 16:54:54.102 +05:45 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-10-07 16:54:54.102 +05:45 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-10-07 16:54:54.108 +05:45 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-10-07 16:54:54.108 +05:45 [DBG] Closing connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:54:54.108 +05:45 [DBG] Closed connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01' (0ms).
+2023-10-07 16:54:54.157 +05:45 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-10-07 16:54:54.157 +05:45 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-10-07 16:54:54.157 +05:45 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-10-07 16:54:54.157 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:54:54.158 +05:45 [DBG] Opened connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:54:54.158 +05:45 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+2023-10-07 16:54:54.165 +05:45 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+2023-10-07 16:54:54.165 +05:45 [DBG] Closing connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:54:54.165 +05:45 [DBG] Closed connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01' (0ms).
+2023-10-07 16:54:54.166 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:54:54.166 +05:45 [DBG] Opened connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:54:54.166 +05:45 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-10-07 16:54:54.166 +05:45 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-10-07 16:54:54.166 +05:45 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-10-07 16:54:54.166 +05:45 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-10-07 16:54:54.166 +05:45 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-10-07 16:54:54.166 +05:45 [DBG] Closing connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:54:54.166 +05:45 [DBG] Closed connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01' (0ms).
+2023-10-07 16:54:54.168 +05:45 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-10-07 16:54:54.168 +05:45 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2023-10-07 16:54:54.168 +05:45 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2023-10-07 16:54:54.168 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:54:54.168 +05:45 [DBG] Opened connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:54:54.169 +05:45 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-10-07 16:54:54.180 +05:45 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-10-07 16:54:54.180 +05:45 [DBG] Closing connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:54:54.180 +05:45 [DBG] Closed connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01' (0ms).
+2023-10-07 16:54:54.182 +05:45 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-10-07 16:54:54.182 +05:45 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-10-07 16:54:54.182 +05:45 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2023-10-07 16:54:54.182 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:54:54.182 +05:45 [DBG] Opened connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:54:54.182 +05:45 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-10-07 16:54:54.188 +05:45 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-10-07 16:54:54.189 +05:45 [DBG] Closing data reader to 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:54:54.190 +05:45 [DBG] A data reader for 'BookStoreDb' on server 'localhost\MSSQLSERVER01' is being disposed after spending 1ms reading results.
+2023-10-07 16:54:54.190 +05:45 [DBG] Closing connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:54:54.190 +05:45 [DBG] Closed connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01' (0ms).
+2023-10-07 16:54:54.197 +05:45 [INF] Applying migration '20231007110941_Initial'.
+2023-10-07 16:54:54.233 +05:45 [DBG] Executing 2 update commands as a batch.
+2023-10-07 16:54:54.234 +05:45 [DBG] Executing 12 update commands as a batch.
+2023-10-07 16:54:54.237 +05:45 [DBG] Opening connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:54:54.237 +05:45 [DBG] Opened connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:54:54.238 +05:45 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-10-07 16:54:54.242 +05:45 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2023-10-07 16:54:54.242 +05:45 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-10-07 16:54:54.242 +05:45 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-10-07 16:54:54.243 +05:45 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-10-07 16:54:54.243 +05:45 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Users] (
+    [id] VARCHAR(50) NOT NULL DEFAULT '618818ee-0628-47fe-901f-935d6216dcf8',
+    [first_name] VARCHAR(50) NOT NULL,
+    [last_name] VARCHAR(50) NOT NULL,
+    [email] VARCHAR(50) NOT NULL,
+    [password_hash] VARCHAR(200) NOT NULL,
+    [phone_number] VARCHAR(10) NOT NULL,
+    [image_url] VARCHAR(500) NULL,
+    [image_path] VARCHAR(500) NULL,
+    [is_deleted] bit NOT NULL DEFAULT CAST(0 AS bit),
+    [role] INT NOT NULL DEFAULT 1,
+    CONSTRAINT [PK_Users] PRIMARY KEY ([id])
+);
+2023-10-07 16:54:54.246 +05:45 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Users] (
+    [id] VARCHAR(50) NOT NULL DEFAULT '618818ee-0628-47fe-901f-935d6216dcf8',
+    [first_name] VARCHAR(50) NOT NULL,
+    [last_name] VARCHAR(50) NOT NULL,
+    [email] VARCHAR(50) NOT NULL,
+    [password_hash] VARCHAR(200) NOT NULL,
+    [phone_number] VARCHAR(10) NOT NULL,
+    [image_url] VARCHAR(500) NULL,
+    [image_path] VARCHAR(500) NULL,
+    [is_deleted] bit NOT NULL DEFAULT CAST(0 AS bit),
+    [role] INT NOT NULL DEFAULT 1,
+    CONSTRAINT [PK_Users] PRIMARY KEY ([id])
+);
+2023-10-07 16:54:54.246 +05:45 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-10-07 16:54:54.246 +05:45 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-10-07 16:54:54.247 +05:45 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-10-07 16:54:54.247 +05:45 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Books] (
+    [id] VARCHAR(50) NOT NULL DEFAULT '9cfd253a-ebe8-4ccc-95e8-b4f012f43ff1',
+    [title] VARCHAR(50) NOT NULL,
+    [category] VARCHAR(50) NOT NULL,
+    [author] VARCHAR(50) NOT NULL,
+    [year_published] datetime2 NULL DEFAULT '2023-10-07T16:54:40.5936113+05:45',
+    [price] DECIMAL(18,2) NOT NULL,
+    [image_url] VARCHAR(500) NULL,
+    [image_path] VARCHAR(500) NULL,
+    [descriptiion] VARCHAR(50) NOT NULL,
+    [available] bit NOT NULL DEFAULT CAST(1 AS bit),
+    [user_id] VARCHAR(50) NULL,
+    CONSTRAINT [PK_Books] PRIMARY KEY ([id]),
+    CONSTRAINT [FK_Books_Users_user_id] FOREIGN KEY ([user_id]) REFERENCES [Users] ([id])
+);
+2023-10-07 16:54:54.248 +05:45 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Books] (
+    [id] VARCHAR(50) NOT NULL DEFAULT '9cfd253a-ebe8-4ccc-95e8-b4f012f43ff1',
+    [title] VARCHAR(50) NOT NULL,
+    [category] VARCHAR(50) NOT NULL,
+    [author] VARCHAR(50) NOT NULL,
+    [year_published] datetime2 NULL DEFAULT '2023-10-07T16:54:40.5936113+05:45',
+    [price] DECIMAL(18,2) NOT NULL,
+    [image_url] VARCHAR(500) NULL,
+    [image_path] VARCHAR(500) NULL,
+    [descriptiion] VARCHAR(50) NOT NULL,
+    [available] bit NOT NULL DEFAULT CAST(1 AS bit),
+    [user_id] VARCHAR(50) NULL,
+    CONSTRAINT [PK_Books] PRIMARY KEY ([id]),
+    CONSTRAINT [FK_Books_Users_user_id] FOREIGN KEY ([user_id]) REFERENCES [Users] ([id])
+);
+2023-10-07 16:54:54.249 +05:45 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-10-07 16:54:54.249 +05:45 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-10-07 16:54:54.328 +05:45 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (79ms).
+2023-10-07 16:54:54.328 +05:45 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'id', N'email', N'first_name', N'image_path', N'image_url', N'last_name', N'password_hash', N'phone_number') AND [object_id] = OBJECT_ID(N'[Users]'))
+    SET IDENTITY_INSERT [Users] ON;
+INSERT INTO [Users] ([id], [email], [first_name], [image_path], [image_url], [last_name], [password_hash], [phone_number])
+VALUES ('2a97ed85-d217-4aba-9b5e-6d1e6cc2239b', 'rajin@gmail.com', 'Rajin', NULL, NULL, 'Maharjan', '$2a$11$CldF2Gc/DmMzS5UIhNMIYu47mwxzh7cxn.vqcncDmSaTLdCnJ6E06', '1234567800');
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'id', N'email', N'first_name', N'image_path', N'image_url', N'last_name', N'password_hash', N'phone_number') AND [object_id] = OBJECT_ID(N'[Users]'))
+    SET IDENTITY_INSERT [Users] OFF;
+2023-10-07 16:54:54.365 +05:45 [INF] Executed DbCommand (37ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'id', N'email', N'first_name', N'image_path', N'image_url', N'last_name', N'password_hash', N'phone_number') AND [object_id] = OBJECT_ID(N'[Users]'))
+    SET IDENTITY_INSERT [Users] ON;
+INSERT INTO [Users] ([id], [email], [first_name], [image_path], [image_url], [last_name], [password_hash], [phone_number])
+VALUES ('2a97ed85-d217-4aba-9b5e-6d1e6cc2239b', 'rajin@gmail.com', 'Rajin', NULL, NULL, 'Maharjan', '$2a$11$CldF2Gc/DmMzS5UIhNMIYu47mwxzh7cxn.vqcncDmSaTLdCnJ6E06', '1234567800');
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'id', N'email', N'first_name', N'image_path', N'image_url', N'last_name', N'password_hash', N'phone_number') AND [object_id] = OBJECT_ID(N'[Users]'))
+    SET IDENTITY_INSERT [Users] OFF;
+2023-10-07 16:54:54.365 +05:45 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-10-07 16:54:54.365 +05:45 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-10-07 16:54:54.365 +05:45 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-10-07 16:54:54.365 +05:45 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'id', N'email', N'first_name', N'image_path', N'image_url', N'last_name', N'password_hash', N'phone_number', N'role') AND [object_id] = OBJECT_ID(N'[Users]'))
+    SET IDENTITY_INSERT [Users] ON;
+INSERT INTO [Users] ([id], [email], [first_name], [image_path], [image_url], [last_name], [password_hash], [phone_number], [role])
+VALUES ('55abb6ef-e9b9-4b70-bb75-0cdbbc8605c3', 'gagan@gmail.com', 'Gagan', NULL, NULL, 'Maharjan', '$2a$11$oCt68LcWfW2EOQK/cbTT3.NZqQJWniuYUU9zfs9JyAR2U8y1Mok92', '1134567890', 1),
+('88c58619-59b5-4709-8612-9e23b1da8281', 'milan@gmail.com', 'Milan', NULL, NULL, 'Maharjan', '$2a$11$fytESG5Ng9kqwYF5iXEcJu/9LD8OmxON4EaBvojVrVmDUl10E59JS', '1234567890', 1);
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'id', N'email', N'first_name', N'image_path', N'image_url', N'last_name', N'password_hash', N'phone_number', N'role') AND [object_id] = OBJECT_ID(N'[Users]'))
+    SET IDENTITY_INSERT [Users] OFF;
+2023-10-07 16:54:54.555 +05:45 [INF] Executed DbCommand (189ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'id', N'email', N'first_name', N'image_path', N'image_url', N'last_name', N'password_hash', N'phone_number', N'role') AND [object_id] = OBJECT_ID(N'[Users]'))
+    SET IDENTITY_INSERT [Users] ON;
+INSERT INTO [Users] ([id], [email], [first_name], [image_path], [image_url], [last_name], [password_hash], [phone_number], [role])
+VALUES ('55abb6ef-e9b9-4b70-bb75-0cdbbc8605c3', 'gagan@gmail.com', 'Gagan', NULL, NULL, 'Maharjan', '$2a$11$oCt68LcWfW2EOQK/cbTT3.NZqQJWniuYUU9zfs9JyAR2U8y1Mok92', '1134567890', 1),
+('88c58619-59b5-4709-8612-9e23b1da8281', 'milan@gmail.com', 'Milan', NULL, NULL, 'Maharjan', '$2a$11$fytESG5Ng9kqwYF5iXEcJu/9LD8OmxON4EaBvojVrVmDUl10E59JS', '1234567890', 1);
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'id', N'email', N'first_name', N'image_path', N'image_url', N'last_name', N'password_hash', N'phone_number', N'role') AND [object_id] = OBJECT_ID(N'[Users]'))
+    SET IDENTITY_INSERT [Users] OFF;
+2023-10-07 16:54:54.555 +05:45 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-10-07 16:54:54.555 +05:45 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-10-07 16:54:54.555 +05:45 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-10-07 16:54:54.555 +05:45 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'id', N'author', N'category', N'descriptiion', N'image_path', N'image_url', N'price', N'title', N'user_id') AND [object_id] = OBJECT_ID(N'[Books]'))
+    SET IDENTITY_INSERT [Books] ON;
+INSERT INTO [Books] ([id], [author], [category], [descriptiion], [image_path], [image_url], [price], [title], [user_id])
+VALUES ('002ab839-9690-4b6f-9d4c-12592635078c', 'B', 'B', 'B', NULL, 'B', 1199.99, 'B', '2a97ed85-d217-4aba-9b5e-6d1e6cc2239b'),
+('10447bc1-efab-4471-8d19-b81f9bb431cd', 'H', 'H', 'H', NULL, 'H', 1699.99, 'H', '2a97ed85-d217-4aba-9b5e-6d1e6cc2239b'),
+('1a43810a-8d87-428c-8435-e730c34f4156', 'K', 'K', 'K', NULL, 'K', 1999.99, 'A', '2a97ed85-d217-4aba-9b5e-6d1e6cc2239b'),
+('4d68b11f-1295-458a-b391-65e5a23cd6ee', 'F', 'F', 'F', NULL, 'F', 1599.99, 'F', '2a97ed85-d217-4aba-9b5e-6d1e6cc2239b'),
+('81e30fad-21a7-4b98-b56e-1a0a45debb7f', 'J', 'J', 'J', NULL, 'J', 1899.99, 'J', '2a97ed85-d217-4aba-9b5e-6d1e6cc2239b'),
+('8eae9518-7d32-4d32-ad98-0043c7893d05', 'G', 'G', 'G', NULL, 'G', 1699.99, 'G', '2a97ed85-d217-4aba-9b5e-6d1e6cc2239b'),
+('a03ab336-e9f5-4f1c-8130-2e0597e96883', 'L', 'L', 'L', NULL, 'L', 2099.99, 'L', '2a97ed85-d217-4aba-9b5e-6d1e6cc2239b'),
+('b89ab5c2-3ad5-48b4-a2b6-b38c284e790b', 'C', 'C', 'C', NULL, 'C', 1299.99, 'C', '2a97ed85-d217-4aba-9b5e-6d1e6cc2239b'),
+('c1282db4-fa3d-4631-87bc-e98586cfe7b2', 'I', 'I', 'I', NULL, 'I', 1799.99, 'I', '2a97ed85-d217-4aba-9b5e-6d1e6cc2239b'),
+('cfc4ffd5-a816-4ed1-818b-81a165eb82e9', 'E', 'E', 'E', NULL, 'E', 1499.99, 'E', '2a97ed85-d217-4aba-9b5e-6d1e6cc2239b'),
+('d87ca85f-fa40-455e-b7a1-1f6156a029f4', 'D', 'D', 'D', NULL, 'D', 1399.99, 'D', '2a97ed85-d217-4aba-9b5e-6d1e6cc2239b'),
+('e26b7b16-977c-4424-91ae-6af9b44441f7', 'A', 'A', 'A', NULL, 'A', 1099.99, 'A', '2a97ed85-d217-4aba-9b5e-6d1e6cc2239b');
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'id', N'author', N'category', N'descriptiion', N'image_path', N'image_url', N'price', N'title', N'user_id') AND [object_id] = OBJECT_ID(N'[Books]'))
+    SET IDENTITY_INSERT [Books] OFF;
+2023-10-07 16:54:54.680 +05:45 [INF] Executed DbCommand (125ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'id', N'author', N'category', N'descriptiion', N'image_path', N'image_url', N'price', N'title', N'user_id') AND [object_id] = OBJECT_ID(N'[Books]'))
+    SET IDENTITY_INSERT [Books] ON;
+INSERT INTO [Books] ([id], [author], [category], [descriptiion], [image_path], [image_url], [price], [title], [user_id])
+VALUES ('002ab839-9690-4b6f-9d4c-12592635078c', 'B', 'B', 'B', NULL, 'B', 1199.99, 'B', '2a97ed85-d217-4aba-9b5e-6d1e6cc2239b'),
+('10447bc1-efab-4471-8d19-b81f9bb431cd', 'H', 'H', 'H', NULL, 'H', 1699.99, 'H', '2a97ed85-d217-4aba-9b5e-6d1e6cc2239b'),
+('1a43810a-8d87-428c-8435-e730c34f4156', 'K', 'K', 'K', NULL, 'K', 1999.99, 'A', '2a97ed85-d217-4aba-9b5e-6d1e6cc2239b'),
+('4d68b11f-1295-458a-b391-65e5a23cd6ee', 'F', 'F', 'F', NULL, 'F', 1599.99, 'F', '2a97ed85-d217-4aba-9b5e-6d1e6cc2239b'),
+('81e30fad-21a7-4b98-b56e-1a0a45debb7f', 'J', 'J', 'J', NULL, 'J', 1899.99, 'J', '2a97ed85-d217-4aba-9b5e-6d1e6cc2239b'),
+('8eae9518-7d32-4d32-ad98-0043c7893d05', 'G', 'G', 'G', NULL, 'G', 1699.99, 'G', '2a97ed85-d217-4aba-9b5e-6d1e6cc2239b'),
+('a03ab336-e9f5-4f1c-8130-2e0597e96883', 'L', 'L', 'L', NULL, 'L', 2099.99, 'L', '2a97ed85-d217-4aba-9b5e-6d1e6cc2239b'),
+('b89ab5c2-3ad5-48b4-a2b6-b38c284e790b', 'C', 'C', 'C', NULL, 'C', 1299.99, 'C', '2a97ed85-d217-4aba-9b5e-6d1e6cc2239b'),
+('c1282db4-fa3d-4631-87bc-e98586cfe7b2', 'I', 'I', 'I', NULL, 'I', 1799.99, 'I', '2a97ed85-d217-4aba-9b5e-6d1e6cc2239b'),
+('cfc4ffd5-a816-4ed1-818b-81a165eb82e9', 'E', 'E', 'E', NULL, 'E', 1499.99, 'E', '2a97ed85-d217-4aba-9b5e-6d1e6cc2239b'),
+('d87ca85f-fa40-455e-b7a1-1f6156a029f4', 'D', 'D', 'D', NULL, 'D', 1399.99, 'D', '2a97ed85-d217-4aba-9b5e-6d1e6cc2239b'),
+('e26b7b16-977c-4424-91ae-6af9b44441f7', 'A', 'A', 'A', NULL, 'A', 1099.99, 'A', '2a97ed85-d217-4aba-9b5e-6d1e6cc2239b');
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'id', N'author', N'category', N'descriptiion', N'image_path', N'image_url', N'price', N'title', N'user_id') AND [object_id] = OBJECT_ID(N'[Books]'))
+    SET IDENTITY_INSERT [Books] OFF;
+2023-10-07 16:54:54.681 +05:45 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-10-07 16:54:54.681 +05:45 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-10-07 16:54:54.681 +05:45 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-10-07 16:54:54.759 +05:45 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Books_user_id] ON [Books] ([user_id]);
+2023-10-07 16:54:54.766 +05:45 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Books_user_id] ON [Books] ([user_id]);
+2023-10-07 16:54:54.766 +05:45 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-10-07 16:54:54.766 +05:45 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-10-07 16:54:54.766 +05:45 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-10-07 16:54:54.766 +05:45 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20231007110941_Initial', N'7.0.11');
+2023-10-07 16:54:54.767 +05:45 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20231007110941_Initial', N'7.0.11');
+2023-10-07 16:54:54.768 +05:45 [DBG] Committing transaction.
+2023-10-07 16:54:54.771 +05:45 [DBG] Committed transaction.
+2023-10-07 16:54:54.772 +05:45 [DBG] Disposing transaction.
+2023-10-07 16:54:54.772 +05:45 [DBG] Closing connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:54:54.772 +05:45 [DBG] Closed connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01' (0ms).
+2023-10-07 16:54:54.773 +05:45 [DBG] 'BookStoreDbContext' disposed.
+2023-10-07 16:54:54.773 +05:45 [DBG] Disposing connection to database 'BookStoreDb' on server 'localhost\MSSQLSERVER01'.
+2023-10-07 16:54:54.773 +05:45 [DBG] Disposed connection to database '' on server '' (0ms).

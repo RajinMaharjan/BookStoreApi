@@ -26,11 +26,18 @@ namespace Bookstore.Infrastructure.Configurations
             //adding dbcontext
             //services.AddDbContext<BookStoreDbContext>(options => options.UseSqlServer(conxString));
 
-           //Adding database connection
-            var connectionString = configuration.GetConnectionString("DbConnection");
 
-            services.AddDbContext<BookStoreDbContext>(options =>
-            options.UseMySql(connectionString, MySqlServerVersion.LatestSupportedServerVersion), ServiceLifetime.Scoped);
+            //fetching connection string
+            var conxString = configuration.GetConnectionString("DbConnection");
+
+            //adding dbcontext
+            services.AddDbContext<BookStoreDbContext>(options => options.UseSqlServer(conxString));
+
+            //Adding database connection
+            //var connectionString = configuration.GetConnectionString("DbConnection");
+
+            // services.AddDbContext<BookStoreDbContext>(options =>
+            // options.UseMySql(connectionString, MySqlServerVersion.LatestSupportedServerVersion), ServiceLifetime.Scoped);
 
             services.AddScoped<IUserService, UserService>();
             services.AddScoped<IBookService, BookService>();
