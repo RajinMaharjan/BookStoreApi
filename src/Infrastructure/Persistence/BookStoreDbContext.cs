@@ -25,7 +25,7 @@ namespace Bookstore.Infrastructure.Persistence
             base.OnModelCreating(modelBuilder);
 
             SeedDb.SeedUser(modelBuilder);
-            SeedDb.SeedBook(modelBuilder);         
+           // SeedDb.SeedBook(modelBuilder);         
 
         }
     }

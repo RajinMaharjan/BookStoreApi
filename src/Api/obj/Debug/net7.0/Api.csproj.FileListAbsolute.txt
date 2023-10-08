@@ -328,7 +328,6 @@ E:\COTIVITI\Project\BookStoreApi\src\Api\bin\Debug\net7.0\Microsoft.EntityFramew
 E:\COTIVITI\Project\BookStoreApi\src\Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
 E:\COTIVITI\Project\BookStoreApi\src\Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
 E:\COTIVITI\Project\BookStoreApi\src\Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
-E:\COTIVITI\Project\BookStoreApi\src\Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.Design.dll
 E:\COTIVITI\Project\BookStoreApi\src\Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 E:\COTIVITI\Project\BookStoreApi\src\Api\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
 E:\COTIVITI\Project\BookStoreApi\src\Api\bin\Debug\net7.0\Microsoft.Identity.Client.dll
@@ -343,10 +342,7 @@ E:\COTIVITI\Project\BookStoreApi\src\Api\bin\Debug\net7.0\Microsoft.OpenApi.dll
 E:\COTIVITI\Project\BookStoreApi\src\Api\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
 E:\COTIVITI\Project\BookStoreApi\src\Api\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
 E:\COTIVITI\Project\BookStoreApi\src\Api\bin\Debug\net7.0\Mono.TextTemplating.dll
-E:\COTIVITI\Project\BookStoreApi\src\Api\bin\Debug\net7.0\MySqlConnector.dll
 E:\COTIVITI\Project\BookStoreApi\src\Api\bin\Debug\net7.0\Newtonsoft.Json.dll
-E:\COTIVITI\Project\BookStoreApi\src\Api\bin\Debug\net7.0\Pomelo.EntityFrameworkCore.MySql.dll
-E:\COTIVITI\Project\BookStoreApi\src\Api\bin\Debug\net7.0\Pomelo.EntityFrameworkCore.MySql.Design.dll
 E:\COTIVITI\Project\BookStoreApi\src\Api\bin\Debug\net7.0\Scrutor.dll
 E:\COTIVITI\Project\BookStoreApi\src\Api\bin\Debug\net7.0\Serilog.dll
 E:\COTIVITI\Project\BookStoreApi\src\Api\bin\Debug\net7.0\Serilog.AspNetCore.dll

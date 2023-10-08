@@ -103,12 +103,9 @@ namespace Bookstore.Infrastructure.Services
 
         public async Task<List<Book>> GetAllBooksAsync()
         {
-            Random rand = new Random();
-            int skipper = rand.Next(0, _dbContext.Books.Where(x=> x.Available == true).Count());
             var books = await _dbContext.Books
                 .Where(x=> x.Available == true)
                 .OrderBy(x=>x.Id)
-                .Skip(skipper)
                 .ToListAsync();
             return books;
         }

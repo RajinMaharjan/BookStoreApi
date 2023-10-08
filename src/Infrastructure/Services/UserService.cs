@@ -191,26 +191,31 @@ namespace Bookstore.Infrastructure.Services
 
         public string GenerateToken(User user)
         {
-            List<Claim> claims = new List<Claim>()
+            var jwtTokenHandler = new JwtSecurityTokenHandler();
+            var key = Encoding.UTF8.GetBytes(_configuration.GetSection("JwtConfig:Secret").Value!);
+
+            var tokenDescriptor = new SecurityTokenDescriptor()
             {
-                new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),
-                new Claim(ClaimTypes.Name, user.FirstName),
-                new Claim(ClaimTypes.Email, user.Email),
-                new Claim(ClaimTypes.Role, user.Role.ToString())
+                Subject = new ClaimsIdentity(new []
+                {
+                    new Claim("Id", user.Id.ToString()),
+                    new Claim(JwtRegisteredClaimNames.Name, user.FirstName!),
+                    new Claim(JwtRegisteredClaimNames.Email, user.Email!),
+                    new Claim(ClaimTypes.Role, user.Role.ToString())
+
+                }),
+                Expires = DateTime.UtcNow.AddHours(10),
+                SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256)
             };
 
-            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration.GetSection("JwtConfig:Secret").Value!));
-            var creds = new SigningCredentials(key,SecurityAlgorithms.HmacSha256Signature);
-            var expireTime = DateTime.Now.AddHours(1);
-            var token = new JwtSecurityToken(claims:claims,expires:expireTime, signingCredentials:creds);
-            var jwt = new JwtSecurityTokenHandler().WriteToken(token);
+            var token = jwtTokenHandler.CreateToken(tokenDescriptor);
+            var jwtToken = jwtTokenHandler.WriteToken(token);            
 
             CookieOptions cookieOptions = new CookieOptions()
             {
-                Expires = expireTime,
                 Secure = true
             };
-            return jwt;
+            return jwtToken;
 
         }
 

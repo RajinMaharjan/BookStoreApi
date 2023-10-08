@@ -1,6 +1,14 @@
 {
   "Files": [
     {
+      "Id": "E:\\COTIVITI\\Project\\BookStoreApi\\src\\Api\\wwwroot\\Images\\Books\\howToTalkToAnyone_638323686267410955.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Books\\howToTalkToAnyone_638323686267410955.jpeg"
+    },
+    {
+      "Id": "E:\\COTIVITI\\Project\\BookStoreApi\\src\\Api\\wwwroot\\Images\\Books\\summerLove_638323686993339066.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Books\\summerLove_638323686993339066.jpeg"
+    },
+    {
       "Id": "E:\\COTIVITI\\Project\\BookStoreApi\\src\\Api\\wwwroot\\Images\\Books\\user1_638321210265154731.png",
       "PackagePath": "staticwebassets\\Images\\Books\\user1_638321210265154731.png"
     },
