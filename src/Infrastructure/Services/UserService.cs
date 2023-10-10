@@ -68,6 +68,7 @@ namespace Bookstore.Infrastructure.Services
             {
                 var user = await GetUserByIdAsync(id);
                 user.IsDeleted = true;
+                await _dbContext.SaveChangesAsync();
                 return user;
 
             }catch(PersistenceException ex)
@@ -200,8 +201,10 @@ namespace Bookstore.Infrastructure.Services
                 {
                     new Claim("Id", user.Id.ToString()),
                     new Claim(JwtRegisteredClaimNames.Name, user.FirstName!),
+                    new Claim("LastName",user.LastName!),
                     new Claim(JwtRegisteredClaimNames.Email, user.Email!),
-                    new Claim(ClaimTypes.Role, user.Role.ToString())
+                    new Claim(ClaimTypes.Role, user.Role.ToString()),
+                    new Claim("PhoneNumber",user.PhoneNumber!),
 
                 }),
                 Expires = DateTime.UtcNow.AddHours(10),
@@ -227,5 +230,7 @@ namespace Bookstore.Infrastructure.Services
             return user;
             
         }
+
+        
     }
 }

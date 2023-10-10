@@ -236,5 +236,25 @@ namespace Bookstore.Infrastructure.Services
                 throw new EntityNotFoundException(ex.Message);
             }
         }
+        public async Task<List<Book>> GetPurchasedBookAsync(Guid uId)
+        {
+            try
+            {
+                var book = await _dbContext.Books
+                .Where(x => x.Available == false && x.UserId == uId)
+                .OrderBy(x => x.Title)
+                .ToListAsync();
+
+                if (book == null)
+                {
+                    throw new EntityNotFoundException("No book purchased");
+                }
+
+                return book;
+            }catch (EntityNotFoundException ex)
+            {
+                throw new EntityNotFoundException(ex.Message);
+            }
+            }
     }
 }

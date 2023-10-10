@@ -21,17 +21,17 @@ namespace Bookstore.Infrastructure.Configurations
         public static IServiceCollection AddInfrastructureServices(this IServiceCollection services, IConfiguration configuration)
         {
             //fetching connection string
-            //var conxString = configuration.GetConnectionString("ApiConnection");
-
-            //adding dbcontext
-            //services.AddDbContext<BookStoreDbContext>(options => options.UseSqlServer(conxString));
-
-
-            //fetching connection string
-            var conxString = configuration.GetConnectionString("DbConnection");
+            var conxString = configuration.GetConnectionString("ApiConnection");
 
             //adding dbcontext
             services.AddDbContext<BookStoreDbContext>(options => options.UseSqlServer(conxString));
+
+
+            /*//fetching connection string
+            var conxString = configuration.GetConnectionString("DbConnection");
+
+            //adding dbcontext
+            services.AddDbContext<BookStoreDbContext>(options => options.UseSqlServer(conxString));*/
 
             //Adding database connection
             //var connectionString = configuration.GetConnectionString("DbConnection");

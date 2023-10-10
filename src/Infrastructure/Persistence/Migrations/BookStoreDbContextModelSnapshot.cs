@@ -28,7 +28,7 @@ namespace Infrastructure.Persistence.Migrations
                         .ValueGeneratedOnAdd()
                         .HasMaxLength(50)
                         .HasColumnType("VARCHAR(50)")
-                        .HasDefaultValue("156352c2-2ec0-4701-bbed-63a1fc55e18f")
+                        .HasDefaultValue("d278f43f-6157-4f71-9eaa-d775f9162f31")
                         .HasColumnName("id");
 
                     b.Property<string>("Author")
@@ -51,7 +51,7 @@ namespace Infrastructure.Persistence.Migrations
 
                     b.Property<string>("Description")
                         .IsRequired()
-                        .HasMaxLength(50)
+                        .HasMaxLength(500)
                         .HasColumnType("VARCHAR(500)")
                         .HasColumnName("descriptiion");
 
@@ -99,7 +99,7 @@ namespace Infrastructure.Persistence.Migrations
                         .ValueGeneratedOnAdd()
                         .HasMaxLength(50)
                         .HasColumnType("VARCHAR(50)")
-                        .HasDefaultValue("46ed2534-3def-4da2-8442-76dea05c8cc7")
+                        .HasDefaultValue("5ef3a45d-2729-4d4f-b50e-490312094e03")
                         .HasColumnName("id");
 
                     b.Property<string>("Email")
@@ -161,34 +161,34 @@ namespace Infrastructure.Persistence.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "000c040c-715e-4f67-a584-ac379ca1fa78",
+                            Id = "26aae3fc-596f-42da-bdb6-f1f266ef127a",
                             Email = "rajin@gmail.com",
                             FirstName = "Rajin",
                             IsDeleted = false,
                             LastName = "Maharjan",
-                            PasswordHash = "$2a$11$tD4C3RT0oQL7vk7kXKcaa.BIBRxOSGI0z9YBshQTvGEIQ65IQqny2",
+                            PasswordHash = "$2a$11$7H6tBd8/SKM9ph32/BnnzOjle6F7j1elEnDnRkfwZfBxB8WRgFiu.",
                             PhoneNumber = "1234567800",
                             Role = 0
                         },
                         new
                         {
-                            Id = "7f0670c9-4d43-475a-9f7d-d75d07836f3d",
+                            Id = "60ca2526-2ef7-429c-a0cb-7d684a876a88",
                             Email = "gagan@gmail.com",
                             FirstName = "Gagan",
                             IsDeleted = false,
                             LastName = "Maharjan",
-                            PasswordHash = "$2a$11$9RYzVIkgnkHFQxUaF/CvLu12nbZOp4YmSdztQkBNqy1i8h9c7M36G",
+                            PasswordHash = "$2a$11$eT7L1653gRyhjYANt8opEeM0QHx0/MsDzNJB/PtHNxxM.FncIvOK6",
                             PhoneNumber = "1134567890",
                             Role = 1
                         },
                         new
                         {
-                            Id = "c988bb0a-8bf8-4c4a-ad2b-55457f27d754",
+                            Id = "2cb167d6-fb93-4088-b993-6f24d4e735d0",
                             Email = "milan@gmail.com",
                             FirstName = "Milan",
                             IsDeleted = false,
                             LastName = "Maharjan",
-                            PasswordHash = "$2a$11$IfCiwHrwbqub/rdaDdycu.p8xtXhyAymzYdQ31gHi38qwU6jyIaYq",
+                            PasswordHash = "$2a$11$cdpEy6z8shN2aBE4aZ2S8Oi2S1by78fgMqAdBPwEZNqZRjzHmBV5S",
                             PhoneNumber = "1234567890",
                             Role = 1
                         });

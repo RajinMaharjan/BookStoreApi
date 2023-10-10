@@ -19,6 +19,7 @@ namespace Bookstore.Application.Common.Interfaces
         Task<Book> UpdateBookAsync(Guid id,UpdateBookRequestModel updateBookRequestModel);
         Task<bool> DeleteBookAsync(Guid id);
         Task<Book> PurchaseBookAsync(Guid bId, Guid uId);
+        Task<List<Book>> GetPurchasedBookAsync(Guid uId);
         
     }
 }

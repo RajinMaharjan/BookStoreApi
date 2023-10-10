@@ -1,19 +1,51 @@
 {
   "Files": [
     {
-      "Id": "E:\\COTIVITI\\Project\\BookStoreApi\\src\\Api\\wwwroot\\Images\\Books\\howToTalkToAnyone_638323686267410955.jpeg",
+      "Id": "D:\\Project\\BookStore\\BookStoreApi\\src\\Api\\wwwroot\\Images\\Books\\1984_638325234546934243.jpg",
+      "PackagePath": "staticwebassets\\Images\\Books\\1984_638325234546934243.jpg"
+    },
+    {
+      "Id": "D:\\Project\\BookStore\\BookStoreApi\\src\\Api\\wwwroot\\Images\\Books\\1984_638325238708211254.jpg",
+      "PackagePath": "staticwebassets\\Images\\Books\\1984_638325238708211254.jpg"
+    },
+    {
+      "Id": "D:\\Project\\BookStore\\BookStoreApi\\src\\Api\\wwwroot\\Images\\Books\\aShortHistory_638324732397376020.jpg",
+      "PackagePath": "staticwebassets\\Images\\Books\\aShortHistory_638324732397376020.jpg"
+    },
+    {
+      "Id": "D:\\Project\\BookStore\\BookStoreApi\\src\\Api\\wwwroot\\Images\\Books\\aShortHistory_638324732947590138.jpg",
+      "PackagePath": "staticwebassets\\Images\\Books\\aShortHistory_638324732947590138.jpg"
+    },
+    {
+      "Id": "D:\\Project\\BookStore\\BookStoreApi\\src\\Api\\wwwroot\\Images\\Books\\howToTalkToAnyone_638323686267410955.jpeg",
       "PackagePath": "staticwebassets\\Images\\Books\\howToTalkToAnyone_638323686267410955.jpeg"
     },
     {
-      "Id": "E:\\COTIVITI\\Project\\BookStoreApi\\src\\Api\\wwwroot\\Images\\Books\\summerLove_638323686993339066.jpeg",
+      "Id": "D:\\Project\\BookStore\\BookStoreApi\\src\\Api\\wwwroot\\Images\\Books\\summerLove_638323686993339066.jpeg",
       "PackagePath": "staticwebassets\\Images\\Books\\summerLove_638323686993339066.jpeg"
     },
     {
-      "Id": "E:\\COTIVITI\\Project\\BookStoreApi\\src\\Api\\wwwroot\\Images\\Books\\user1_638321210265154731.png",
+      "Id": "D:\\Project\\BookStore\\BookStoreApi\\src\\Api\\wwwroot\\Images\\Books\\theAlchemist_638325229587076868.jpg",
+      "PackagePath": "staticwebassets\\Images\\Books\\theAlchemist_638325229587076868.jpg"
+    },
+    {
+      "Id": "D:\\Project\\BookStore\\BookStoreApi\\src\\Api\\wwwroot\\Images\\Books\\theAlchemist_638325230396799381.jpg",
+      "PackagePath": "staticwebassets\\Images\\Books\\theAlchemist_638325230396799381.jpg"
+    },
+    {
+      "Id": "D:\\Project\\BookStore\\BookStoreApi\\src\\Api\\wwwroot\\Images\\Books\\theGreatGatsby_638324726075365442.jpg",
+      "PackagePath": "staticwebassets\\Images\\Books\\theGreatGatsby_638324726075365442.jpg"
+    },
+    {
+      "Id": "D:\\Project\\BookStore\\BookStoreApi\\src\\Api\\wwwroot\\Images\\Books\\theGreatGatsby_638324726863181378.jpg",
+      "PackagePath": "staticwebassets\\Images\\Books\\theGreatGatsby_638324726863181378.jpg"
+    },
+    {
+      "Id": "D:\\Project\\BookStore\\BookStoreApi\\src\\Api\\wwwroot\\Images\\Books\\user1_638321210265154731.png",
       "PackagePath": "staticwebassets\\Images\\Books\\user1_638321210265154731.png"
     },
     {
-      "Id": "E:\\COTIVITI\\Project\\BookStoreApi\\src\\Api\\wwwroot\\Images\\Users\\user1_638321027068301442.png",
+      "Id": "D:\\Project\\BookStore\\BookStoreApi\\src\\Api\\wwwroot\\Images\\Users\\user1_638321027068301442.png",
       "PackagePath": "staticwebassets\\Images\\Users\\user1_638321027068301442.png"
     },
     {

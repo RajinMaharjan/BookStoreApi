@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Api.Controllers
 {
-    [Authorize(Roles = "User")]
+    
     [Route("api/[controller]")]
     [ApiController]
     public class BooksController : ControllerBase
@@ -20,7 +20,7 @@ namespace Api.Controllers
         {
             _bookService = bookService;
         }
-
+        [Authorize(Roles = "User,Admin")]
         [HttpGet("getAllBooks")]
         public async Task<IActionResult> GetAllBooks()
         {
@@ -36,7 +36,7 @@ namespace Api.Controllers
             }
             );
         }
-
+        [Authorize(Roles = "User,Admin")]
         [HttpGet("getAllBooksByPriceAscending")]
         public async Task<IActionResult> GetAllBooksOrderByPriceAscending()
         {
@@ -52,7 +52,7 @@ namespace Api.Controllers
             }
             );
         }
-
+        [Authorize(Roles = "User,Admin")]
         [HttpGet("getAllBooksByPriceDescending")]
         public async Task<IActionResult> GetAllBooksOrderByPriceDescending()
         {
@@ -68,8 +68,8 @@ namespace Api.Controllers
             }
             );
         }
-        
 
+        [Authorize(Roles = "User,Admin")]
         [HttpGet("getBookById/{id}")]
         public async Task<IActionResult> GetBookById([FromRoute]Guid id)
         {
@@ -85,7 +85,7 @@ namespace Api.Controllers
                 Book = book
             });
         }
-
+        [Authorize(Roles = "Admin")]
         [HttpPost("addBook")]
         public async Task<IActionResult> AddBook([FromForm]AddBookRequestModel addBookRequestModel)
         {
@@ -96,7 +96,7 @@ namespace Api.Controllers
                 Message = "Book added"
             });
         }
-
+        [Authorize(Roles = "User,Admin")]
         [HttpGet("booksByCategory/{category}")]
         public async Task<IActionResult> GetBooksByCategory([FromRoute]string category)
         {
@@ -112,7 +112,7 @@ namespace Api.Controllers
                 Books = books
             });
         }
-
+        [Authorize(Roles = "Admin")]
         [HttpPut("updateBook/{id}")]
         public async Task<IActionResult> UpdateBook([FromRoute] Guid id,[FromForm] UpdateBookRequestModel updateBookRequestModel)
         {
@@ -124,6 +124,7 @@ namespace Api.Controllers
             });
         }
 
+        [Authorize(Roles = "Admin")]
         [HttpDelete("deleteBook/{id}")]
         public async Task<IActionResult> DeleteBook([FromRoute]Guid id)
         {
@@ -135,8 +136,9 @@ namespace Api.Controllers
             });
         }
 
+        [Authorize(Roles = "User")]
         [HttpPost("purchaseBook/{bId}/{uId}")]
-        public async Task<IActionResult> PurchaseBook(Guid bId, Guid uId)
+        public async Task<IActionResult> PurchaseBook([FromRoute]Guid bId, [FromRoute]Guid uId)
         {
             await _bookService.PurchaseBookAsync(bId, uId);
 
@@ -144,6 +146,23 @@ namespace Api.Controllers
             {
                 StatusCode = 200,
                 Message = "Purchase Successfull"
+            });
+        }
+
+        [Authorize(Roles ="User")]
+        [HttpGet("purchasedBook/{uId}")]
+        public async Task<IActionResult> PurchasedBook([FromRoute]Guid uId)
+        {
+           var books =  await _bookService.GetPurchasedBookAsync(uId);
+
+            return Ok(new BookListResponseModel
+            {
+                Response = new Response
+                {
+                    StatusCode = 200,
+                    Message = $"Purchased book fetched for user id {uId}"
+                },
+                Books = books
             });
         }
     }
