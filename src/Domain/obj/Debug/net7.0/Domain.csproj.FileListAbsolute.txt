@@ -54,3 +54,17 @@ E:\COTIVITI\Project\BookStoreApi\src\Domain\obj\Debug\net7.0\refint\Domain.dll
 E:\COTIVITI\Project\BookStoreApi\src\Domain\obj\Debug\net7.0\Domain.pdb
 E:\COTIVITI\Project\BookStoreApi\src\Domain\obj\Debug\net7.0\Domain.genruntimeconfig.cache
 E:\COTIVITI\Project\BookStoreApi\src\Domain\obj\Debug\net7.0\ref\Domain.dll
+D:\Project\BookStore\BookStoreApi\src\Domain\bin\Debug\net7.0\Domain.deps.json
+D:\Project\BookStore\BookStoreApi\src\Domain\bin\Debug\net7.0\Domain.runtimeconfig.json
+D:\Project\BookStore\BookStoreApi\src\Domain\bin\Debug\net7.0\Domain.dll
+D:\Project\BookStore\BookStoreApi\src\Domain\bin\Debug\net7.0\Domain.pdb
+D:\Project\BookStore\BookStoreApi\src\Domain\obj\Debug\net7.0\Domain.csproj.AssemblyReference.cache
+D:\Project\BookStore\BookStoreApi\src\Domain\obj\Debug\net7.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\BookStore\BookStoreApi\src\Domain\obj\Debug\net7.0\Domain.AssemblyInfoInputs.cache
+D:\Project\BookStore\BookStoreApi\src\Domain\obj\Debug\net7.0\Domain.AssemblyInfo.cs
+D:\Project\BookStore\BookStoreApi\src\Domain\obj\Debug\net7.0\Domain.csproj.CoreCompileInputs.cache
+D:\Project\BookStore\BookStoreApi\src\Domain\obj\Debug\net7.0\Domain.dll
+D:\Project\BookStore\BookStoreApi\src\Domain\obj\Debug\net7.0\refint\Domain.dll
+D:\Project\BookStore\BookStoreApi\src\Domain\obj\Debug\net7.0\Domain.pdb
+D:\Project\BookStore\BookStoreApi\src\Domain\obj\Debug\net7.0\Domain.genruntimeconfig.cache
+D:\Project\BookStore\BookStoreApi\src\Domain\obj\Debug\net7.0\ref\Domain.dll

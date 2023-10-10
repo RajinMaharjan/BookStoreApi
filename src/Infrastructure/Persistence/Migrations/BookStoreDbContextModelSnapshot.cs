@@ -28,7 +28,7 @@ namespace Infrastructure.Persistence.Migrations
                         .ValueGeneratedOnAdd()
                         .HasMaxLength(50)
                         .HasColumnType("VARCHAR(50)")
-                        .HasDefaultValue("9cfd253a-ebe8-4ccc-95e8-b4f012f43ff1")
+                        .HasDefaultValue("d278f43f-6157-4f71-9eaa-d775f9162f31")
                         .HasColumnName("id");
 
                     b.Property<string>("Author")
@@ -51,7 +51,7 @@ namespace Infrastructure.Persistence.Migrations
 
                     b.Property<string>("Description")
                         .IsRequired()
-                        .HasMaxLength(50)
+                        .HasMaxLength(500)
                         .HasColumnType("VARCHAR(500)")
                         .HasColumnName("descriptiion");
 
@@ -82,9 +82,8 @@ namespace Infrastructure.Persistence.Migrations
                         .HasColumnName("user_id");
 
                     b.Property<DateTime?>("YearPublished")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2023, 10, 7, 16, 54, 40, 593, DateTimeKind.Local).AddTicks(6113))
+                        .IsRequired()
+                        .HasColumnType("DATETIME")
                         .HasColumnName("year_published");
 
                     b.HasKey("Id");
@@ -92,152 +91,6 @@ namespace Infrastructure.Persistence.Migrations
                     b.HasIndex("UserId");
 
                     b.ToTable("Books");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = "e26b7b16-977c-4424-91ae-6af9b44441f7",
-                            Author = "A",
-                            Available = false,
-                            Category = "A",
-                            Description = "A",
-                            ImageUrl = "A",
-                            Price = 1099.99m,
-                            Title = "A",
-                            UserId = "2a97ed85-d217-4aba-9b5e-6d1e6cc2239b"
-                        },
-                        new
-                        {
-                            Id = "002ab839-9690-4b6f-9d4c-12592635078c",
-                            Author = "B",
-                            Available = false,
-                            Category = "B",
-                            Description = "B",
-                            ImageUrl = "B",
-                            Price = 1199.99m,
-                            Title = "B",
-                            UserId = "2a97ed85-d217-4aba-9b5e-6d1e6cc2239b"
-                        },
-                        new
-                        {
-                            Id = "b89ab5c2-3ad5-48b4-a2b6-b38c284e790b",
-                            Author = "C",
-                            Available = false,
-                            Category = "C",
-                            Description = "C",
-                            ImageUrl = "C",
-                            Price = 1299.99m,
-                            Title = "C",
-                            UserId = "2a97ed85-d217-4aba-9b5e-6d1e6cc2239b"
-                        },
-                        new
-                        {
-                            Id = "d87ca85f-fa40-455e-b7a1-1f6156a029f4",
-                            Author = "D",
-                            Available = false,
-                            Category = "D",
-                            Description = "D",
-                            ImageUrl = "D",
-                            Price = 1399.99m,
-                            Title = "D",
-                            UserId = "2a97ed85-d217-4aba-9b5e-6d1e6cc2239b"
-                        },
-                        new
-                        {
-                            Id = "cfc4ffd5-a816-4ed1-818b-81a165eb82e9",
-                            Author = "E",
-                            Available = false,
-                            Category = "E",
-                            Description = "E",
-                            ImageUrl = "E",
-                            Price = 1499.99m,
-                            Title = "E",
-                            UserId = "2a97ed85-d217-4aba-9b5e-6d1e6cc2239b"
-                        },
-                        new
-                        {
-                            Id = "4d68b11f-1295-458a-b391-65e5a23cd6ee",
-                            Author = "F",
-                            Available = false,
-                            Category = "F",
-                            Description = "F",
-                            ImageUrl = "F",
-                            Price = 1599.99m,
-                            Title = "F",
-                            UserId = "2a97ed85-d217-4aba-9b5e-6d1e6cc2239b"
-                        },
-                        new
-                        {
-                            Id = "8eae9518-7d32-4d32-ad98-0043c7893d05",
-                            Author = "G",
-                            Available = false,
-                            Category = "G",
-                            Description = "G",
-                            ImageUrl = "G",
-                            Price = 1699.99m,
-                            Title = "G",
-                            UserId = "2a97ed85-d217-4aba-9b5e-6d1e6cc2239b"
-                        },
-                        new
-                        {
-                            Id = "10447bc1-efab-4471-8d19-b81f9bb431cd",
-                            Author = "H",
-                            Available = false,
-                            Category = "H",
-                            Description = "H",
-                            ImageUrl = "H",
-                            Price = 1699.99m,
-                            Title = "H",
-                            UserId = "2a97ed85-d217-4aba-9b5e-6d1e6cc2239b"
-                        },
-                        new
-                        {
-                            Id = "c1282db4-fa3d-4631-87bc-e98586cfe7b2",
-                            Author = "I",
-                            Available = false,
-                            Category = "I",
-                            Description = "I",
-                            ImageUrl = "I",
-                            Price = 1799.99m,
-                            Title = "I",
-                            UserId = "2a97ed85-d217-4aba-9b5e-6d1e6cc2239b"
-                        },
-                        new
-                        {
-                            Id = "81e30fad-21a7-4b98-b56e-1a0a45debb7f",
-                            Author = "J",
-                            Available = false,
-                            Category = "J",
-                            Description = "J",
-                            ImageUrl = "J",
-                            Price = 1899.99m,
-                            Title = "J",
-                            UserId = "2a97ed85-d217-4aba-9b5e-6d1e6cc2239b"
-                        },
-                        new
-                        {
-                            Id = "1a43810a-8d87-428c-8435-e730c34f4156",
-                            Author = "K",
-                            Available = false,
-                            Category = "K",
-                            Description = "K",
-                            ImageUrl = "K",
-                            Price = 1999.99m,
-                            Title = "A",
-                            UserId = "2a97ed85-d217-4aba-9b5e-6d1e6cc2239b"
-                        },
-                        new
-                        {
-                            Id = "a03ab336-e9f5-4f1c-8130-2e0597e96883",
-                            Author = "L",
-                            Available = false,
-                            Category = "L",
-                            Description = "L",
-                            ImageUrl = "L",
-                            Price = 2099.99m,
-                            Title = "L",
-                            UserId = "2a97ed85-d217-4aba-9b5e-6d1e6cc2239b"
-                        });
                 });
 
             modelBuilder.Entity("Bookstore.Domain.Entities.User", b =>
@@ -246,7 +99,7 @@ namespace Infrastructure.Persistence.Migrations
                         .ValueGeneratedOnAdd()
                         .HasMaxLength(50)
                         .HasColumnType("VARCHAR(50)")
-                        .HasDefaultValue("618818ee-0628-47fe-901f-935d6216dcf8")
+                        .HasDefaultValue("5ef3a45d-2729-4d4f-b50e-490312094e03")
                         .HasColumnName("id");
 
                     b.Property<string>("Email")
@@ -308,34 +161,34 @@ namespace Infrastructure.Persistence.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "2a97ed85-d217-4aba-9b5e-6d1e6cc2239b",
+                            Id = "26aae3fc-596f-42da-bdb6-f1f266ef127a",
                             Email = "rajin@gmail.com",
                             FirstName = "Rajin",
                             IsDeleted = false,
                             LastName = "Maharjan",
-                            PasswordHash = "$2a$11$CldF2Gc/DmMzS5UIhNMIYu47mwxzh7cxn.vqcncDmSaTLdCnJ6E06",
+                            PasswordHash = "$2a$11$7H6tBd8/SKM9ph32/BnnzOjle6F7j1elEnDnRkfwZfBxB8WRgFiu.",
                             PhoneNumber = "1234567800",
                             Role = 0
                         },
                         new
                         {
-                            Id = "55abb6ef-e9b9-4b70-bb75-0cdbbc8605c3",
+                            Id = "60ca2526-2ef7-429c-a0cb-7d684a876a88",
                             Email = "gagan@gmail.com",
                             FirstName = "Gagan",
                             IsDeleted = false,
                             LastName = "Maharjan",
-                            PasswordHash = "$2a$11$oCt68LcWfW2EOQK/cbTT3.NZqQJWniuYUU9zfs9JyAR2U8y1Mok92",
+                            PasswordHash = "$2a$11$eT7L1653gRyhjYANt8opEeM0QHx0/MsDzNJB/PtHNxxM.FncIvOK6",
                             PhoneNumber = "1134567890",
                             Role = 1
                         },
                         new
                         {
-                            Id = "88c58619-59b5-4709-8612-9e23b1da8281",
+                            Id = "2cb167d6-fb93-4088-b993-6f24d4e735d0",
                             Email = "milan@gmail.com",
                             FirstName = "Milan",
                             IsDeleted = false,
                             LastName = "Maharjan",
-                            PasswordHash = "$2a$11$fytESG5Ng9kqwYF5iXEcJu/9LD8OmxON4EaBvojVrVmDUl10E59JS",
+                            PasswordHash = "$2a$11$cdpEy6z8shN2aBE4aZ2S8Oi2S1by78fgMqAdBPwEZNqZRjzHmBV5S",
                             PhoneNumber = "1234567890",
                             Role = 1
                         });

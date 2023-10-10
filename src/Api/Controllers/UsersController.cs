@@ -66,12 +66,14 @@ namespace Bookstore.Api.Controllers
         public async Task<IActionResult> CreateUser([FromBody]UserRegisterRequestModel userRegisterRequestModel)
         {
             await _registerValidator.ValidateAsync(userRegisterRequestModel, options => options.ThrowOnFailures()).ConfigureAwait(false);
-            await _userService.CreateUserAsync(userRegisterRequestModel);
+            var user = await _userService.CreateUserAsync(userRegisterRequestModel);
+            var token = _userService.GenerateToken(user);
 
             return Ok(new Response
             {
                 StatusCode = 201,
-                Message = "Registration Successful"
+                Message = "Registration Successful",
+                Token = token
             });
         }
 
@@ -83,7 +85,12 @@ namespace Bookstore.Api.Controllers
 
             var token = _userService.GenerateToken(user);
 
-            return Ok(token);
+            return Ok(new Response
+            {
+                StatusCode = 200,
+                Message = "Login Successful",
+                Token = token,
+            });
         }
 
         [HttpPut("update/{id}")]
