@@ -1,52 +1,132 @@
 {
   "Files": [
     {
-      "Id": "D:\\Project\\BookStore\\BookStoreApi\\src\\Api\\wwwroot\\Images\\Books\\1984_638325234546934243.jpg",
-      "PackagePath": "staticwebassets\\Images\\Books\\1984_638325234546934243.jpg"
+      "Id": "D:\\Project\\BookStore\\BookStoreApi\\src\\Api\\wwwroot\\Images\\Books\\1984_638325248111203407.jpg",
+      "PackagePath": "staticwebassets\\Images\\Books\\1984_638325248111203407.jpg"
     },
     {
-      "Id": "D:\\Project\\BookStore\\BookStoreApi\\src\\Api\\wwwroot\\Images\\Books\\1984_638325238708211254.jpg",
-      "PackagePath": "staticwebassets\\Images\\Books\\1984_638325238708211254.jpg"
+      "Id": "D:\\Project\\BookStore\\BookStoreApi\\src\\Api\\wwwroot\\Images\\Books\\BurnMyHeart_638325637779276109.jpg",
+      "PackagePath": "staticwebassets\\Images\\Books\\BurnMyHeart_638325637779276109.jpg"
     },
     {
-      "Id": "D:\\Project\\BookStore\\BookStoreApi\\src\\Api\\wwwroot\\Images\\Books\\aShortHistory_638324732397376020.jpg",
-      "PackagePath": "staticwebassets\\Images\\Books\\aShortHistory_638324732397376020.jpg"
+      "Id": "D:\\Project\\BookStore\\BookStoreApi\\src\\Api\\wwwroot\\Images\\Books\\ColdBlood_638325647120856306.jpg",
+      "PackagePath": "staticwebassets\\Images\\Books\\ColdBlood_638325647120856306.jpg"
     },
     {
-      "Id": "D:\\Project\\BookStore\\BookStoreApi\\src\\Api\\wwwroot\\Images\\Books\\aShortHistory_638324732947590138.jpg",
-      "PackagePath": "staticwebassets\\Images\\Books\\aShortHistory_638324732947590138.jpg"
+      "Id": "D:\\Project\\BookStore\\BookStoreApi\\src\\Api\\wwwroot\\Images\\Books\\Freakonomics_638325664571743733.jpg",
+      "PackagePath": "staticwebassets\\Images\\Books\\Freakonomics_638325664571743733.jpg"
     },
     {
-      "Id": "D:\\Project\\BookStore\\BookStoreApi\\src\\Api\\wwwroot\\Images\\Books\\howToTalkToAnyone_638323686267410955.jpeg",
-      "PackagePath": "staticwebassets\\Images\\Books\\howToTalkToAnyone_638323686267410955.jpeg"
+      "Id": "D:\\Project\\BookStore\\BookStoreApi\\src\\Api\\wwwroot\\Images\\Books\\GOT_638325728699483622.jpg",
+      "PackagePath": "staticwebassets\\Images\\Books\\GOT_638325728699483622.jpg"
     },
     {
-      "Id": "D:\\Project\\BookStore\\BookStoreApi\\src\\Api\\wwwroot\\Images\\Books\\summerLove_638323686993339066.jpeg",
-      "PackagePath": "staticwebassets\\Images\\Books\\summerLove_638323686993339066.jpeg"
+      "Id": "D:\\Project\\BookStore\\BookStoreApi\\src\\Api\\wwwroot\\Images\\Books\\Gone Girl_638325676064636648.jpg",
+      "PackagePath": "staticwebassets\\Images\\Books\\Gone Girl_638325676064636648.jpg"
     },
     {
-      "Id": "D:\\Project\\BookStore\\BookStoreApi\\src\\Api\\wwwroot\\Images\\Books\\theAlchemist_638325229587076868.jpg",
-      "PackagePath": "staticwebassets\\Images\\Books\\theAlchemist_638325229587076868.jpg"
+      "Id": "D:\\Project\\BookStore\\BookStoreApi\\src\\Api\\wwwroot\\Images\\Books\\LOTR_638325733177577190.jpg",
+      "PackagePath": "staticwebassets\\Images\\Books\\LOTR_638325733177577190.jpg"
     },
     {
-      "Id": "D:\\Project\\BookStore\\BookStoreApi\\src\\Api\\wwwroot\\Images\\Books\\theAlchemist_638325230396799381.jpg",
-      "PackagePath": "staticwebassets\\Images\\Books\\theAlchemist_638325230396799381.jpg"
+      "Id": "D:\\Project\\BookStore\\BookStoreApi\\src\\Api\\wwwroot\\Images\\Books\\LoveTheoretically_638325734689510589.jpg",
+      "PackagePath": "staticwebassets\\Images\\Books\\LoveTheoretically_638325734689510589.jpg"
     },
     {
-      "Id": "D:\\Project\\BookStore\\BookStoreApi\\src\\Api\\wwwroot\\Images\\Books\\theGreatGatsby_638324726075365442.jpg",
-      "PackagePath": "staticwebassets\\Images\\Books\\theGreatGatsby_638324726075365442.jpg"
+      "Id": "D:\\Project\\BookStore\\BookStoreApi\\src\\Api\\wwwroot\\Images\\Books\\MargaretAtWood_638325574682717700.jpg",
+      "PackagePath": "staticwebassets\\Images\\Books\\MargaretAtWood_638325574682717700.jpg"
     },
     {
-      "Id": "D:\\Project\\BookStore\\BookStoreApi\\src\\Api\\wwwroot\\Images\\Books\\theGreatGatsby_638324726863181378.jpg",
-      "PackagePath": "staticwebassets\\Images\\Books\\theGreatGatsby_638324726863181378.jpg"
+      "Id": "D:\\Project\\BookStore\\BookStoreApi\\src\\Api\\wwwroot\\Images\\Books\\PrideAndPrejudice_638325577025208695.jpg",
+      "PackagePath": "staticwebassets\\Images\\Books\\PrideAndPrejudice_638325577025208695.jpg"
     },
     {
-      "Id": "D:\\Project\\BookStore\\BookStoreApi\\src\\Api\\wwwroot\\Images\\Books\\user1_638321210265154731.png",
-      "PackagePath": "staticwebassets\\Images\\Books\\user1_638321210265154731.png"
+      "Id": "D:\\Project\\BookStore\\BookStoreApi\\src\\Api\\wwwroot\\Images\\Books\\PrideAndPrejudice_638325737981476976.jpg",
+      "PackagePath": "staticwebassets\\Images\\Books\\PrideAndPrejudice_638325737981476976.jpg"
     },
     {
-      "Id": "D:\\Project\\BookStore\\BookStoreApi\\src\\Api\\wwwroot\\Images\\Users\\user1_638321027068301442.png",
-      "PackagePath": "staticwebassets\\Images\\Users\\user1_638321027068301442.png"
+      "Id": "D:\\Project\\BookStore\\BookStoreApi\\src\\Api\\wwwroot\\Images\\Books\\TheWayofKings_638325726745470707.jpg",
+      "PackagePath": "staticwebassets\\Images\\Books\\TheWayofKings_638325726745470707.jpg"
+    },
+    {
+      "Id": "D:\\Project\\BookStore\\BookStoreApi\\src\\Api\\wwwroot\\Images\\Books\\ToKillAMockinBird_638325578436187487.png",
+      "PackagePath": "staticwebassets\\Images\\Books\\ToKillAMockinBird_638325578436187487.png"
+    },
+    {
+      "Id": "D:\\Project\\BookStore\\BookStoreApi\\src\\Api\\wwwroot\\Images\\Books\\aShortHistory_638325600236374641.jpg",
+      "PackagePath": "staticwebassets\\Images\\Books\\aShortHistory_638325600236374641.jpg"
+    },
+    {
+      "Id": "D:\\Project\\BookStore\\BookStoreApi\\src\\Api\\wwwroot\\Images\\Books\\beloved_638325595811964751.jpg",
+      "PackagePath": "staticwebassets\\Images\\Books\\beloved_638325595811964751.jpg"
+    },
+    {
+      "Id": "D:\\Project\\BookStore\\BookStoreApi\\src\\Api\\wwwroot\\Images\\Books\\blink_638325603642897475.jpg",
+      "PackagePath": "staticwebassets\\Images\\Books\\blink_638325603642897475.jpg"
+    },
+    {
+      "Id": "D:\\Project\\BookStore\\BookStoreApi\\src\\Api\\wwwroot\\Images\\Books\\caseHistories_638325701138492926.jpg",
+      "PackagePath": "staticwebassets\\Images\\Books\\caseHistories_638325701138492926.jpg"
+    },
+    {
+      "Id": "D:\\Project\\BookStore\\BookStoreApi\\src\\Api\\wwwroot\\Images\\Books\\fifthSeason_638325729591693943.jpg",
+      "PackagePath": "staticwebassets\\Images\\Books\\fifthSeason_638325729591693943.jpg"
+    },
+    {
+      "Id": "D:\\Project\\BookStore\\BookStoreApi\\src\\Api\\wwwroot\\Images\\Books\\girlWithDragonTattoo_638325695819682003.jpg",
+      "PackagePath": "staticwebassets\\Images\\Books\\girlWithDragonTattoo_638325695819682003.jpg"
+    },
+    {
+      "Id": "D:\\Project\\BookStore\\BookStoreApi\\src\\Api\\wwwroot\\Images\\Books\\immortal_638325604916377445.jpg",
+      "PackagePath": "staticwebassets\\Images\\Books\\immortal_638325604916377445.jpg"
+    },
+    {
+      "Id": "D:\\Project\\BookStore\\BookStoreApi\\src\\Api\\wwwroot\\Images\\Books\\inTheWoods_638325698085420219.jpg",
+      "PackagePath": "staticwebassets\\Images\\Books\\inTheWoods_638325698085420219.jpg"
+    },
+    {
+      "Id": "D:\\Project\\BookStore\\BookStoreApi\\src\\Api\\wwwroot\\Images\\Books\\intoTheAir_638325607906600056.jpg",
+      "PackagePath": "staticwebassets\\Images\\Books\\intoTheAir_638325607906600056.jpg"
+    },
+    {
+      "Id": "D:\\Project\\BookStore\\BookStoreApi\\src\\Api\\wwwroot\\Images\\Books\\itEndsWithus_638325739270566756.jpg",
+      "PackagePath": "staticwebassets\\Images\\Books\\itEndsWithus_638325739270566756.jpg"
+    },
+    {
+      "Id": "D:\\Project\\BookStore\\BookStoreApi\\src\\Api\\wwwroot\\Images\\Books\\sixth_638325601569952066.png",
+      "PackagePath": "staticwebassets\\Images\\Books\\sixth_638325601569952066.png"
+    },
+    {
+      "Id": "D:\\Project\\BookStore\\BookStoreApi\\src\\Api\\wwwroot\\Images\\Books\\spring_638325599124438586.jpg",
+      "PackagePath": "staticwebassets\\Images\\Books\\spring_638325599124438586.jpg"
+    },
+    {
+      "Id": "D:\\Project\\BookStore\\BookStoreApi\\src\\Api\\wwwroot\\Images\\Books\\theAlchemist_638325245186295228.jpg",
+      "PackagePath": "staticwebassets\\Images\\Books\\theAlchemist_638325245186295228.jpg"
+    },
+    {
+      "Id": "D:\\Project\\BookStore\\BookStoreApi\\src\\Api\\wwwroot\\Images\\Books\\theGirlOnTheTrain_638325699493217277.jpg",
+      "PackagePath": "staticwebassets\\Images\\Books\\theGirlOnTheTrain_638325699493217277.jpg"
+    },
+    {
+      "Id": "D:\\Project\\BookStore\\BookStoreApi\\src\\Api\\wwwroot\\Images\\Books\\theGreatGatsby_638325244379152297.jpg",
+      "PackagePath": "staticwebassets\\Images\\Books\\theGreatGatsby_638325244379152297.jpg"
+    },
+    {
+      "Id": "D:\\Project\\BookStore\\BookStoreApi\\src\\Api\\wwwroot\\Images\\Books\\theNotebook_638325740014316999.jpg",
+      "PackagePath": "staticwebassets\\Images\\Books\\theNotebook_638325740014316999.jpg"
+    },
+    {
+      "Id": "D:\\Project\\BookStore\\BookStoreApi\\src\\Api\\wwwroot\\Images\\Books\\thingsWeNeverGotOver_638325735856891148.jpg",
+      "PackagePath": "staticwebassets\\Images\\Books\\thingsWeNeverGotOver_638325735856891148.jpg"
+    },
+    {
+      "Id": "D:\\Project\\BookStore\\BookStoreApi\\src\\Api\\wwwroot\\Images\\Books\\trust_638325248986129766.jpg",
+      "PackagePath": "staticwebassets\\Images\\Books\\trust_638325248986129766.jpg"
+    },
+    {
+      "Id": "D:\\Project\\BookStore\\BookStoreApi\\src\\Api\\wwwroot\\Images\\Books\\wizard_638325731929600638.jpg",
+      "PackagePath": "staticwebassets\\Images\\Books\\wizard_638325731929600638.jpg"
     },
     {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Api.Microsoft.AspNetCore.StaticWebAssets.props",

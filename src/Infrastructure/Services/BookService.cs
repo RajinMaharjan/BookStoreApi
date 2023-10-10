@@ -105,7 +105,7 @@ namespace Bookstore.Infrastructure.Services
         {
             var books = await _dbContext.Books
                 .Where(x=> x.Available == true)
-                .OrderBy(x=>x.Id)
+                .OrderBy(x => x.Title)
                 .ToListAsync();
             return books;
         }
@@ -152,6 +152,7 @@ namespace Bookstore.Infrastructure.Services
             {
                 var booksByCategory = await _dbContext.Books
                     .Where(x => x.Category == category && x.Available == true)
+                    .OrderBy (x => x.Title)
                     .ToListAsync();                
 
                 if(booksByCategory == null)
