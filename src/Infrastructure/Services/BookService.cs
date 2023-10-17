@@ -34,6 +34,10 @@ namespace Bookstore.Infrastructure.Services
         {
             try
             {
+                if(addBookRequestModel.Price < 0)
+                {
+                    throw new ServiceException("Price cannot be negative");
+                }
                 if (!Directory.Exists(_imageProductDirectory))
                 {
                     Directory.CreateDirectory(_imageProductDirectory);
@@ -92,7 +96,7 @@ namespace Bookstore.Infrastructure.Services
                 {
                     throw new PersistenceException("No book found");
                 }
-                File.Delete(_env.WebRootPath + book.ImagePath);
+                 File.Delete(_env.WebRootPath + book.ImagePath);
                 _dbContext.Books.Remove(book);
                 await _dbContext.SaveChangesAsync();
                 return true;
@@ -190,6 +194,10 @@ namespace Bookstore.Infrastructure.Services
         {
             try
             {
+                if (updateBookRequestModel.Price < 0)
+                {
+                    throw new ServiceException("Price cannot be negative");
+                }
                 var book = await GetBookByIdAsync(id);
 
                 if (book == null)

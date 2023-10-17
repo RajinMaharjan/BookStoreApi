@@ -38,6 +38,11 @@ namespace Bookstore.Infrastructure.Services
         {
             try
             {
+                var userExist = await _dbContext.Users.FirstOrDefaultAsync(x=> x.Email == userRegisterRequestModel.Email);
+                if (userExist != null)
+                {
+                    throw new PersistenceException("Email already registered");
+                }
                 string passwordHash = BCrypt.Net.BCrypt.HashPassword(userRegisterRequestModel.Password);
                 var user = new User() 
                 {          

@@ -5,16 +5,16 @@
       "PackagePath": "staticwebassets\\Images\\Books\\1984_638325248111203407.jpg"
     },
     {
+      "Id": "D:\\Project\\BookStore\\BookStoreApi\\src\\Api\\wwwroot\\Images\\Books\\Awakenings_638326989374093878.jpg",
+      "PackagePath": "staticwebassets\\Images\\Books\\Awakenings_638326989374093878.jpg"
+    },
+    {
       "Id": "D:\\Project\\BookStore\\BookStoreApi\\src\\Api\\wwwroot\\Images\\Books\\BurnMyHeart_638325637779276109.jpg",
       "PackagePath": "staticwebassets\\Images\\Books\\BurnMyHeart_638325637779276109.jpg"
     },
     {
       "Id": "D:\\Project\\BookStore\\BookStoreApi\\src\\Api\\wwwroot\\Images\\Books\\ColdBlood_638325647120856306.jpg",
       "PackagePath": "staticwebassets\\Images\\Books\\ColdBlood_638325647120856306.jpg"
-    },
-    {
-      "Id": "D:\\Project\\BookStore\\BookStoreApi\\src\\Api\\wwwroot\\Images\\Books\\Freakonomics_638325664571743733.jpg",
-      "PackagePath": "staticwebassets\\Images\\Books\\Freakonomics_638325664571743733.jpg"
     },
     {
       "Id": "D:\\Project\\BookStore\\BookStoreApi\\src\\Api\\wwwroot\\Images\\Books\\GOT_638325728699483622.jpg",
@@ -123,10 +123,6 @@
     {
       "Id": "D:\\Project\\BookStore\\BookStoreApi\\src\\Api\\wwwroot\\Images\\Books\\trust_638325248986129766.jpg",
       "PackagePath": "staticwebassets\\Images\\Books\\trust_638325248986129766.jpg"
-    },
-    {
-      "Id": "D:\\Project\\BookStore\\BookStoreApi\\src\\Api\\wwwroot\\Images\\Books\\wizard_638325731929600638.jpg",
-      "PackagePath": "staticwebassets\\Images\\Books\\wizard_638325731929600638.jpg"
     },
     {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Api.Microsoft.AspNetCore.StaticWebAssets.props",

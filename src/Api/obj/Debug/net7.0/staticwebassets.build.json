@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "cg657GsXM9kmPcdUQ6TwKWboDqlcNvFFxp1tiMolYgE=",
+  "Hash": "kxf3SIqah/2uHVs94cZOTAKHyZmgEm8onWiG/bGwE1Q=",
   "Source": "Api",
   "BasePath": "_content/Api",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\Books\\aShortHistory_638325600236374641.jpg"
+    },
+    {
+      "Identity": "D:\\Project\\BookStore\\BookStoreApi\\src\\Api\\wwwroot\\Images\\Books\\Awakenings_638326989374093878.jpg",
+      "SourceId": "Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Project\\BookStore\\BookStoreApi\\src\\Api\\wwwroot\\",
+      "BasePath": "_content/Api",
+      "RelativePath": "Images/Books/Awakenings_638326989374093878.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Books\\Awakenings_638326989374093878.jpg"
     },
     {
       "Identity": "D:\\Project\\BookStore\\BookStoreApi\\src\\Api\\wwwroot\\Images\\Books\\beloved_638325595811964751.jpg",
@@ -151,23 +168,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\Books\\fifthSeason_638325729591693943.jpg"
-    },
-    {
-      "Identity": "D:\\Project\\BookStore\\BookStoreApi\\src\\Api\\wwwroot\\Images\\Books\\Freakonomics_638325664571743733.jpg",
-      "SourceId": "Api",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BookStore\\BookStoreApi\\src\\Api\\wwwroot\\",
-      "BasePath": "_content/Api",
-      "RelativePath": "Images/Books/Freakonomics_638325664571743733.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\Books\\Freakonomics_638325664571743733.jpg"
     },
     {
       "Identity": "D:\\Project\\BookStore\\BookStoreApi\\src\\Api\\wwwroot\\Images\\Books\\girlWithDragonTattoo_638325695819682003.jpg",
@@ -542,23 +542,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\Books\\trust_638325248986129766.jpg"
-    },
-    {
-      "Identity": "D:\\Project\\BookStore\\BookStoreApi\\src\\Api\\wwwroot\\Images\\Books\\wizard_638325731929600638.jpg",
-      "SourceId": "Api",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BookStore\\BookStoreApi\\src\\Api\\wwwroot\\",
-      "BasePath": "_content/Api",
-      "RelativePath": "Images/Books/wizard_638325731929600638.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\Books\\wizard_638325731929600638.jpg"
     }
   ]
 }
